@@ -1,0 +1,36 @@
+#! /bin/sh
+
+#1.import file
+file_name=$1
+echo $file_name
+
+
+delimeter=10
+#1.set the opening time
+read start < "`dirname $file_name`/$file_name"
+start_time=`echo $start | awk '{print $1}'`
+#echo $start_time
+
+current_time=$start_time
+current_value=0
+while read LINE; do
+	#check if this tick belong to the current tick
+	temp_time=`echo $LINE |awk '{print $1}'`
+	temp_value=`echo $LINE |awk '{print $2}'`
+	temp_relative_time=`expr $temp_time - $start_time`
+	current_relative_time=`expr $current_time - $start_time`
+	temp_tick=`expr $temp_relative_time / $delimeter` 
+	current_tick=`expr $current_relative_time / $delimeter`
+	
+	if test $temp_tick -eq $current_tick;then
+		current_value=`expr $current_value + $temp_value`
+	else
+		echo $current_tick $current_value
+		current_value=$temp_value
+		current_time=$temp_time
+	fi
+done < $file_name
+
+echo $current_tick $current_value
+
+
