@@ -1,0 +1,266 @@
+{\rtf1\ansi\ansicpg932\cocoartf1038\cocoasubrtf320
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset128 HiraKakuProN-W3;\f2\fswiss\fcharset0 ArialMT;
+\f3\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;}
+{\info
+{\author Shohei Okudera}}\paperw11900\paperh16840\margl1440\margr1440\vieww18000\viewh11120\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 ##############################\
+# 
+\f1 \'91\'b2\'98\'5f\'90\'b6\'82\'cc\'8f\'68\'91\'e8
+\f0 101004\
+##############################\
+\
+#
+\f2\fs26  SOSP\
+\
+1.\
+\uc0\u9633 title
+\f0\fs24 \
+Tolerating hardware device failures in software\
+
+\f2\fs26 \uc0\u9633 
+\f1 abstruct\
+ Hardware devices can fail, but many drivers assume they do not. When confronted with real devices that misbehave, these assumptions can lead to driver or system failures. While major operating system and device vendors recommend that drivers detect and recover from hardware failures, we find that there are many drivers that will crash or hang when a device fails. Such bugs cannot easily be detected by regular stress testing because the failures are induced by the device and not the software load. \
+\
+This paper describes Carburizer, a code-manipulation tool and associated runtime that improves system reliability in the presence of faulty devices. Carburizer analyzes driver source code to find locations where the driver incorrectly trusts the hardware to behave. Carburizer identified almost 1000 such bugs in Linux drivers with a false positive rate of less than 8 percent. With the aid of shadow drivers for recovery, Carburizer can automatically repair 840 of these bugs with no programmer involvement. To facilitate proactive management of device failures, Carburizer can also locate existing driver code that detects device failures and inserts missing failure-reporting code. Finally, the Carburizer runtime can detect and tolerate interrupt-related bugs, such as stuck or missing interrupts.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\'83\'6e\'81\'5b\'83\'68\'83\'45\'83\'46\'83\'41\'83\'66\'83\'6f\'83\'43\'83\'58\'82\'cc\'8c\'cc\'8f\'e1\'8e\'9e\'82\'c9\'91\'ce\'82\'b5\'82\'c4\'81\'41\'83\'68\'83\'89\'83\'43\'83\'6f\'81\'5b\'82\'cd\'83\'4e\'83\'89\'83\'62\'83\'56\'83\'85\'82\'b5\'82\'bd\'82\'e8\'83\'6e\'83\'93\'83\'4f\'82\'b5\'82\'bd\'82\'e8\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'e0\'91\'bd\'82\'ad\'81\'41\'82\'dc\'82\'bd\'82\'bb\'82\'cc\'82\'e6\'82\'a4\'82\'c8\'83\'6f\'83\'4f\'82\'cd\'92\'ca\'8f\'ed\'82\'cc\'83\'58\'83\'67\'83\'8c\'83\'58\'83\'65\'83\'58\'83\'67\'82\'c8\'82\'c7\'82\'c5\'82\'cd\'94\'ad\'8c\'a9\'82\'b5\'82\'b8\'82\'e7\'82\'a2\'81\'42\'82\'b1\'82\'cc\'96\'e2\'91\'e8\'82\'f0\'89\'f0\'8c\'88\'82\'b7\'82\'e9\'82\'bd\'82\'df\'82\'c9\'81\'41Carburizer\'82\'c6\'82\'a2\'82\'a4\'83\'52\'81\'5b\'83\'68\'8d\'c4\'94\'7a\'92\'75\'83\'63\'81\'5b\'83\'8b\'82\'c6\'82\'bb\'82\'ea\'82\'c9\'95\'74\'90\'8f\'82\'b7\'82\'e9\'83\'89\'83\'93\'83\'5e\'83\'43\'83\'80\'82\'f0\'92\'f1\'88\'c4\'82\'b7\'82\'e9\'81\'42Carburizer\'82\'f0\'8e\'67\'82\'a4\'82\'b1\'82\'c6\'82\'c5\'81\'41\'83\'6e\'81\'5b\'83\'68\'83\'45\'83\'46\'83\'41\'82\'aa\'8c\'cc\'8f\'e1\'82\'b5\'82\'c8\'82\'a2\'82\'b1\'82\'c6\'82\'f0\'8a\'d4\'88\'e1\'82\'c1\'82\'c4\'90\'4d\'82\'b6\'82\'c4\'82\'b5\'82\'dc\'82\'c1\'82\'c4\'82\'a2\'82\'e9\'83\'52\'81\'5b\'83\'68\'82\'f0\'96\'a2\'91\'52\'82\'c9\'94\'ad\'8c\'a9\'82\'b5\'81\'41\'82\'b3\'82\'e7\'82\'c9\'83\'76\'83\'8d\'83\'4f\'83\'89\'83\'7d\'82\'f0\'89\'ee\'82\'b3\'82\'b8\'8e\'a9\'93\'ae\'82\'c5\'83\'8a\'83\'79\'83\'41\'82\'e0\'82\'b7\'82\'e9\'81\'42
+\f2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+2.\
+\uc0\u9633 title\
+
+\f0\fs24 FAWN: A Fast Array of Wimpy Nodes\
+
+\f2\fs26 \uc0\u9633 
+\f1 abstruct\
+This paper presents a new cluster architecture for low-power\
+data-intensive computing. FAWN couples low-power embedded CPUs to small amounts of local flash storage, and balances computation and I/O capabilities to enable efficient, massively parallel access to data.\
+\
+The key contributions of this paper are the principles of the FAWN architecture and the design and implementation of FAWN-KV\'81\'5ca consistent, replicated, highly available, and high-performance key-value storage system built on a FAWN prototype. Our design centers around purely log-structured datastores that provide the basis for high performance on flash storage, as well as for replication and consistency obtained using chain replication on a consistent hashing ring. Our evaluation demonstrates that FAWN clusters can handle roughly 350 key-value queries per Joule of energy\'81\'5ctwo orders of magnitude more than a disk-based system.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\'82\'b1\'82\'cc\'98\'5f\'95\'b6\'82\'c5\'82\'cd\'81\'41\'83\'8d\'81\'5b\'83\'70\'83\'8f\'81\'5b\'82\'c5\'83\'66\'81\'5b\'83\'5e\'8f\'88\'97\'9d\'82\'c9\'8f\'c6\'8f\'80\'82\'b5\'82\'bd\'83\'52\'83\'93\'83\'73\'83\'85\'81\'5b\'83\'65\'83\'42\'83\'93\'83\'4f\'82\'cc\'82\'bd\'82\'df\'82\'cc\'90\'56\'82\'b5\'82\'a2\'83\'4e\'83\'89\'83\'58\'83\'5e\'83\'41\'81\'5b\'83\'4c\'83\'65\'83\'4e\'83\'60\'83\'83FAWN(
+\f0\fs24 A Fast Array of Wimpy Nodes
+\f1\fs26 )\'82\'f0\'8f\'d0\'89\'ee\'82\'b7\'82\'e9\'81\'42FAWN\'82\'cd\'83\'8d\'81\'5b\'83\'70\'83\'8f\'81\'5bCPU\'82\'c9\'83\'8d\'81\'5b\'83\'4a\'83\'8b\'82\'c8\'83\'74\'83\'89\'83\'62\'83\'56\'83\'85\'83\'58\'83\'67\'83\'8c\'81\'5b\'83\'57\'82\'f0\'91\'67\'82\'dd\'8d\'87\'82\'ed\'82\'b9\'81\'41\'8c\'76\'8e\'5a\'97\'ca\'82\'e2IO\'83\'4c\'83\'83\'83\'70\'83\'56\'83\'65\'83\'42\'82\'f0\'82\'a4\'82\'dc\'82\'ad\'83\'6f\'83\'89\'83\'93\'83\'58\'82\'f0\'8e\'e6\'82\'e9\'82\'b1\'82\'c6\'82\'c5\'83\'66\'81\'5b\'83\'5e\'82\'c9\'91\'ce\'82\'b5\'82\'c4\'8c\'f8\'97\'a6\'93\'49\'82\'c5\'81\'41\'91\'e5\'8b\'4b\'96\'cd\'95\'c0\'97\'f1\'93\'49\'82\'c8\'83\'41\'83\'4e\'83\'5a\'83\'58\'82\'f0\'89\'c2\'94\'5c\'82\'b5\'82\'bd\'81\'42FAWN prototype\'82\'cc\'8f\'e3\'82\'c9\'81\'41\'88\'ea\'8a\'d1\'90\'ab\'82\'aa\'82\'a0\'82\'e8\'81\'41\'83\'8c\'83\'76\'83\'8a\'83\'4a\'82\'e0\'97\'70\'88\'d3\'82\'b5\'81\'41\'8d\'82\'89\'c2\'93\'ae\'90\'ab\'82\'c5\'81\'41\'8d\'82\'83\'70\'83\'74\'83\'48\'81\'5b\'83\'7d\'83\'93\'83\'58\'82\'cc\'83\'4c\'81\'5b\'83\'6f\'83\'8a\'83\'85\'81\'5b\'83\'58\'83\'67\'83\'41\'82\'f0\'8d\'da\'82\'b9\'82\'bd\'82\'b1\'82\'c6\'81\'41\'8f\'83\'90\'88\'82\'c8\'83\'8d\'83\'4f\'83\'58\'83\'67\'83\'89\'83\'4e\'83\'60\'83\'83\'81\'5b\'83\'66\'81\'5b\'83\'5e\'83\'58\'83\'67\'83\'41\'82\'c9\'82\'b5\'82\'bd\'82\'b1\'82\'c6\'82\'aa\'93\'c1\'92\'a5\'82\'c5\'82\'a0\'82\'e9\'81\'42\'82\'50J\'82\'a0\'82\'bd\'82\'e8\'91\'e5\'91\'cc350\'83\'4c\'81\'5b\'81\'45\'83\'6f\'83\'8a\'83\'85\'81\'5b\'83\'4e\'83\'47\'83\'8a\'82\'f0\'88\'b5\'82\'a4\'82\'b1\'82\'c6\'82\'aa\'82\'c5\'82\'ab\'82\'bd\'81\'42\'82\'b1\'82\'ea\'82\'cd\'81\'41\'83\'66\'83\'42\'83\'58\'83\'4e\'83\'78\'81\'5b\'83\'58\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c6\'94\'e4\'82\'d7\'82\'c4\'93\'f1\'8c\'85\'90\'ab\'94\'5c\'82\'aa\'8d\'82\'82\'a2\'81\'42\
+\
+3.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f2 \cf0 \uc0\u9633 title\
+
+\f1\fs24 RouteBricks: Exploiting Parallelism To Scale Software Routers\
+
+\f2\fs26 \uc0\u9633 
+\f1 abstruct\
+We revisit the problem of scaling software routers, motivated by recent advances in server technology that enable high-speed parallel processing\'81\'5ca feature router workloads appear ideally suited to exploit. \
+We propose a software router architecture that parallelizes router functionality both across multiple servers and across multiple cores within a single server. By carefully exploiting parallelism at every opportunity, we demonstrate a 35Gbps parallel router prototype; this router capacity can be linearly scaled through the use of additional servers. Our prototype router is fully programmable using the familiar Click/Linux environment and is built entirely from off-the-shelf(\'8a\'f9\'90\'ac\'82\'cc), general-purpose server hardware.\
+\'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\'83\'6e\'83\'43\'83\'58\'83\'73\'81\'5b\'83\'68\'95\'c0\'97\'f1\'83\'76\'83\'8d\'83\'5a\'83\'62\'83\'56\'83\'93\'83\'4f\'82\'f0\'89\'c2\'94\'5c\'82\'c9\'82\'b7\'82\'e9\'83\'54\'81\'5b\'83\'6f\'81\'5b\'83\'65\'83\'4e\'83\'6d\'83\'8d\'83\'57\'81\'5b\'82\'cc\'90\'69\'95\'e0\'82\'c9\'93\'ae\'8b\'40\'82\'c3\'82\'af\'82\'e7\'82\'ea\'82\'c4\'81\'41\'83\'5c\'83\'74\'83\'67\'83\'45\'83\'46\'83\'41\'83\'8b\'81\'5b\'83\'5e\'82\'cc\'83\'58\'83\'50\'81\'5b\'83\'8a\'83\'93\'83\'4f\'96\'e2\'91\'e8\'82\'c9\'8f\'c5\'93\'5f\'82\'f0\'93\'96\'82\'c4\'82\'bd\'81\'42\
+\'89\'e4\'81\'58\'82\'cd\'83\'7d\'83\'8b\'83\'60\'83\'54\'81\'5b\'83\'6f\'8a\'c2\'8b\'ab\'82\'c6\'83\'56\'83\'93\'83\'4f\'83\'8b\'83\'54\'81\'5b\'83\'6f\'82\'c5\'83\'7d\'83\'8b\'83\'60\'83\'52\'83\'41\'8a\'c2\'8b\'ab\'82\'cc\'97\'bc\'95\'fb\'82\'c9\'82\'a8\'82\'a2\'82\'c4\'83\'8b\'81\'5b\'83\'5e\'81\'5b\'8b\'40\'94\'5c\'82\'f0\'95\'c0\'97\'f1\'89\'bb\'82\'b3\'82\'b9\'82\'e9\'83\'5c\'83\'74\'83\'67\'83\'45\'83\'46\'83\'41\'83\'8b\'81\'5b\'83\'5e\'81\'5b\'83\'41\'81\'5b\'83\'4c\'83\'65\'83\'4e\'83\'60\'83\'83\'82\'f0\'92\'f1\'88\'c4\'82\'b7\'82\'e9\'81\'42\'89\'e4\'81\'58\'82\'cd35Gbps\'82\'cc\'83\'8b\'81\'5b\'83\'5e\'81\'5b\'82\'cc\'83\'76\'83\'8d\'83\'67\'83\'5e\'83\'43\'83\'76\'82\'f0\'83\'66\'83\'82\'82\'b5\'82\'bd\'81\'42\'82\'b1\'82\'cc\'83\'8b\'81\'5b\'83\'5e\'81\'5b\'82\'cc\'90\'ab\'94\'5c\'82\'cd\'81\'41\'83\'54\'81\'5b\'83\'6f\'81\'5b\'82\'cc\'91\'e4\'90\'94\'82\'c9\'91\'ce\'82\'b5\'82\'c4\'83\'8a\'83\'6a\'83\'41\'82\'c9\'8c\'fc\'8f\'e3\'82\'b7\'82\'e9\'81\'42\'82\'dc\'82\'bd\'81\'41\'89\'e4\'81\'58\'82\'cc\'83\'76\'83\'8d\'83\'67\'83\'5e\'83\'43\'83\'76\'82\'cc\'83\'8b\'81\'5b\'83\'5e\'81\'5b\'82\'cdClick/Linux \'8a\'c2\'8b\'ab\'82\'c5\'8d\'5c\'92\'7a\'82\'b3\'82\'ea\'81\'41\'8a\'f9\'90\'ac\'82\'cc\'83\'54\'81\'5b\'83\'6f\'83\'6e\'81\'5b\'83\'68\'83\'45\'83\'46\'83\'41\'8f\'e3\'82\'c5\'89\'d2\'93\'ad\'82\'b5\'82\'c4\'82\'a2\'82\'e9\'81\'42\
+
+\f2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f1 \cf0 4.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f2 \cf0 \uc0\u9633 title\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs28\fsmilli14346 \cf0 Fabric: A Platform for Secure Distributed Computation and Storage\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f2\fs26 \cf0 \uc0\u9633 
+\f1 abstruct\
+Fabric is a new system and language for building secure distributed information systems. It is a decentralized system that allows heterogeneous network nodes to securely share both information and computation resources despite mutual distrust. Its high-level programming language makes distribution and persistence largely transparent to programmers. Fabric supports data-shipping and function-shipping styles of computation: both computation and information can move between nodes to meet security requirements or to improve performance. Fabric provides a rich, Java-like object model, but data resources are labeled with confidentiality and integrity policies that are enforced through a combination of compile-time and run-time mechanisms. Optimistic, nested transactions ensure consistency across all objects and nodes. A peer-to-peer dissemination layer helps to increase availability and to balance load. Results from applications built using Fabric suggest that Fabric has a clean, concise programming model, offers good performance, and enforces security.\
+\'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f2 \cf0 Fabric
+\f1 \'82\'cd\'83\'5a\'83\'4c\'83\'85\'83\'41\'82\'c8\'95\'aa\'8e\'55\'8f\'ee\'95\'f1\'83\'56\'83\'58\'83\'65\'83\'80\'82\'f0\'8d\'5c\'92\'7a\'82\'b7\'82\'e9\'82\'bd\'82\'df\'82\'cc\'90\'56\'82\'b5\'82\'a2\'83\'56\'83\'58\'83\'65\'83\'80\'81\'41\'8c\'be\'8c\'ea\'82\'c5\'82\'a0\'82\'e9\'81\'42
+\f2 Fabric
+\f1 \'82\'cd\'94\'f1\'8f\'57\'92\'86\'8c\'5e\'82\'cc\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c5\'81\'41\'83\'77\'83\'65\'83\'8d\'82\'c8\'8a\'c2\'8b\'ab\'82\'cc\'97\'fb\'82\'c1\'82\'c4\'83\'8f\'81\'5b\'83\'4e\'83\'6d\'81\'5b\'83\'68\'82\'aa\'91\'8a\'8c\'dd\'95\'73\'90\'4d(\'82\'e6\'82\'ad\'92\'6d\'82\'e7\'82\'c8\'82\'a2\'81\'48)\'82\'c9\'82\'e0\'8a\'d6\'82\'ed\'82\'e7\'82\'b8\'83\'5a\'83\'4c\'83\'85\'83\'41\'82\'c9\'8f\'ee\'95\'f1\'82\'e2\'8c\'76\'8e\'5a\'83\'8a\'83\'5c\'81\'5b\'83\'58\'82\'f0\'8b\'a4\'97\'4c\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'f0\'8b\'96\'82\'b7\'81\'42\'82\'b1\'82\'cc\'8d\'82\'8b\'89\'8c\'be\'8c\'ea\'82\'cd\'81\'41\'95\'aa\'8e\'55\'82\'e2\'89\'69\'91\'b1\'90\'ab\'82\'f0\'83\'76\'83\'8d\'83\'4f\'83\'89\'83\'7d\'82\'c9\'82\'cd\'8a\'54\'82\'b5\'82\'c4\'93\'a7\'89\'df\'93\'49\'82\'c5\'82\'a0\'82\'e9\'81\'42
+\f2 Fabric
+\f1 \'82\'cd\'8c\'76\'8e\'5a\'82\'cc\'83\'66\'81\'5b\'83\'5e\'94\'7a\'91\'97\'82\'c6\'83\'74\'83\'40\'83\'93\'83\'4e\'83\'56\'83\'87\'83\'93\'94\'7a\'91\'97\'83\'58\'83\'5e\'83\'43\'83\'8b\'82\'f0\'83\'54\'83\'7c\'81\'5b\'83\'67\'82\'b7\'82\'e9\'81\'42\'82\'dc\'82\'bd
+\f2 Fabric
+\f1 \'82\'cd
+\f2 Java
+\f1 \'83\'89\'83\'43\'83\'4e\'82\'c8\'83\'49\'83\'75\'83\'57\'83\'46\'83\'4e\'83\'67\'83\'82\'83\'66\'83\'8b\'82\'f0\'92\'f1\'8b\'9f\'82\'b7\'82\'e9\'82\'aa\'81\'41\'83\'66\'81\'5b\'83\'5e\'83\'8a\'83\'5c\'81\'5b\'83\'58\'82\'cd\'81\'41\'83\'52\'83\'93\'83\'70\'83\'43\'83\'8b\'8e\'9e\'82\'a8\'82\'e6\'82\'d1\'8e\'c0\'8d\'73\'8e\'9e\'82\'cc\'8b\'40\'8d\'5c\'82\'cc\'91\'67\'82\'dd\'8d\'87\'82\'ed\'82\'b9\'82\'c9\'82\'e6\'82\'c1\'82\'c4\'93\'4b\'97\'70\'82\'b3\'82\'ea\'82\'bd\'81\'41\'8b\'40\'96\'a7\'90\'ab\'82\'c6\'90\'ae\'8d\'87\'90\'ab\'82\'cc\'83\'7c\'83\'8a\'83\'56\'81\'5b\'82\'aa\'82\'c2\'82\'a2\'82\'bd\'83\'89\'83\'78\'83\'8b\'82\'aa\'95\'74\'82\'af\'82\'e7\'82\'ea\'82\'e9\'81\'42\
+\'8d\'c5\'93\'4b\'89\'bb\'82\'b3\'82\'ea\'83\'6c\'83\'58\'83\'67\'82\'b3\'82\'ea\'82\'bd\'83\'67\'83\'89\'83\'93\'83\'55\'83\'4e\'83\'56\'83\'87\'83\'93\'82\'cd\'82\'b7\'82\'d7\'82\'c4\'82\'cc\'83\'49\'83\'75\'83\'57\'83\'46\'83\'4e\'83\'67\'82\'c6\'83\'6d\'81\'5b\'83\'68\'82\'c9\'82\'a8\'82\'a2\'82\'c4\'81\'41\'88\'ea\'8a\'d1\'90\'ab\'82\'f0\'95\'db\'8f\'d8\'82\'b5\'82\'c4\'82\'a2\'82\'e9\'82\'b5\'81\'41P2P\'82\'cc\'93\'60\'91\'97\'83\'8c\'83\'43\'83\'84\'81\'5b\'82\'aa\'82\'a0\'82\'e8\'81\'41\'83\'41\'83\'78\'83\'43\'83\'89\'83\'72\'83\'8a\'83\'65\'83\'42\'82\'cc\'8c\'fc\'8f\'e3\'82\'e2\'95\'89\'89\'d7\'95\'aa\'8e\'55\'82\'c9\'8a\'f1\'97\'5e\'82\'b5\'82\'c4\'82\'a2\'82\'e9\'81\'42\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 5.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f2 \cf0 \uc0\u9633 title\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs28\fsmilli14346 \cf0 Sinfonia: A New Paradigm for Building Scalable Distributed Systems\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f2\fs26 \cf0 \uc0\u9633 
+\f1 abstruct\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 We propose a new paradigm for building scalable distributed systems. Our approach does not require dealing with message-passing protocols -- a major complication in existing distributed systems. Instead, developers just design and manipulate data structures within our service called Sinfonia. Sinfonia keeps data for applications on a set of memory nodes, each exporting a linear address space. At the core of Sinfonia is a novel minitransaction primitive that enables efficient and consistent access to data, while hiding the complexities that arise from concurrency and failures. Using Sinfonia, we implemented two very different and complex applications in a few months: a cluster file system and a group communication service. Our implementations perform well and scale to hundreds of machines.\
+\'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\'83\'58\'83\'50\'81\'5b\'83\'89\'83\'75\'83\'8b\'82\'c8\'95\'aa\'8e\'55\'83\'56\'83\'58\'83\'65\'83\'80\'82\'f0\'8d\'5c\'92\'7a\'82\'b7\'82\'e9\'82\'bd\'82\'df\'82\'cc\'90\'56\'82\'b5\'82\'a2\'83\'70\'83\'89\'83\'5f\'83\'43\'83\'80\'82\'f0\'92\'f1\'88\'c4\'82\'b5\'82\'dc\'82\'b7\'81\'42\'89\'e4\'81\'58\'82\'cc\'83\'41\'83\'76\'83\'8d\'81\'5b\'83\'60\'82\'c5\'82\'cd\'81\'41\'8a\'4a\'94\'ad\'8e\'d2\'82\'cd\'83\'81\'83\'62\'83\'5a\'81\'5b\'83\'57\'83\'70\'83\'62\'83\'5a\'81\'5b\'83\'57\'83\'93\'83\'4f\'83\'76\'83\'8d\'83\'67\'83\'52\'83\'8b\'82\'f0\'97\'98\'97\'70\'82\'b9\'82\'b8\'81\'41Sinfonia\'82\'c6\'8c\'c4\'82\'ce\'82\'ea\'82\'e9\'89\'e4\'81\'58\'82\'cc\'83\'54\'81\'5b\'83\'72\'83\'58\'93\'e0\'82\'c5\'83\'66\'81\'5b\'83\'5e\'8d\'5c\'91\'a2\'82\'f0\'83\'66\'83\'55\'83\'43\'83\'93\'82\'b5\'81\'41\'91\'80\'8d\'ec(manipulate)\'82\'b7\'82\'e9\'82\'be\'82\'af\'82\'c5\'83\'56\'83\'58\'83\'65\'83\'80\'82\'f0\'8d\'5c\'92\'7a\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'aa\'82\'c5\'82\'ab\'82\'dc\'82\'b7\'81\'42Sinfonia\'82\'cd\'83\'41\'83\'76\'83\'8a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'cc\'82\'bd\'82\'df\'82\'cc\'83\'66\'81\'5b\'83\'5e\'82\'f0\'88\'ea\'98\'41\'82\'cc\'83\'81\'83\'82\'83\'8a\'81\'5b\'83\'6d\'81\'5b\'83\'68\'82\'cc\'8f\'e3\'82\'c5\'95\'db\'8e\'9d\'82\'b5\'82\'c4\'82\'a8\'82\'e8\'81\'41\'82\'dc\'82\'bd\'8a\'65\'8e\'a9\'83\'8a\'83\'6a\'83\'41\'82\'c8\'83\'41\'83\'68\'83\'8c\'83\'58\'8b\'f3\'8a\'d4\'82\'f0\'83\'47\'83\'4e\'83\'58\'83\'7c\'81\'5b\'83\'67\'82\'b5\'82\'c4\'82\'a2\'82\'e9(??).Sinfonia\'82\'cc\'83\'52\'83\'41\'82\'cc\'95\'94\'95\'aa\'82\'cd\'81\'41\'95\'bd\'8d\'74\'90\'ab\'82\'e2\'8c\'cc\'8f\'e1\'82\'a9\'82\'e7\'82\'ad\'82\'e9\'95\'a1\'8e\'47\'90\'ab\'82\'f0\'94\'72\'8f\'9c\'82\'b7\'82\'e9\'88\'ea\'95\'fb\'82\'c5\'81\'41\'8c\'f8\'97\'a6\'93\'49\'82\'c5\'88\'ea\'8a\'d1\'90\'ab\'82\'cc\'82\'a0\'82\'e9\'83\'66\'81\'5b\'83\'5e\'82\'d6\'82\'cc\'83\'41\'83\'4e\'83\'5a\'83\'58\'82\'f0\'89\'c2\'94\'5c\'82\'c9\'82\'b7\'82\'e9\'83\'7e\'83\'6a\'83\'67\'83\'89\'83\'93\'83\'55\'83\'4e\'83\'56\'83\'87\'83\'93\'82\'cc\'8c\'b4\'8c\'5e\'82\'c5\'82\'a0\'82\'e9\'81\'42\'89\'e4\'81\'58\'82\'cdSinfonia\'82\'f0\'8e\'67\'82\'c1\'82\'c4\'81\'41\'93\'f1\'82\'c2\'82\'cc\'88\'d9\'82\'c8\'82\'e9\'95\'a1\'8e\'47\'82\'c8\'83\'41\'83\'76\'83\'8a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'f0\'90\'94\'83\'96\'8c\'8e\'82\'c5\'8e\'c0\'91\'95\'82\'b5\'82\'bd\'81\'42- \'83\'4e\'83\'89\'83\'58\'83\'5e\'81\'5b\'83\'74\'83\'40\'83\'43\'83\'8b\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c6\'81\'41\'83\'4f\'83\'8b\'81\'5b\'83\'76\'83\'52\'83\'7e\'83\'85\'83\'6a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'83\'54\'81\'5b\'83\'72\'83\'58\'82\'c5\'82\'a0\'82\'e9\'81\'42\'89\'e4\'81\'58\'82\'cc\'8e\'c0\'91\'95\'82\'cd\'83\'70\'83\'74\'83\'48\'81\'5b\'83\'7d\'83\'93\'83\'58\'82\'aa\'82\'e6\'82\'ad\'81\'41\'90\'94\'95\'53\'91\'e4\'82\'cc\'83\'7d\'83\'56\'83\'93\'82\'dc\'82\'c5\'83\'58\'83\'50\'81\'5b\'83\'8b\'82\'b7\'82\'e9\'81\'42\
+\
+6.\
+
+\f2 \uc0\u9633 title\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs28\fsmilli14346 \cf0 PeerReview: practical accountability for distributed systemss\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f2\fs26 \cf0 \uc0\u9633 
+\f1 abstruct\
+\pard\pardeftab720\ql\qnatural
+
+\f3 \cf0 We describe PeerReview, a system that provides accountability in distributed systems. PeerReview ensures that Byzantine faults whose effects are observed by a correct node are eventually detected and irrefutably linked to a faulty node. At the same time, PeerReview ensures that a correct node can always defend itself against false accusations. These guarantees are particularly important for systems that span multiple administrative domains, which may not trust each other.PeerReview works by maintaining a secure record of the messages sent and received by each node. The record isused to automatically detect when a node's behavior deviates from that of a given reference implementation, thus exposing faulty nodes. PeerReview is widely applicable: it only requires that a correct node's actions are deterministic, that nodes can sign messages, and that each node is periodically checked by a correct node. We demonstrate that PeerReview is practical by applying it to three different types of distributed systems: a network filesystem, a peer-to-peer system, and an overlay multicast system.
+\f1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\'8e\'84\'82\'bd\'82\'bf\'82\'cdPeerReview\'82\'c6\'82\'a2\'82\'a4\'95\'aa\'8e\'55\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c5
+\f3  accountability 
+\f1 \'82\'f0\'92\'f1\'8b\'9f\'82\'b7\'83\'56\'83\'58\'83\'65\'83\'80\'82\'f0\'90\'e0\'96\'be\'82\'b5\'82\'dc\'82\'b7\'81\'42
+\f3 PeerReview
+\f1 \'82\'cd\'81\'41\'90\'b3\'8f\'ed\'82\'c9\'93\'ae\'8d\'ec\'82\'b7\'82\'e9\'83\'6d\'81\'5b\'83\'68\'82\'c9\'82\'e6\'82\'c1\'82\'c4\'8c\'9f\'92\'6d\'82\'b3\'82\'ea\'82\'bd\'83\'72\'83\'55\'83\'93\'83\'60\'83\'93\'8c\'cc\'8f\'e1\'82\'cd\'81\'41\'83\'43\'83\'78\'83\'93\'83\'60\'83\'85\'83\'41\'83\'8a\'81\'5b\'82\'c9\'8c\'9f\'92\'6d\'82\'b3\'82\'ea\'81\'41\'8b\'5e\'82\'a2\'82\'c8\'82\'ad\'8c\'cc\'8f\'e1\'82\'b5\'82\'bd\'83\'6d\'81\'5b\'83\'68\'82\'c9\'83\'8a\'83\'93\'83\'4e\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'f0\'95\'db\'8f\'d8\'82\'b5\'82\'dc\'82\'b7\'81\'42\'93\'af\'8e\'9e\'82\'c9\'81\'41
+\f3 PeerReview
+\f1 \'82\'cd\'81\'41\'90\'b3\'8f\'ed\'82\'c8\'83\'6d\'81\'5b\'83\'68\'82\'cd\'8c\'eb\'82\'c1\'82\'bd\'8d\'90\'94\'ad\'82\'a9\'82\'e7\'82\'a2\'82\'c2\'82\'c5\'82\'e0\'8e\'a9\'90\'67\'82\'f0\'96\'68\'8c\'e4\'82\'c5\'82\'ab\'82\'e9\'82\'b1\'82\'c6\'82\'f0\'95\'db\'8f\'d8\'82\'b5\'82\'dc\'82\'b7\'81\'42\'82\'b1\'82\'ea\'82\'e7\'82\'cc\'95\'db\'8f\'d8\'82\'cd\'81\'41\'93\'c1\'82\'c9\'81\'41\'82\'a8\'8c\'dd\'82\'a2\'82\'f0\'90\'4d\'97\'70\'82\'c5\'82\'ab\'82\'c8\'82\'a2\'95\'a1\'90\'94\'82\'cc\'8a\'c7\'97\'9d\'83\'68\'83\'81\'83\'43\'83\'93\'82\'c9\'82\'dc\'82\'bd\'82\'aa\'82\'e9\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c9\'8e\'e6\'82\'c1\'82\'c4\'8f\'64\'97\'76\'82\'c5\'82\'a0\'82\'e9\'81\'42PeerReview\'82\'cd\'8c\'dd\'82\'a2\'82\'cc\'83\'6d\'81\'5b\'83\'68\'8a\'d4\'82\'c5\'82\'e2\'82\'e8\'8e\'e6\'82\'e8\'82\'b3\'82\'ea\'82\'bd\'83\'81\'83\'62\'83\'5a\'81\'5b\'83\'57\'82\'cc\'83\'5a\'83\'4c\'83\'85\'83\'41\'82\'c8\'8b\'4c\'98\'5e\'82\'f0\'95\'db\'8e\'9d\'82\'b5\'82\'c8\'82\'aa\'82\'e7\'93\'ae\'8d\'ec\'82\'b5\'82\'c4\'82\'a2\'82\'e9\'81\'42\'82\'bb\'82\'cc\'8b\'4c\'98\'5e\'82\'cd\'83\'6d\'81\'5b\'83\'68\'82\'cc\'90\'55\'82\'e9\'95\'91\'82\'a2\'82\'aa\'97\'5e\'82\'a6\'82\'e7\'82\'ea\'82\'bd\'8e\'51\'8f\'c6\'8e\'c0\'91\'95(??)\'82\'a9\'82\'e7\'8a\'4f\'82\'ea\'82\'bd\'82\'c6\'82\'ab\'81\'41\'8e\'a9\'93\'ae\'93\'49\'82\'c9\'8c\'9f\'92\'6d\'82\'b7\'82\'e9\'82\'bd\'82\'df\'82\'c9\'97\'70\'82\'a2\'82\'e7\'82\'ea\'81\'41\'82\'b1\'82\'cc\'82\'e6\'82\'a4\'82\'c9\'82\'b5\'82\'c4\'81\'41\'8c\'cc\'8f\'e1\'82\'b5\'82\'bd\'83\'6d\'81\'5b\'83\'68\'82\'f0\'92\'6d\'82\'e7\'82\'b9\'82\'e9\'82\'cc\'82\'c5\'82\'a0\'82\'e9\'81\'42
+\f3 PeerReview
+\f1 \'82\'cd\'8d\'4c\'82\'ad\'82\'c4\'8b\'4e\'97\'70\'89\'c2\'94\'5c\'82\'c5\'82\'a0\'82\'e9\'81\'42\'93\'4b\'97\'70\'82\'c9\'82\'cd\'81\'41\'90\'b3\'8f\'ed\'82\'c8\'83\'6d\'81\'5b\'83\'68\'82\'cc\'93\'ae\'8d\'ec\'82\'aa
+\f3 deterministic(
+\f1 \'8a\'6d\'92\'e8\'93\'49\'82\'c5\'82\'a0\'82\'e9\'82\'b1\'82\'c6
+\f3 )
+\f1 \'81\'41\'83\'6d\'81\'5b\'83\'68\'82\'aa\'83\'81\'83\'62\'83\'5a\'81\'5b\'83\'57\'82\'c9\'83\'54\'83\'43\'83\'93\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'81\'41\'8a\'65\'83\'6d\'81\'5b\'83\'68\'82\'aa\'88\'ea\'8e\'9e\'93\'49\'82\'c9\'90\'b3\'8f\'ed\'82\'c8\'83\'6d\'81\'5b\'83\'68\'82\'c9\'83\'60\'83\'46\'83\'62\'83\'4e\'82\'b3\'82\'ea\'82\'e9\'82\'b1\'82\'c6\'82\'cc\'82\'dd\'82\'aa\'95\'4b\'97\'76\'82\'c5\'82\'a0\'82\'e9\'81\'42\'89\'e4\'81\'58\'82\'cd\'81\'41PeerReview\'82\'aa\'8e\'c0\'97\'70\'93\'49\'82\'c5\'82\'a0\'82\'e9\'82\'b1\'82\'c6\'82\'f0\'83\'66\'83\'82\'82\'b7\'82\'e9\'81\'42PeerReview\'82\'f0\'8e\'4f\'82\'c2\'82\'cc\'88\'d9\'82\'c8\'82\'e9\'95\'aa\'8e\'55\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c9\'93\'4b\'97\'70\'82\'b5\'82\'bd\'81\'42\'83\'6c\'83\'62\'83\'67\'83\'8f\'81\'5b\'83\'4e\'83\'74\'83\'40\'83\'43\'83\'8b\'83\'56\'83\'58\'83\'65\'83\'80\'81\'41P2P\'83\'56\'83\'58\'83\'65\'83\'80\'81\'41\'83\'49\'81\'5b\'83\'6f\'81\'5b\'83\'8c\'83\'43\'83\'7d\'83\'8b\'83\'60\'83\'4c\'83\'83\'83\'58\'83\'67\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c5\'82\'a0\'82\'e9\'81\'42\
+
+\f2 \
+\
+#
+\f3 USENIX
+\f2 \
+7.\
+\uc0\u9633 title\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs28\fsmilli14346 \cf0 Dynamic resource allocation for database servers running on virtual storage\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f2\fs26 \cf0 \uc0\u9633 
+\f1 abstruct\
+\pard\pardeftab720\sa260\ql\qnatural
+
+\f3 \cf0 We introduce a novel multi-resource allocator to dynamically allocate resources for database servers running on virtual storage. Multi-resource allocation involves proportioning the database and storage server caches, and the storage bandwidth between applications according to overall performance goals. The problem is challenging due to the interplay between different resources, e.g., changing any cache quota affects the access pattern at the cache/disk levels below it in the storage hierarchy. We use a combination of on-line modeling and sampling to arrive at near-optimal configurations within minutes. The key idea is to incorporate access tracking and known resource dependencies e.g., due to cache replacement policies, into our performance model.\
+In our experimental evaluation, we use both microbenchmarks and the industry standard benchmarks TPC-W and TPC-C. We show that our multi-resource allocation approach improves application performance by up to factors of 2.9 and 2.4 compared to state-of-the-art single-resource controllers, and their ad-hoc combination, respectively.
+\f1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\'89\'e4\'81\'58\'82\'cd\'81\'41\'89\'bc\'91\'7a\'83\'58\'83\'67\'83\'8c\'81\'5b\'83\'57\'8f\'e3\'82\'c5\'93\'ae\'8d\'ec\'82\'b7\'82\'e9\'83\'66\'81\'5b\'83\'5e\'83\'78\'81\'5b\'83\'58\'83\'54\'81\'5b\'83\'6f\'8c\'51\'82\'cc\'83\'8a\'83\'5c\'81\'5b\'83\'58\'82\'f0\'93\'ae\'93\'49\'82\'c9\'8a\'84\'82\'e8\'93\'96\'82\'c4\'82\'e9\'82\'bd\'82\'df\'82\'cc\'81\'41\'90\'56\'82\'b5\'82\'a2\'83\'7d\'83\'8b\'83\'60\'83\'8a\'83\'5c\'81\'5b\'83\'58\'83\'41\'83\'8d\'83\'50\'81\'5b\'83\'5e\'82\'f0\'8f\'d0\'89\'ee\'82\'b7\'82\'e9\'81\'42\
+\'83\'7d\'83\'8b\'83\'60\'83\'8a\'83\'5c\'81\'5b\'83\'58\'83\'41\'83\'8d\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'c9\'82\'cd\'81\'41\'83\'66\'81\'5b\'83\'5e\'83\'78\'81\'5b\'83\'58\'82\'c6\'83\'58\'83\'67\'83\'8c\'81\'5b\'83\'57\'83\'54\'81\'5b\'83\'6f\'82\'cc\'83\'4c\'83\'83\'83\'62\'83\'56\'83\'85\'82\'c6\'81\'41\'83\'41\'83\'76\'83\'8a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'8a\'d4\'82\'cc\'83\'58\'83\'67\'83\'8c\'81\'5b\'83\'57\'91\'d1\'88\'e6\'95\'9d\'82\'f0\'91\'53\'91\'cc\'82\'cc\'83\'70\'83\'74\'83\'40\'81\'5b\'83\'7d\'83\'93\'83\'58\'96\'da\'95\'57\'82\'c9\'8f\'5d\'82\'c1\'82\'c4\'81\'41\'92\'b2\'90\'ae\'82\'f0\'82\'c6\'82\'e9\'82\'b1\'82\'c6\'82\'c9\'8a\'d6\'98\'41\'82\'b7\'82\'e9\'81\'42\'96\'e2\'91\'e8\'82\'cd\'81\'41\'88\'d9\'82\'c8\'82\'e9\'83\'8a\'83\'5c\'81\'5b\'83\'58\'93\'af\'8e\'6d\'82\'cc\'91\'8a\'8c\'dd\'8d\'ec\'97\'70\'82\'cc\'82\'bd\'82\'df\'81\'41\'93\'ef\'82\'b5\'82\'ad\'82\'c8\'82\'c1\'82\'c4\'82\'a2\'82\'e9\'81\'42\'97\'e1\'82\'a6\'82\'ce\'81\'41\'83\'4c\'83\'83\'83\'62\'83\'56\'83\'85\'82\'cc\'97\'ca\'82\'f0\'95\'cf\'82\'a6\'82\'e9\'82\'b1\'82\'c6\'82\'aa\'83\'4c\'83\'83\'83\'62\'83\'56\'83\'85-\'83\'66\'83\'42\'83\'58\'83\'4e\'8a\'d4\'82\'cc\'83\'8c\'83\'78\'83\'8b\'82\'cc\'83\'41\'83\'4e\'83\'5a\'83\'58\'83\'70\'83\'5e\'81\'5b\'83\'93\'82\'c9\'89\'65\'8b\'bf\'82\'f0\'97\'5e\'82\'a6\'82\'e9\'82\'b1\'82\'c6\'82\'c5\'82\'a0\'82\'e9\'81\'42\'89\'e4\'81\'58\'82\'cd\'81\'41\'83\'49\'83\'93\'83\'89\'83\'43\'83\'93(?)\'83\'82\'83\'66\'83\'8a\'83\'93\'83\'4f\'81\'41\'83\'54\'83\'93\'83\'76\'83\'8a\'83\'93\'83\'4f\'82\'cc\'91\'67\'82\'dd\'8d\'87\'82\'ed\'82\'b9\'82\'c4\'81\'41\'90\'94\'95\'97\'88\'c8\'93\'e0\'82\'c9\'82\'d9\'82\'da\'8d\'c5\'93\'4b\'82\'c8\'90\'dd\'92\'e8\'82\'c9\'92\'b2\'90\'df\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'aa\'82\'c5\'82\'ab\'82\'e9\'81\'42\'82\'b1\'82\'cc\'83\'4c\'81\'5b\'83\'41\'83\'43\'83\'66\'83\'42\'83\'41\'82\'cd\'81\'41\'83\'41\'83\'4e\'83\'5a\'83\'58\'83\'67\'83\'89\'83\'62\'83\'4c\'83\'93\'83\'4f\'82\'c6\'8a\'f9\'92\'6d\'82\'cc\'83\'8a\'83\'5c\'81\'5b\'83\'60\'88\'cb\'91\'b6\'90\'ab\'82\'f0\'89\'e4\'81\'58\'82\'cc\'83\'70\'83\'74\'83\'48\'81\'5b\'83\'7d\'83\'93\'83\'58\'83\'82\'83\'66\'83\'8b\'82\'c9\'91\'67\'82\'dd\'8d\'9e\'82\'dc\'82\'b9\'82\'e9\'82\'b1\'82\'c6\'82\'c5\'82\'a0\'82\'e9\'81\'42\'97\'e1\'82\'a6\'82\'ce\'81\'41\'83\'4c\'83\'83\'83\'62\'83\'56\'83\'85\'92\'75\'82\'ab\'8a\'b7\'82\'a6\'83\'7c\'83\'8a\'83\'56\'81\'5b\'82\'c8\'82\'c7\'82\'c5\'82\'a0\'82\'e9\'81\'42\
+\
+\'89\'e4\'81\'58\'82\'cc\'8e\'c0\'8c\'b1\'95\'5d\'89\'bf\'82\'c5\'82\'cd\'81\'41\'83\'7d\'83\'43\'83\'4e\'83\'8d\'83\'78\'83\'93\'83\'60\'83\'7d\'81\'5b\'83\'4e\'82\'c6\'8e\'59\'8b\'c6\'95\'57\'8f\'80\'83\'78\'83\'93\'83\'60\'83\'7d\'81\'5b\'83\'4e\'82\'cc
+\f3 TPC-W
+\f1 \'82\'c6
+\f3 TPC-C
+\f1 \'82\'cc\'97\'bc\'95\'fb\'82\'f0\'97\'98\'97\'70\'82\'b5\'82\'bd\'81\'42\'89\'e4\'81\'58\'82\'cc\'83\'7d\'83\'8b\'83\'60\'83\'8a\'83\'5c\'81\'5b\'83\'58\'83\'41\'83\'8d\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'aa\'83\'41\'83\'76\'83\'8a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'cc\'83\'70\'83\'74\'83\'48\'81\'5b\'83\'7d\'83\'93\'83\'58\'82\'f0\'8d\'c5\'90\'e6\'92\'5b\'82\'cc\'83\'56\'83\'93\'83\'4f\'83\'8b\'83\'8a\'83\'5c\'81\'5b\'83\'58\'82\'c6\'94\'e4\'82\'d7\'82\'c42.9\'94\'7b\'81\'41\'82\'bb\'82\'ea\'82\'e7\'82\'cc\'83\'41\'83\'68\'83\'7a\'83\'62\'83\'4e\'82\'c9\'91\'67\'82\'dd\'8d\'87\'82\'ed\'82\'b9\'82\'bd\'82\'e0\'82\'cc\'82\'c6\'94\'e4\'8a\'72\'82\'b5\'82\'c4
+\f3 2.4
+\f1 \'94\'7b\'90\'ab\'94\'5c\'82\'aa\'8c\'fc\'8f\'e3\'82\'b5\'82\'bd\'82\'b1\'82\'c6\'82\'f0\'8e\'a6\'82\'b5\'82\'bd\'81\'42
+\f3  
+\f1 \
+
+\f2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 8.\
+\uc0\u9633 title\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs28\fsmilli14346 \cf0 DejaView: a personal virtual computer recorder\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f2\fs26 \cf0 \uc0\u9633 
+\f1 abstruct\
+\pard\pardeftab720\ql\qnatural
+
+\f3 \cf0 users interact with the world and their peers through their computers, it is becoming important to archive and later search the information that they have 
+\i viewed
+\i0 . We present DejaView, a personal virtual computer recorder that provides a complete record of a desktop computing experience that a user can playback, browse, search, and revive seamlessly. DejaView records visual output, checkpoints corresponding application and file system state, and captures displayed text with contextual information to index the record. A user can then browse and search the record for any visual information that has been displayed on the desktop, and revive and interact with the desktop computing state corresponding to any point in the record. DejaView combines display, operating system, and file system virtualization to provide its functionality transparently without any modifications to applications, window systems, or operating system kernels. We have implemented DejaView and evaluated its performance on real-world desktop applications. Our results demonstrate that DejaView can provide continuous low-overhead recording without any user noticeable performance degradation, and allows browsing, search and playback of records fast enough for interactive use.
+\f2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f1 \cf0 \'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\'89\'e4\'81\'58\'82\'cd\'81\'41
+\f3 DejaView
+\f1 \'82\'c6\'82\'a2\'82\'a4\'83\'70\'81\'5b\'83\'5c\'83\'69\'83\'8b\'89\'bc\'91\'7a\'83\'52\'83\'93\'83\'7e\'83\'85\'81\'5b\'83\'5e\'83\'8c\'83\'52\'81\'5b\'83\'5f\'82\'f0\'92\'f1\'88\'c4\'82\'b7\'82\'e9\'81\'42\'82\'b1\'82\'cc\'83\'8c\'83\'52\'81\'5b\'83\'5f\'82\'cd\'83\'66\'83\'58\'83\'4e\'83\'67\'83\'62\'83\'76\'83\'52\'83\'93\'83\'73\'83\'85\'81\'5b\'83\'65\'83\'43\'83\'93\'83\'4f\'97\'9a\'97\'f0\'82\'cc\'8a\'ae\'e0\'f8\'82\'c8\'83\'8c\'83\'52\'81\'5b\'83\'68\'82\'f0\'92\'f1\'8b\'9f\'82\'b5\'81\'41\'82\'bb\'82\'ea\'82\'cd\'83\'86\'81\'5b\'83\'55\'82\'aa\'83\'76\'83\'8c\'83\'43\'83\'6f\'83\'62\'83\'4e\'82\'b5\'82\'bd\'82\'e8\'83\'75\'83\'89\'83\'45\'83\'59\'82\'b5\'82\'bd\'82\'e8\'8c\'9f\'8d\'f5\'82\'b5\'82\'bd\'82\'e8\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'aa\'89\'c2\'94\'5c\'82\'c5\'82\'a0\'82\'e9\'81\'42
+\f3 DejaView
+\f1 \'82\'cd\'83\'72\'83\'57\'83\'85\'83\'41\'83\'8b\'8f\'6f\'97\'cd\'82\'e2\'83\'41\'83\'76\'83\'8a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'e2\'83\'74\'83\'40\'83\'43\'83\'8b\'83\'56\'83\'58\'83\'65\'83\'80\'8f\'f3\'91\'d4\'82\'cc\'83\'60\'83\'46\'83\'62\'83\'4e\'83\'7c\'83\'43\'83\'93\'83\'67\'82\'f0\'8b\'4c\'98\'5e\'82\'b5\'81\'41\'83\'66\'83\'42\'83\'58\'83\'76\'83\'8c\'83\'43\'82\'c9\'95\'5c\'8e\'a6\'82\'b3\'82\'ea\'82\'bd\'95\'b6\'8e\'9a\'8f\'ee\'95\'f1\'82\'f0\'83\'8c\'83\'52\'81\'5b\'83\'68\'82\'b7\'82\'e9\'81\'42
+\f3 DejaView
+\f1 \'82\'cd\'83\'66\'83\'42\'83\'58\'83\'76\'83\'8c\'83\'43\'81\'41
+\f3 OS,
+\f1 \'83\'74\'83\'40\'83\'43\'83\'8b\'83\'56\'83\'58\'83\'65\'83\'80\'89\'bc\'91\'7a\'89\'bb\'82\'f0\'91\'67\'82\'dd\'8d\'87\'82\'ed\'82\'b9\'82\'e9\'82\'b1\'82\'c6\'82\'c5\'81\'41\'91\'bc\'82\'cc\'83\'41\'83\'76\'83\'8a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'e2\'83\'45\'83\'42\'83\'93\'83\'68\'83\'45\'83\'56\'83\'58\'83\'65\'83\'80\'81\'41OS\'82\'c9\'8f\'43\'90\'b3\'82\'f0\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'c8\'82\'ad\'81\'41\'93\'a7\'89\'df\'93\'49\'82\'c9\'8d\'f0\'93\'fa\'82\'f0\'92\'f1\'8b\'9f\'82\'b7\'82\'e9\'81\'42\'89\'e4\'81\'58\'82\'cd
+\f3 DejaView
+\f1 \'82\'f0\'8e\'c0\'91\'95\'82\'b5\'81\'41\'8e\'c0\'8d\'db\'82\'cc\'83\'66\'83\'58\'83\'4e\'83\'67\'83\'62\'83\'76\'83\'41\'83\'76\'83\'8a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'c5\'82\'bb\'82\'cc\'90\'ab\'94\'5c\'82\'f0\'95\'5d\'89\'bf\'82\'b5\'82\'bd\'81\'42\'95\'5d\'89\'bf\'8c\'8b\'89\'ca\'82\'cd\'81\'41
+\f3 DejaView
+\f1 \'82\'aa\'83\'86\'81\'5b\'83\'55\'82\'aa\'8b\'43\'82\'c3\'82\'ae\'82\'ae\'82\'e7\'82\'a2\'82\'cc\'90\'ab\'94\'5c\'92\'e1\'89\'ba\'82\'f0\'82\'e0\'82\'bd\'82\'e7\'82\'b3\'82\'b8\'81\'41\'83\'8d\'81\'5b\'83\'49\'81\'5b\'83\'6f\'83\'77\'83\'62\'83\'68\'82\'cc\'8c\'70\'91\'b1\'93\'49\'82\'c8\'8b\'4c\'98\'5e\'82\'f0\'82\'c6\'82\'ea\'82\'e9\'82\'b1\'82\'c6\'82\'aa\'82\'c5\'82\'ab\'82\'e9\'82\'b1\'82\'c6\'82\'f0\'8e\'a6\'82\'b5\'82\'c4\'82\'a2\'82\'e9\'81\'42
+\f2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+\
+9.??????\
+\uc0\u9633 title\
+\pard\pardeftab720\ql\qnatural
+\cf0 Secure File System Versioning at the Block Level\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \uc0\u9633 
+\f1 abstruct\
+In typical file systems, valuable data is vulnerable to being accidentally or maliciously deleted or overwritten. Versioning file systems protect data from accidents by transparently retaining old versions, but do less well in protecting data from malicious attack. These systems remain vulnerable to attackers who gain unauthorized access to prune old file versions, who bypass the file system to directly manipulate storage, or who exploit bugs in any part of the operating system.\
+\
+This paper presents VDisk, a secure, block-level versioning system that adds file-grain versioning to a standard, unmodified file system. VDisk consists of a set of untrusted user-mode tools and a trusted, secure kernel that is implemented within an isolated Xen virtual machine domain. The secure kernel is designed to be simple and thus trustworthy. This kernel logs file-system updates to a secure log, exports a read-only view of the log to the rest of the system and securely removes unwanted versions from the log. Secure cleaning is implemented in a two-level manner. An untrusted, user-mode cleaner selects log entries for reclamation and submits cleaning requests to the trusted VDisk kernel along with a proof that the request satisifies the device's version-retention policy. The secure kernel verifies the proof and updates the log.\
+\'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\'93\'54\'8c\'5e\'93\'49\'82\'c8\'83\'74\'83\'40\'83\'43\'83\'8b\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c5\'82\'cd\'81\'41\'94\'f1\'8f\'ed\'82\'c9\'8f\'64\'97\'76\'82\'c8\'83\'66\'81\'5b\'83\'5e\'82\'aa\'8b\'f4\'91\'52\'82\'a0\'82\'e9\'82\'a2\'82\'cd\'88\'ab\'88\'d3\'82\'f0\'8e\'9d\'82\'c1\'82\'c4\'8f\'c1\'8b\'8e\'82\'b3\'82\'ea\'82\'bd\'82\'e8\'8f\'e3\'8f\'91\'82\'ab\'82\'b3\'82\'ea\'82\'c4\'82\'b5\'82\'dc\'82\'a4\'82\'b1\'82\'c6\'82\'c9\'91\'ce\'82\'b5\'82\'c4\'90\'c6\'8e\'e3\'82\'c5\'82\'a0\'82\'e9\'81\'42(\'96\'68\'8c\'e4\'91\'d4\'90\'a8\'82\'aa\'8f\'6f\'97\'88\'82\'c4\'82\'a2\'82\'c8\'82\'a2\'81\'42)\'83\'74\'83\'40\'83\'43\'83\'8b\'83\'56\'83\'58\'83\'65\'83\'80\'82\'f0\'83\'6f\'81\'5b\'83\'57\'83\'87\'83\'6a\'83\'93\'83\'4f\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'c5\'93\'a7\'89\'df\'93\'49\'82\'c9\'8c\'c3\'82\'a2\'83\'6f\'81\'5b\'83\'57\'83\'87\'83\'93\'82\'f0\'95\'db\'8e\'9d\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'c5\'83\'41\'83\'4e\'83\'56\'83\'66\'83\'93\'83\'67\'82\'a9\'82\'e7\'83\'66\'81\'7c\'83\'5e\'82\'f0\'8e\'e7\'82\'e9\'82\'b1\'82\'c6\'82\'aa\'82\'c5\'82\'ab\'82\'e9\'82\'aa\'81\'41\'88\'ab\'88\'d3\'82\'a0\'82\'e9\'8d\'55\'8c\'82\'82\'a9\'82\'e7\'82\'cc\'96\'68\'8c\'e4\'82\'cd\'8f\'5c\'95\'aa\'8f\'6f\'82\'c8\'82\'a2\'81\'42\
+\
+\'82\'b1\'82\'cc\'98\'5f\'95\'b6\'82\'cd\'81\'41VDisk\'82\'c6\'82\'a2\'82\'a4\'83\'5a\'83\'4c\'83\'85\'83\'41\'82\'c8\'83\'56\'83\'58\'83\'65\'83\'80\'82\'f0\'92\'f1\'88\'c4\'82\'b7\'82\'e9\'81\'42\'82\'b1\'82\'cc\'83\'56\'83\'58\'83\'65\'83\'80\'82\'cd\'81\'41\'83\'75\'83\'8d\'83\'62\'83\'4e\'83\'8c\'83\'78\'83\'8b\'82\'cc\'83\'6f\'81\'5b\'83\'57\'83\'87\'83\'6a\'83\'93\'83\'4f\'82\'c9\'89\'c1\'82\'a6\'81\'41\'83\'74\'83\'40\'83\'43\'83\'8b\'97\'b1\'93\'78\'82\'cc\'83\'6f\'81\'5b\'83\'57\'83\'87\'83\'6a\'83\'93\'83\'4f\'82\'f0\'95\'57\'8f\'80\'89\'bb\'82\'b3\'82\'ea\'81\'41\'8f\'43\'90\'b3\'82\'b3\'82\'ea\'82\'c4\'82\'a2\'82\'c8\'82\'a2\'83\'74\'83\'40\'83\'43\'83\'8b\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c9\'8d\'73\'82\'a4\'81\'42VDisk\'82\'cd\'90\'4d\'97\'8a\'90\'ab\'82\'cc\'82\'c8\'82\'a2\'83\'86\'81\'5b\'83\'55\'81\'5b\'83\'82\'81\'5b\'83\'68\'82\'cc\'83\'63\'81\'5b\'83\'8b\'8c\'51\'82\'c6\'81\'41\'8c\'c7\'97\'a7\'82\'b5\'82\'bdXen\'89\'bc\'91\'7a\'83\'7d\'83\'56\'83\'93\'83\'68\'83\'81\'83\'43\'83\'93\'93\'e0\'82\'c9\'8e\'c0\'91\'95\'82\'b3\'82\'ea\'82\'bd\'90\'4d\'97\'8a\'90\'ab\'82\'cc\'82\'a0\'82\'e9\'83\'5a\'83\'4c\'83\'85\'83\'41\'82\'c8\'83\'4a\'81\'5b\'83\'6c\'83\'8b\'82\'a9\'82\'e7\'8d\'5c\'90\'ac\'82\'b3\'82\'ea\'82\'e9\'81\'42\'83\'4a\'81\'5b\'83\'6c\'83\'8b\'82\'cd\'83\'74\'83\'40\'83\'43\'83\'8b\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c9\'83\'5a\'83\'4c\'83\'85\'83\'41\'83\'8d\'83\'4f\'82\'f0\'82\'c6\'82\'e8\'81\'41\'8e\'63\'82\'e8\'82\'cc\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c9read-only\'82\'cc\'83\'8d\'83\'4f\'82\'f0\'83\'47\'83\'4e\'83\'58\'83\'7c\'81\'5b\'83\'67\'82\'b7\'82\'e9\'81\'42\'82\'b3\'82\'e7\'82\'c9\'81\'41\'83\'5a\'83\'4c\'83\'85\'83\'41\'82\'c9\'96\'5d\'82\'dc\'82\'c8\'82\'a2\'83\'6f\'81\'5b\'83\'57\'83\'87\'83\'93\'82\'f0\'83\'8d\'83\'4f\'82\'a9\'82\'e7\'8d\'ed\'8f\'9c\'82\'b7\'82\'e9\'81\'42\'83\'5a\'83\'4c\'83\'85\'83\'41\'83\'4e\'83\'8a\'81\'5b\'83\'6a\'83\'93\'83\'4f\'82\'cd\'82\'51\'83\'8c\'83\'78\'83\'8b\'92\'69\'8a\'4b\'82\'c5\'8e\'c0\'91\'95\'82\'b3\'82\'ea\'82\'c4\'82\'a2\'82\'e9\'81\'42\'90\'4d\'97\'8a\'90\'ab\'82\'cc\'82\'c8\'82\'a2\'83\'86\'81\'5b\'83\'55\'81\'5b\'83\'82\'81\'5b\'83\'68\'83\'4e\'83\'8a\'81\'5b\'83\'69\'81\'5b\'82\'cd\'83\'8d\'83\'4f\'83\'47\'83\'93\'83\'67\'83\'8a\'82\'f0\'91\'49\'82\'d1\'81\'41\'83\'4e\'83\'8a\'81\'5b\'83\'6a\'83\'93\'83\'4f\'83\'8a\'83\'4e\'83\'47\'83\'58\'83\'67\'82\'f0\'90\'4d\'97\'8a\'90\'ab\'82\'cc\'82\'a0\'82\'e9VDisk\'83\'4a\'81\'5b\'83\'6c\'83\'8b\'82\'c9\'83\'6f\'81\'5b\'83\'57\'83\'87\'83\'93\'95\'db\'8e\'9d\'83\'7c\'83\'8a\'81\'5b\'83\'56\'81\'5b\'82\'f0\'96\'9e\'91\'ab\'82\'b7\'82\'e9\'83\'8a\'83\'4e\'83\'47\'83\'58\'83\'67\'82\'c5\'82\'a0\'82\'e9\'8f\'d8\'96\'be\'82\'f0\'95\'74\'91\'ae\'82\'b3\'82\'b9\'82\'c4\'97\'76\'8b\'81\'82\'b7\'82\'e9\'81\'42\'83\'5a\'83\'4c\'83\'85\'83\'41\'83\'4a\'81\'5b\'83\'6c\'83\'8b\'82\'cd\'8f\'d8\'96\'be\'8f\'91\'82\'f0\'8a\'6d\'94\'46\'82\'b5\'81\'41\'83\'8d\'83\'4f\'82\'f0\'8d\'58\'90\'56\'82\'b7\'82\'e9\'81\'42\
+\
+\
+10.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f2 \cf0 \uc0\u9633 title\
+\pard\pardeftab720\ql\qnatural
+\cf0 Stasis: flexible transactional storage\
+\uc0\u9633 
+\f1 abstruct\
+\pard\pardeftab720\sa260\ql\qnatural
+
+\f3 \cf0 An increasing range of applications requires robust support for atomic, durable and concurrent transactions. Databases provide the default solution, but force applications to interact via SQL and to forfeit control over data layout and access mechanisms. We argue there is a gap between DBMSs and file systems that limits designers of data-oriented applications.\
+Stasis is a storage framework that incorporates ideas from traditional write-ahead logging algorithms and file systems. It provides applications with flexible control over data structures, data layout, robustness, and performance. Stasis enables the development of unforeseen variants on transactional storage by generalizing write-ahead logging algorithms. Our partial implementation of these ideas already provides specialized (and cleaner) semantics to applications.\
+We evaluate the performance of a traditional transactional storage system based on Stasis, and show that it performs favorably relative to existing systems. We present examples that make use of custom access methods, modified buffer manager semantics, direct log file manipulation, and LSN-free pages. These examples facilitate sophisticated performance optimizations such as zero-copy I/O. These extensions are composable, easy to implement and significantly improve performance.
+\f1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\'82\'dc\'82\'b7\'82\'dc\'82\'b7\'8d\'4c\'82\'a2\'94\'cd\'88\'cd\'82\'cc\'83\'41\'83\'76\'83\'8a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'c5\'83\'41\'83\'67\'83\'7e\'83\'62\'83\'4e\'82\'c5\'8e\'9d\'91\'b1\'90\'ab\'82\'aa\'82\'a0\'82\'e8\'81\'41\'95\'c0\'97\'f1\'8f\'88\'97\'9d\'82\'f0\'8a\'e6\'8b\'ad\'82\'c9\'83\'54\'83\'7c\'81\'5b\'83\'67\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'aa\'95\'4b\'97\'76\'82\'c5\'82\'a0\'82\'e9\'81\'42\'83\'66\'81\'5b\'83\'5e\'83\'78\'81\'5b\'83\'58\'82\'cd\'8a\'ee\'96\'7b\'93\'49\'82\'c8\'83\'5c\'83\'8a\'83\'85\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'f0\'92\'f1\'8b\'9f\'82\'b7\'82\'e9\'81\'42\'82\'b5\'82\'a9\'82\'b5\'81\'41\'83\'41\'83\'76\'83\'8a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'c9SQL\'82\'e2\'83\'66\'81\'5b\'83\'5e\'83\'8c\'83\'43\'83\'41\'83\'45\'83\'67\'82\'e2\'83\'41\'83\'4e\'83\'5a\'83\'58\'83\'81\'83\'4a\'83\'6a\'83\'59\'83\'80\'82\'c9\'82\'c2\'82\'a2\'82\'c4\'82\'cc\'8a\'c7\'97\'9d\'82\'f0\'92\'44\'82\'ed\'82\'ea\'82\'e9\'82\'b1\'82\'c6(\'8a\'c7\'97\'9d\'89\'ba\'82\'c9\'82\'c8\'82\'a2\'82\'c6\'82\'a2\'82\'a4\'82\'b1\'82\'c6\'82\'a9\'81\'48)\'82\'f0\'8b\'ad\'90\'a7\'82\'b7\'82\'e9\'81\'42\'89\'e4\'81\'58\'82\'cd\'83\'66\'81\'5b\'83\'5e\'8e\'77\'8c\'fc\'83\'41\'83\'76\'83\'8a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'83\'59\'82\'f0\'8a\'75\'82\'c4\'82\'e9DBMS\'82\'c6\'83\'74\'83\'40\'83\'43\'83\'8b\'83\'56\'83\'58\'83\'65\'83\'80\'82\'c6\'83\'4d\'83\'83\'83\'62\'83\'76\'82\'c9\'82\'c2\'82\'a2\'82\'c4\'98\'5f\'82\'b6\'82\'e9\'81\'42\
+\pard\pardeftab720\sa260\ql\qnatural
+
+\f3 \cf0 \
+Stasis
+\f1 \'82\'cd\'93\'60\'93\'9d\'93\'49\'82\'c8\'8f\'91\'82\'ab\'8d\'9e\'82\'dd\'97\'44\'90\'e6\'83\'8d\'83\'4d\'83\'93\'83\'4f\'83\'41\'83\'8b\'83\'53\'83\'8a\'83\'59\'83\'80(
+\f3 write-ahead logging algorithms
+\f1 )\'82\'c6\'83\'74\'83\'40\'83\'43\'83\'8b\'83\'56\'83\'58\'83\'65\'83\'80\'82\'cc\'83\'41\'83\'43\'83\'66\'83\'42\'83\'41\'82\'f0\'92\'8d\'93\'fc\'82\'b5\'82\'bd\'83\'58\'83\'67\'83\'8c\'81\'5b\'83\'57\'83\'47\'83\'93\'83\'57\'83\'93\'83\'74\'83\'8c\'81\'5b\'83\'80\'83\'8f\'81\'5b\'83\'4e\
+\'82\'c5\'82\'a0\'82\'e9\'81\'42\'83\'41\'83\'76\'83\'8a\'83\'50\'81\'5b\'83\'56\'83\'87\'83\'93\'82\'c9\'91\'ce\'82\'b5\'82\'c4\'83\'66\'81\'5b\'83\'5e\'8d\'5c\'91\'a2\'81\'41\'83\'66\'81\'5b\'83\'5e\'83\'8c\'83\'43\'83\'41\'83\'45\'83\'67\'81\'41\'8a\'e6\'8b\'ad\'82\'b3\'81\'41\'83\'70\'83\'74\'83\'48\'81\'5b\'83\'7d\'83\'93\'83\'58\'82\'cc\'8f\'5f\'93\'ee\'82\'c8\'83\'52\'83\'93\'83\'67\'83\'8d\'81\'5b\'83\'8b\'82\'f0\'97\'5e\'82\'a6\'82\'e9\'81\'42
+\f3 Stasis
+\f1 \'82\'cd\'8f\'91\'82\'ab\'8d\'9e\'82\'dd\'97\'44\'90\'e6\'83\'8d\'83\'4d\'83\'93\'83\'4f\'83\'41\'83\'8b\'83\'53\'83\'8a\'83\'59\'83\'80(
+\f3 write-ahead logging algorithms
+\f1 )\'82\'f0\'88\'ea\'94\'ca\'89\'bb\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'c5\'81\'41\'83\'67\'83\'89\'83\'93\'83\'55\'83\'4e\'83\'56\'83\'87\'83\'69\'83\'8b\'83\'58\'83\'67\'83\'8c\'81\'5b\'83\'57\'82\'cc\'82\'dc\'82\'be\'8c\'a9\'82\'ca\'95\'cf\'8c\'60\'94\'c5\'82\'f0\'8a\'4a\'94\'ad\'82\'b3\'82\'b9\'82\'e9\'82\'b1\'82\'c6\'82\'f0\'89\'c2\'94\'5c\'82\'c9\'82\'b5\'82\'bd\'81\'42\
+\'89\'e4\'81\'58\'82\'cd\'81\'41
+\f3 Stasis
+\f1 \'82\'f0\'83\'78\'81\'5b\'83\'58\'82\'c9\'82\'b5\'82\'bd\'81\'41\'93\'60\'93\'9d\'93\'49\'82\'c8\'83\'67\'83\'89\'83\'93\'83\'55\'83\'4e\'83\'56\'83\'87\'83\'69\'83\'8b\'83\'58\'83\'67\'83\'8c\'81\'5b\'83\'57\'83\'56\'83\'58\'83\'65\'83\'80\'82\'cc\'83\'70\'83\'74\'83\'48\'81\'5b\'83\'7d\'83\'93\'83\'58\'82\'f0\'95\'5d\'89\'bf\'82\'b5\'81\'41\'8a\'f9\'91\'b6\'82\'cc\'83\'56\'83\'58\'83\'65\'83\'80\'82\'e6\'82\'e8\'8d\'44\'88\'d3\'93\'49\'82\'c9\'93\'ae\'8d\'ec\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'f0\'8e\'a6\'82\'b5\'82\'bd\'81\'42\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \
+
+\f2 \
+}

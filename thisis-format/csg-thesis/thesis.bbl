@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{Chiba2000}
+Chiba, S.: Load-time Structural Reflection in Java,  {\em Proceedings of the
+  European Conference on Object-Oriented Programming\/}, pp.\ 313--336 (2000).
+
+\bibitem{Javassist}
+千葉滋: Javassist Home Page,
+  \url{http://www.csg.is.titech.ac.jp/~chiba/javassist/index.html}.
+
+\bibitem{Chiba2001a}
+千葉滋, 立堀道昭: Javaバイトコード変換による構造リフレクションの実現,
+  情報処理学会 論文誌,  Vol.~42, No.~11, pp.\ 2752--2760 (2001).
+
+\end{thebibliography}

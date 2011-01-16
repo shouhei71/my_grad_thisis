@@ -1,0 +1,97 @@
+{\rtf1\ansi\ansicpg932\cocoartf1038\cocoasubrtf320
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset128 HiraKakuProN-W3;\f2\fswiss\fcharset0 ArialMT;
+\f3\fnil\fcharset0 AppleSymbols;}
+{\colortbl;\red255\green255\blue255;}
+{\info
+{\author Shohei Okudera}}\paperw11900\paperh16840\margl1440\margr1440\vieww18000\viewh11120\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 ##############################\
+# 
+\f1 \'91\'b2\'98\'5f\'90\'b6\'82\'cc\'8f\'68\'91\'e8
+\f0 101004\
+##############################\
+\
+#
+\f2\fs26  VLDB\
+\
+1.\
+\uc0\u9633 title
+\f0\fs24 \
+C-Store: A Column-oriented DBMS
+\f3 \
+
+\f2\fs26 \uc0\u9633 
+\f1 abstruct\
+This paper presents the design of a read-optimized relational DBMS that contrasts sharply with most current systems, which are write-optimized. \
+(Among the many differences in its design are: \
+storage of data by column rather than by row, \
+careful coding and packing of objects into storage including main memory during query processing, storing an overlapping collection of column- oriented projections, rather than the current fare of tables	and	indexes,	\
+a non-traditional implementation of transactions which includes high availability and snapshot isolation for read-only transactions\
+ the extensive use of bitmap indexes to complement B-tree structures.\
+)\
+We present preliminary performance data on a subset of TPC-H and show that the system we are building, C-Store, is substantially\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 faster than popular	commercial	products.\
+\'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+\
+\
+\
+#NSDI\
+\
+
+\f2 2.\
+\uc0\u9633 title\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 Lookup Performance for Power-Law Query Distributions in Peer-to-Peer Overlays\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f2\fs26 \cf0 \uc0\u9633 
+\f1 abstruct\
+Structured peer-to-peer hash tables provide decentralization, self-organization, failure-resilience, and good worst-case lookup performance for applications, but suffer from high latencies (O(logN)) in the average case.\
+( Such high latencies prohibit them from being used in many relevant, demanding applications such as DNS.)\
+\
+ In this paper, we present a proactive(\'96\'e2\'91\'e8\'82\'c9\'82\'c8\'82\'e9\'91\'4f\'82\'c9\'8e\'96\'91\'4f\'82\'c9\'93\'ae\'82\'ad) replication frame-work that can provide constant lookup performance for common Zipf-like query distributions. This framework is based around a closed-form(\'8d\'c4\'8b\'41\'82\'b5\'82\'c8\'82\'a2.\'96\'b3\'8c\'c0\'83\'8b\'81\'5b\'83\'76\'82\'c9\'82\'c8\'82\'e7\'82\'c8\'82\'a2\'81\'48) optimal solution that achieves O(1) lookup performance with low storage requirements, bandwidth overhead and network load. \
+\
+Simulations show that this replication framework can realistically achieve good latencies, outperform passive caching, and adapt efficiently to sudden changes in object popularity, also known as flash crowds.( This framework provides a feasible substrate for high-performance, low-latency applications, such as peer-to-peer domain name service.)\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0  we present a proactive(\'96\'e2\'91\'e8\'82\'c9\'82\'c8\'82\'e9\'91\'4f\'82\'c9\'8e\'96\'91\'4f\'82\'c9\'93\'ae\'82\'ad) replication frame-work that can provide constant lookup performance for common Zipf-like query distributions. This framework is based around a closed-form(\'8d\'c4\'8b\'41\'82\'b5\'82\'c8\'82\'a2.\'96\'b3\'8c\'c0\'83\'8b\'81\'5b\'83\'76\'82\'c9\'82\'c8\'82\'e7\'82\'c8\'82\'a2\'81\'48) optimal solution that achieves O(1) lookup performance with low storage requirements, bandwidth overhead and network load.Simulations show outperform passive caching, and adapt efficiently to sudden changes in object popularity, also known as flash crowds.\
+\
+3.\
+
+\f2 \uc0\u9633 title\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f1 \cf0 Managing Flash Crowds on the Internet\
+
+\f2 \uc0\u9633 
+\f1 abstruct\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 A flash crowd is a surge in traffic to a particular Web site that causes the site to be virtually unreachable(\'83\'43\'83\'93\'83\'5e\'81\'5b\'83\'6c\'83\'62\'83\'67\'82\'c9\'90\'da\'91\'b1\'82\'b7\'82\'e9\'82\'b1\'82\'c6\'82\'aa\'95\'73\'89\'c2\'94\'5c\'81\'41\'82\'c8\'82\'a2\'82\'b5\'82\'cd\'8d\'a2\'93\'ef\'82\'c8\'8f\'f3\'91\'d4\'82\'f0\'8e\'77\'82\'b7). We present a model of flash crowd events and evaluate the performance of various multi-level caching techniques suitable for managing these events. By using well-dispersed(\'95\'aa\'8e\'55) caches and with judicious(\'8e\'76\'97\'b6\'82\'b3\'82\'ea\'82\'bd\'81\'41\'93\'4b\'90\'d8\'82\'c8) choice of replacement algorithms we show reductions in client response times by as much as a factor of 25.(25\'94\'7b) We also show that these caches eliminate the server and network hot spots by distributing the load over the entire network.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+\
+4.\'81\'a0title\
+Flash Crowds and Denial of Service Attacks: Characterization and Implications for CDNs and Web Sites\
+\'81\'a0abstract\
+The paper studies two types of events that often overload Web sites to a point when their services are degraded or disrupted - entirely flash events (FEs) and denial of service attacks (DoS). The former are created by legitimate requests and the latter contain malicious requests whose goal is to subvert the normal operation of the site. We study the properties of both types of events with a special attention to characteristics that distinguish the two. Identifying these characteristics allows a formulation of a strategy for Web sites to quickly discard malicious requests. \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \'81\'a0\'93\'fa\'96\'7b\'8c\'ea\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 We also show that some content distribution networks (CDNs) may not provide the desired level of protection to Web sites against flash events. We therefore propose an enhancement to CDNs that offers better protection and use trace-driven simula- tions to study the effect of our enhancement on CDNs and Web sites.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+\
+}
