@@ -1,47 +1,103 @@
 This is BibTeX, Version 0.99c (Web2C 7.5.4)
 The top-level auxiliary file: thesis.aux
-I found no \citation commands---while reading file thesis.aux
-I found no \bibdata command---while reading file thesis.aux
-I found no \bibstyle command---while reading file thesis.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            83 strings with 486 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+The style file: csg-thesis.bst
+is.kanji.str$ is an unknown function---line 244 of file csg-thesis.bst
+Database file #1: thesis.bib
+"" immediately follows an entry type---line 1 of file thesis.bib
+ : % $B9q:]2q5D$d8&5f2q$NO@J8
+ :                            (B
+I'm skipping whatever remains of this entry
+"" immediately follows an entry type---line 12 of file thesis.bib
+ : % $BO@J8;o
+ :            (B
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 14 of file thesis.bib
+ :   author =  "$B@iMU(B $B<"
+ :                              (B and $BN)KY(B $BF;><(B",
+I'm skipping whatever remains of this entry
+"" immediately follows an entry type---line 16 of file thesis.bib
+ :   journal =  "$B>pJs=hM}3X2q(B $BO@J8;o
+ :                                           (B",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 26 of file thesis.bib
+ :   author =  "$B@iMU(B $B<"
+ :                              (B",
+I'm skipping whatever remains of this entry
+"" immediately follows an entry type---line 33 of file thesis.bib
+ : % URL(\url$B$r;H$($P<+F0E*$K@^$j>v$^$l$k
+ :                                          (B)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 35 of file thesis.bib
+ :   author = "$B@iMU(B $B<"
+ :                             (B",
+I'm skipping whatever remains of this entry
+Warning--Missing required argument title in Chiba2001a
+Warning--Missing required argument journal in Chiba2001a
+Warning--Missing required argument year in Chiba2001a
+Warning--there's no number and/or volumeChiba2001a
+Warning--Missing required argument pages in Chiba2001a
+"$B<" is a string literal, not an integer, for entry Chiba2001a
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Chiba2001a
+while executing---line 1331 of file csg-thesis.bst
+1 is an integer literal, not a string, for entry Chiba2001a
+while executing---line 1331 of file csg-thesis.bst
+Warning--Missing required argument title in Javassist
+"$B<" is a string literal, not an integer, for entry Javassist
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Javassist
+while executing---line 1331 of file csg-thesis.bst
+1 is an integer literal, not a string, for entry Javassist
+while executing---line 1331 of file csg-thesis.bst
+"Chiba" is a string literal, not an integer, for entry Chiba2000
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Chiba2000
+while executing---line 1331 of file csg-thesis.bst
+1 is an integer literal, not a string, for entry Chiba2000
+while executing---line 1331 of file csg-thesis.bst
+"Proceedings of the European Conference on Object-Oriented Programming" is a string literal, not an integer, for entry Chiba2000
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Chiba2000
+while executing---line 1331 of file csg-thesis.bst
+You've used 3 entries,
+            2480 wiz_defined-function locations,
+            576 strings with 4686 characters,
+and the built_in function-call counts, 805 in all, are:
+= -- 62
+> -- 21
+< -- 1
++ -- 9
+- -- 6
+* -- 54
+:= -- 125
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 9
+duplicate$ -- 33
+empty$ -- 84
+format.name$ -- 9
+if$ -- 172
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 12
+num.names$ -- 6
+pop$ -- 22
+preamble$ -- 1
+purify$ -- 9
 quote$ -- 0
-skip$ -- 0
+skip$ -- 44
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 47
+swap$ -- 9
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+type$ -- 12
+warning$ -- 6
+while$ -- 9
+width$ -- 4
+write$ -- 18
+(There were 19 error messages)
