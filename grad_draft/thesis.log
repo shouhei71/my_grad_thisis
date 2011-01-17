@@ -1,0 +1,263 @@
+This is pTeX, Version 3.141592-p3.1.10 (jis.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  17 JAN 2011 12:02
+**thesis.tex
+(./thesis.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
+(/Applications/pTeX.app/teTeX/share/texmf/ptex/platex/base/jbook.cls
+Document Class: jbook 2006/06/27 v1.6 Standard pLaTeX class
+\c@@paper=\count81
+(/Applications/pTeX.app/teTeX/share/texmf/ptex/platex/base/jbk11.clo
+File: jbk11.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
+)
+\c@part=\count82
+\c@chapter=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 680.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count91
+)
+(./csg-thesis.sty
+Package: csg-thesis 2004/04/09 CSG Thesis Style
+)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/Applications/pTeX.app/teTeX/share/texmf/tex/latex/graphics/dvipdfmx-contrib-l
+atex/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 81.
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(/Applications/pTeX.app/teTeX/share/texmf/ptex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+) (./thesis.aux)
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+ [1
+
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 52.
+ (./abstract.tex) [1
+
+] (./ack.tex) [2
+
+] (./thesis.toc
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `thesis.toc'.
+
+ [3
+
+] (./thesis.lof)
+\tf@lof=\write4
+\openout4 = `thesis.lof'.
+
+
+[4
+
+] (./thesis.lot)
+\tf@lot=\write5
+\openout5 = `thesis.lot'.
+
+ (./chapter1.tex [5
+
+]
+第 1 章
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+
+[6
+
+]) (./chapter2.tex [7]
+第 2 章
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
+
+LaTeX Warning: Citation `Chiba2000' on page 8 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Chiba2001a' on page 8 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Javassist' on page 8 undefined on input line 9.
+
+) (./chapter3.tex [8
+
+]
+第 3 章
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 13.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 13.
+[9
+
+]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.26 \item OS: Linux^^I 2.6.35.10-74.fc14.x86_
+                                              64
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \item
+           Java 仮想マシン: Java SE 6 Update 21
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \item J
+            ava 仮想マシン: Java SE 6 Update 21
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \item J
+            ava 仮想マシン: Java SE 6 Update 21
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \item
+           CPU: 2.40 GHz Xeon E5620 × 2
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.28 \item C
+            PU: 2.40 GHz Xeon E5620 × 2
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.28 \item C
+            PU: 2.40 GHz Xeon E5620 × 2
+? 
+
+Overfull \hbox (21.40567pt too wide) in paragraph at lines 26--28
+[]\OT1/cmr/m/n/10.95 OS: Linux 2.6.35.10-74.fc14.x86$[]4\OML/cmm/m/it/10.95 Jav
+a \JY1/mc/m/n/10.95 仮想マシン \OT1/cmr/m/n/10.95 : \OML/cmm/m/it/10.95 JavaSE\
+OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 Update\OT1/cmr/m/n/10.95 21[][]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.28 \item C
+            PU: 2.40 GHz Xeon E5620 × 2
+? 
+[10]) (./chapter4.tex [11]
+第 4 章
+File: javassist.eps Graphic file (type eps)
+<javassist.eps>)
+
+! LaTeX Error: File `chapter5.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(./thesis.bbl) (./appendix.tex [12
+
+]
+付 録 A  
+) [13
+
+] (./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 789 strings out of 94681
+ 9716 string characters out of 1174652
+ 60324 words of memory out of 1500000
+ 4085 multiletter control sequences out of 10000+50000
+ 17224 words of font info for 67 fonts, out of 1200000 for 2000
+ 566 hyphenation exceptions out of 8191
+ 25i,4n,19p,531b,387s stack positions out of 5000i,500n,6000p,200000b,5000s
+
+Output written on thesis.dvi (14 pages, 22232 bytes).
