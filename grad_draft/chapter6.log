@@ -1,0 +1,203 @@
+This is pTeX, Version 3.141592-p3.1.10 (jis.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  18 JAN 2011 19:31
+**chapter6.tex
+(./chapter6.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
+! Undefined control sequence.
+l.2 \chapter
+            {結論}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \chapter{結
+               論}
+? 
+! Undefined control sequence.
+l.3 \section
+            {まとめ}
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--4
+[]
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 2--4
+\JY1/mc/m/n/10 結
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 2--4
+\JY1/mc/m/n/10 論
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 2--4
+\JY1/mc/m/n/10 ま
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 2--4
+\JY1/mc/m/n/10 と
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 2--4
+\JY1/mc/m/n/10 め 
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 通
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 信
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 量
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 測
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 定
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 方
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 法
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 を
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 紹
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 介
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 し
+ []
+
+
+Overfull \hbox (14.1623pt too wide) in paragraph at lines 5--6
+\JY1/mc/m/n/10 た 。 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
+
+Overfull \hbox (29.5556pt too wide) in paragraph at lines 6--7
+\OT1/cmr/m/n/10 gossip-
+ []
+
+
+Overfull \hbox (18.94447pt too wide) in paragraph at lines 6--7
+\OT1/cmr/m/n/10 base
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 プ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 ロ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 ト
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 コ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 ル
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 で
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 発
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 生
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 す
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 る
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 通
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 信
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 量
+ []
+
+
+Overfull \h

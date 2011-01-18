@@ -1,31 +1,60 @@
-\contentsline {chapter}{\numberline {第1章}はじめに}{7}
-\contentsline {chapter}{\numberline {第2章}関連研究}{9}
-\contentsline {section}{\numberline {2.1}Javassist}{9}
-\contentsline {section}{\numberline {2.2}Addistant}{9}
-\contentsline {chapter}{\numberline {第3章}測定手法}{10}
-\contentsline {section}{\numberline {3.1}Cassandraの概要}{10}
-\contentsline {section}{\numberline {3.2}Cassandraの軽量化}{10}
-\contentsline {subsection}{\numberline {3.2.1}プログラムの改変}{10}
-\contentsline {subsection}{\numberline {3.2.2}設定ファイルのパラメータ調整}{11}
-\contentsline {section}{\numberline {3.3}実験シナリオ}{11}
-\contentsline {subsection}{\numberline {3.3.1}実験環境}{11}
-\contentsline {subsection}{\numberline {3.3.2}計測方法について}{11}
-\contentsline {section}{\numberline {3.4}通信量の測定について}{12}
-\contentsline {chapter}{\numberline {第4章}実験・評価}{13}
-\contentsline {section}{\numberline {4.1}予備実験}{13}
-\contentsline {subsection}{\numberline {4.1.1}予備実験(1)}{13}
-\contentsline {subsection}{\numberline {4.1.2}予備実験(2)}{14}
-\contentsline {section}{\numberline {4.2}本実験}{14}
-\contentsline {section}{\numberline {4.3}評価}{14}
-\contentsline {subsection}{\numberline {4.3.1}総通信量の見積もり}{14}
-\contentsline {subsection}{\numberline {4.3.2}１ノードあたりの通信量}{14}
-\contentsline {subsection}{\numberline {4.3.3}システム全体の限界とは？}{15}
-\contentsline {subsection}{\numberline {4.3.4}通信量がO(n^2)でスケールしていく理由}{15}
-\contentsline {chapter}{\numberline {第5章}関連研究}{17}
-\contentsline {subsection}{\numberline {5.0.5}論文A}{17}
-\contentsline {chapter}{\numberline {第6章}結論}{18}
-\contentsline {section}{\numberline {6.1}まとめ}{18}
-\contentsline {section}{\numberline {6.2}今後の課題}{18}
-\contentsline {subsection}{\numberline {6.2.1}.gossip protocolを別の切り口から評価する}{18}
-\contentsline {subsection}{\numberline {6.2.2}Gossip Protocol以外のメンバーシップ管理の評価}{18}
-\contentsline {chapter}{\numberline {付 録A }プログラム例}{20}
+\contentsline {chapter}{\numberline {第1章}序論}{7}
+\contentsline {section}{\numberline {1.1}本研究の背景}{7}
+\contentsline {section}{\numberline {1.2}本研究の目的}{8}
+\contentsline {section}{\numberline {1.3}本研究の成果}{8}
+\contentsline {section}{\numberline {1.4}本研究の構成}{8}
+\contentsline {chapter}{\numberline {第2章}研究背景}{10}
+\contentsline {section}{\numberline {2.1}大規模分散システムとは}{11}
+\contentsline {section}{\numberline {2.2}集中型(?)}{11}
+\contentsline {subsection}{\numberline {2.2.1}集中型の特徴}{11}
+\contentsline {subsection}{\numberline {2.2.2}集中型の代表的なプロトコル}{11}
+\contentsline {subsubsection}{プロトコルA}{11}
+\contentsline {subsubsection}{プロトコルB}{11}
+\contentsline {subsubsection}{プロトコルC}{11}
+\contentsline {subsection}{\numberline {2.2.3}実装されているソフトウェア}{11}
+\contentsline {subsubsection}{ソフトウェアA}{11}
+\contentsline {subsubsection}{ソフトウェアB}{11}
+\contentsline {section}{\numberline {2.3}非集中型}{11}
+\contentsline {subsection}{\numberline {2.3.1}非集中型の特徴}{11}
+\contentsline {subsection}{\numberline {2.3.2}非集中型の代表的なプロトコル}{11}
+\contentsline {subsubsection}{プロトコルA}{11}
+\contentsline {subsubsection}{プロトコルB}{11}
+\contentsline {subsubsection}{プロトコルC}{11}
+\contentsline {subsection}{\numberline {2.3.3}実装されているソフトウェア}{11}
+\contentsline {subsubsection}{Amazon Dynamo}{11}
+\contentsline {subsubsection}{Cassandra}{11}
+\contentsline {section}{\numberline {2.4} 通信量の観点から評価が知られていない}{11}
+\contentsline {section}{\numberline {2.5}Javassist}{11}
+\contentsline {section}{\numberline {2.6}Addistant}{12}
+\contentsline {chapter}{\numberline {第3章}測定手法}{13}
+\contentsline {section}{\numberline {3.1}Cassandraの概要}{13}
+\contentsline {section}{\numberline {3.2}Cassandraの軽量化}{13}
+\contentsline {subsection}{\numberline {3.2.1}プログラムの改変}{13}
+\contentsline {subsection}{\numberline {3.2.2}設定ファイルのパラメータ調整}{14}
+\contentsline {section}{\numberline {3.3}実験シナリオ}{14}
+\contentsline {subsection}{\numberline {3.3.1}実験環境}{14}
+\contentsline {subsection}{\numberline {3.3.2}計測方法について}{15}
+\contentsline {section}{\numberline {3.4}通信量の測定について}{16}
+\contentsline {chapter}{\numberline {第4章}実験・評価}{17}
+\contentsline {section}{\numberline {4.1}予備実験}{17}
+\contentsline {subsection}{\numberline {4.1.1}予備実験(1)}{17}
+\contentsline {subsection}{\numberline {4.1.2}予備実験(2)}{18}
+\contentsline {section}{\numberline {4.2}本実験}{18}
+\contentsline {section}{\numberline {4.3}評価}{18}
+\contentsline {subsection}{\numberline {4.3.1}総通信量の見積もり}{18}
+\contentsline {subsection}{\numberline {4.3.2}１ノードあたりの通信量}{18}
+\contentsline {subsection}{\numberline {4.3.3}システム全体の限界とは？}{19}
+\contentsline {subsubsection}{TYPEA:データセンター３つでクラスタを構成する場合}{19}
+\contentsline {subsubsection}{TYPE B:データセンター１つでクラスタを構成する場合}{19}
+\contentsline {subsubsection}{TYPE C:ネットワーク1000base-Tのような切り口}{19}
+\contentsline {subsection}{\numberline {4.3.4}通信量がO($n^2$)でスケールしていく理由}{19}
+\contentsline {subsection}{\numberline {4.3.5}Cassandraのメンバーシップ管理の実装}{19}
+\contentsline {subsection}{\numberline {4.3.6}数式から説明}{19}
+\contentsline {chapter}{\numberline {第5章}関連研究}{21}
+\contentsline {subsection}{\numberline {5.0.7}論文A}{21}
+\contentsline {chapter}{\numberline {第6章}結論}{22}
+\contentsline {section}{\numberline {6.1}まとめ}{22}
+\contentsline {section}{\numberline {6.2}今後の課題}{22}
+\contentsline {subsection}{\numberline {6.2.1}.gossip protocolを別の切り口から評価する}{22}
+\contentsline {subsection}{\numberline {6.2.2}Gossip Protocol以外のメンバーシップ管理の評価}{22}
+\contentsline {chapter}{\numberline {付 録A }プログラム例}{24}

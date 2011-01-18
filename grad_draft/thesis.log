@@ -1,4 +1,4 @@
-This is pTeX, Version 3.141592-p3.1.10 (jis.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  17 JAN 2011 14:58
+This is pTeX, Version 3.141592-p3.1.10 (jis.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  18 JAN 2011 19:32
 **thesis.tex
 (./thesis.tex
 pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
@@ -84,7 +84,14 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 52.
- (./abstract.tex) [1
+ (./abstract.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 15.
+) [1
 
 ] (./ack.tex) [2
 
@@ -93,45 +100,13 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 ...}通信量がO(n^2)でスケールしていく理由}{15}
-                                                  
-? 
-! Extra }, or forgotten $.
-\@dottedtocline ... \hbox {}\hskip -\leftskip {#4}
-                                                  \nobreak \leaders \hbox {$...
-l.23 ...}通信量がO(n^2)でスケールしていく理由}{15}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 ...}通信量がO(n^2)でスケールしていく理由}{15}
-                                                  
-? 
-[3
+ [3
 
 ])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.63 \tableofcontents
-                            %% 目次
-? 
-[4] (./thesis.lof)
+ [4] (./thesis.lof)
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
@@ -145,465 +120,98 @@ l.63 \tableofcontents
 
 ]
 第 1 章
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
-(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
-
-[7
-
-]) (./chapter2.tex [8]
-第 2 章
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
+[7
 
-LaTeX Warning: Citation `Chiba2000' on page 9 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Chiba2001a' on page 9 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Javassist' on page 9 undefined on input line 9.
-
-) (./chapter3.tex [9
-
-]
-第 3 章
+]) (./chapter2.tex [8] [9]
+第 2 章
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 13.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 13.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 6.
 [10
 
-]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.27 \item OS; Linux^^I 2.6.35.10 74.fc14.x86_
-                                              64
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \item
-           Java 仮想マシン; Java SE 6 Update 21
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \item J
-            ava 仮想マシン; Java SE 6 Update 21
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \item J
-            ava 仮想マシン; Java SE 6 Update 21
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \item
-           CPU; 2.40 GHz Xeon E5620 × 2
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.29 \item C
-            PU; 2.40 GHz Xeon E5620 × 2
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.29 \item C
-            PU; 2.40 GHz Xeon E5620 × 2
-? 
-
-Overfull \hbox (15.93076pt too wide) in paragraph at lines 27--29
-[]\OT1/cmr/m/n/10.95 OS; Linux 2.6.35.10 74.fc14.x86$[]4\OML/cmm/m/it/10.95 Jav
-a \JY1/mc/m/n/10.95 仮想マシン\OT1/cmr/m/n/10.95 ; \OML/cmm/m/it/10.95 JavaSE\O
-T1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 Update\OT1/cmr/m/n/10.95 21[][]$ 
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.29 \item C
-            PU; 2.40 GHz Xeon E5620 × 2
-? 
-[11]) (./chapter4.tex [12]
-第 4 章
-! Missing number, treated as zero.
-<to be read again> 
-                   推 
-l.17 [推定される通信量]
-                       (t)  =  A(t) * 10 / 9\\
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   推 
-l.17 [推定される通信量]
-                       (t)  =  A(t) * 10 / 9\\
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   推(
-l.19 [推定される通信量]
-                       (t)  =  B(t) * 2 / 1\\
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   推(
-l.19 [推定される通信量]
-                       (t)  =  B(t) * 2 / 1\\
-? 
+]) (./chapter3.tex [11] [12]
+第 3 章
 [13
 
 ]
-Overfull \hbox (6.322pt too wide) in paragraph at lines 27--29
-\JY1/mc/m/n/10.95 うに変わるのかも調べた 。 実験では 、 以下のように 、 \OT1/cm
-r/m/n/10.95 seed \JY1/mc/m/n/10.95 数を \OT1/cmr/m/n/10.95 1,2,4,10,60,120
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 24.
+
+LaTeX Font Info:    No file OMScmtt.fd. on input line 24.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 24.
+
+[14]
+Overfull \hbox (16.97774pt too wide) in paragraph at lines 45--51
+[]\JY1/mc/m/n/10.95 そこで 、 \OT1/cmtt/m/n/10.95 IP \JY1/mc/m/n/10.95 エイリア
+シングを使用して仮想アドレスを作成し 、 \OT1/cmtt/m/n/10.95 Cassandra
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33 ...別に表したグラフであ る。(ただし、1M =10^
-                                                 6,1K=10^3 とする。)ノードの台
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.36 \section
-             {評価}
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.38 通信量は O(n^
-                  2)でスケール することがわかった。^^Iこの関数から、ノード台...
 
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.40 \subsection
-                {１ノードあたりの通信量}
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   １
-l.43 ^^I[１ノードあたりの通信量]
-                                 =  (224.6×n^2^^I + 4314.8×n) / n = 224.6...
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   １
-l.43 ^^I[１ノードあたりの通信量]
-                                 =  (224.6×n^2^^I + 4314.8×n) / n = 224.6...
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.43 ^^I[１ノードあたりの通信量] =  (224.6×n^
-                                              2^^I + 4314.8×n) / n = 224.6...
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.47 
-     
-? 
-[14]
-! Undefined control sequence.
-l.51 \subsbusection
-                   {TYPE A:データセンター３つでクラスタを構成する場合}
-? 
-! Undefined control sequence.
-l.53 \subsbusection
-                   {TYPE B:データセンター１つでクラスタを構成する場合}
-? 
-! Undefined control sequence.
-l.54 \subsbusection
-                   {TYPE C:ネットワーク1000base-Tのような切り口}
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.56 ...tion{通信量がO(n^2)でスケールしていく理由}
-                                                  
-? 
+Overfull \hbox (14.80075pt too wide) in paragraph at lines 45--51
+[]\JY1/mc/m/n/10.95 具体的には 、 \OT1/cmtt/m/n/10.95 10.20.0.0/16 \JY1/mc/m/n/
+10.95 のネ ッ トワ ークを用いた 。 さらに \OT1/cmtt/m/n/10.95 Cassandra
+ []
+
+
+Overfull \hbox (128.74602pt too wide) in paragraph at lines 52--56
+[]\JY1/mc/m/n/10.95 具体的には 、 \OT1/cmtt/m/n/10.95 sudo tcpdump -i dst net 1
+0.20.0.0/16 ..............................
+ []
+
+[15]) (./chapter4.tex [16]
+第 4 章
+
+Overfull \hbox (25.4528pt too wide) in paragraph at lines 27--29
+\JY1/mc/m/n/10.95 うに変わるのかも調べた 。 実験では 、 以下のように 、 \OT1/cm
+tt/m/n/10.95 seed \JY1/mc/m/n/10.95 数を \OT1/cmtt/m/n/10.95 1,2,4,10,60,120
+ []
+
+[17
+
+] [18]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 56.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.56 ...tion{通信量がO(n^2)でスケールしていく理由}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57 最後に、メンバーシップ管理の通信量がO(n^
-                                             2)でスケールしていく理由につい...
-? 
-! Undefined control sequence.
-l.58 \subseciont
-                {Cassandraのメンバーシップ管理の実装}
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.62 
-     
-? 
-! Undefined control sequence.
-l.63 \subseciont
-                {数式から説明}
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 ...数をnとして、安定時に発生する通信量がO(n^
-                                                 2)であることをしめす。
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.65 \begin{itemize}
-                    
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.65 \begin{itemize}
-                    
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 \item (
-            ノード台数) = n
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 \item (
-            総通信量/s) = (１台あたりの通信量/s) * (ノード台数)
-? 
-
-! LaTeX Error: \begin{document} ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 \end{itemize}
-                  
-? 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.68 \end{itemize}
-                  
-? 
-[15]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.85 \item (総通信量) = Order(n^
-                                2)
-? 
-
-! LaTeX Error: Command \end{itemize} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 \end{itemize}
-                  
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 \end{itemize}
-                  
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 \end{itemize}
-                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.86 \end{itemize}
-                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.88 ...いう意味合いはうすれ、より一般的なGossip^
-                                                 Protocol baseのメンバーシップ
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.89 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.89 
-     
-? 
-! Too many }'s.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.89 
-     
-? 
+(Font)              <12> on input line 55.
+ [19]
 File: javassist.eps Graphic file (type eps)
-<javassist.eps>) (./chapter5.tex [16]
+ <javassist.eps>) (./chapter5.tex [20]
 第 5 章
-) (./chapter6.tex [17
+) (./chapter6.tex [21
 
 ]
 第 6 章
-! Missing $ inserted.
-<inserted text> 
-                $
-l.6 ...ssip-baseのプロトコルで発生する通信量はO(n^
-                                                  2)でスケールする。
-? 
+) (./thesis.bbl [22
 
-! LaTeX Error: Command \item invalid in math mode.
+]
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\OT1/cmtt/m/n/10.95 : Load-time Structural Reflection in Java, pp.
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \item
-          クラスタ設計時の通信量を見積もることができる。
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \item ク
-            ラスタ設計時の通信量を見積もることができる。
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \item ク
-            ラスタ設計時の通信量を見積もることができる。
-? 
-
-! LaTeX Error: Command \end{enumerate} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \end{enumerate}
-                   
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \end{enumerate}
-                   
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \end{enumerate}
-                   
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.8 \end{enumerate}
-                   
-? 
-) (./thesis.bbl [18
-
-]) (./appendix.tex [19
+) (./appendix.tex [23
 
 ]
 付 録 A  
-) [20
+) [24
 
 ] (./thesis.aux)
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 799 strings out of 94681
- 9837 string characters out of 1174652
+ 791 strings out of 94681
+ 9618 string characters out of 1174652
  62324 words of memory out of 1500000
- 4089 multiletter control sequences out of 10000+50000
- 17839 words of font info for 69 fonts, out of 1200000 for 2000
+ 4081 multiletter control sequences out of 10000+50000
+ 18007 words of font info for 70 fonts, out of 1200000 for 2000
  566 hyphenation exceptions out of 8191
- 25i,7n,19p,531b,387s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 25i,7n,19p,778b,387s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on thesis.dvi (21 pages, 38060 bytes).
+Output written on thesis.dvi (25 pages, 49792 bytes).
