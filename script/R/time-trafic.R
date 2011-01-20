@@ -38,7 +38,7 @@ while ( counter <=length(data_file_name)){
 	x[,c(2)] <- x[,c(2)] * 8 /10
 	#drawing
 	plot(type="b",x[,c(1)],x[,c(2)],xlim= c(0,xlimit),ylim = c	(0,ylimit),yaxt="n",main=graph_title,xlab=xlab,ylab=ylab,cex.lab  = 1.8,cex.main = 1.4,cex.axis=1.8,
-pch=pchs[counter])
+pch=pchs[counter],col=colors[length(data_file_name) - counter +1])
 
 	#plot mean when being stable
 
@@ -49,7 +49,7 @@ pch=pchs[counter])
 }
 axis(2,at=c(0,5000000,10000000,15000000,20000000,25000000),labels=c("0","5","10","15","20","25"),cex.axis=1.7)
 legend(450,ylimit/5*4,legend=c("node=300", "node=210","node=120","node=30"),cex = 1.4
-,pch=c(3,2,1,0), #col=c(colors[1],colors[2],colors[3],colors[4])
+,pch=c(3,2,1,0), col=c(colors[1],colors[2],colors[3],colors[4])
 )
 
 

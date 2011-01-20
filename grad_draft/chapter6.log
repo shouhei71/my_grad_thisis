@@ -1,374 +1,91 @@
-This is pTeX, Version 3.141592-p3.1.10 (jis.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  18 JAN 2011 19:31
-**chapter6.tex
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=cont-en 2009.8.28)  20 JAN 2011 18:09
+entering extended mode
+ (/Applications/pTeX.app/teTeX/share/texmf-dist/web2c/natural.tcx)
+**&cont-en chapter6.tex
 (./chapter6.tex
-pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
-! Undefined control sequence.
-l.2 \chapter
-            {結論}
-? 
 
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \chapter{結
-               論}
-? 
-! Undefined control sequence.
-l.3 \section
-            {まとめ}
-? 
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 2--4
-[]
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 2--4
-\JY1/mc/m/n/10 結
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 2--4
-\JY1/mc/m/n/10 論
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 2--4
-\JY1/mc/m/n/10 ま
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 2--4
-\JY1/mc/m/n/10 と
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 2--4
-\JY1/mc/m/n/10 め 
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 通
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 信
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 量
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 の
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 測
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 定
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 方
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 法
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 を
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 紹
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 介
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 し
- []
-
-
-Overfull \hbox (14.1623pt too wide) in paragraph at lines 5--6
-\JY1/mc/m/n/10 た 。 
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 6.
-
-Overfull \hbox (29.5556pt too wide) in paragraph at lines 6--7
-\OT1/cmr/m/n/10 gossip-
- []
-
-
-Overfull \hbox (18.94447pt too wide) in paragraph at lines 6--7
-\OT1/cmr/m/n/10 base
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 の
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 プ
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 ロ
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 ト
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 コ
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 ル
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 で
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 発
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 生
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 す
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 る
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 通
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 信
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 量
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 は
- []
-
-
-Overfull \hbox (26.04408pt too wide) in paragraph at lines 6--7
-\OT1/cmr/m/n/10 O($\OML/cmm/m/it/10 n[]$\OT1/cmr/m/n/10 )
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 で
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 ス
- []
-
-
-Overfull \hbox (18.74432pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 ケ ー
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 ル
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 す
- []
-
-
-Overfull \hbox (14.1623pt too wide) in paragraph at lines 6--7
-\JY1/mc/m/n/10 る 。 
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 ク
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 ラ
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 ス
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 タ
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 設
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 計
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 時
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 の
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 通
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 信
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 量
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 を
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 見
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 積
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 も
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 る
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 こ
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 と
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 が
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 で
- []
-
-
-Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 き
- []
-
-
-Overfull \hbox (14.1623pt too wide) in paragraph at lines 7--8
-\JY1/mc/m/n/10 る 。 
- []
-
-! Undefined control sequence.
-l.9 \section
-            {今後の課題}
-? 
-! Undefined control sequence.
-l.10 \subsection
-                {.gossip protocolを別の切り口から評価する}
+ConTeXt  ver: 2005.01.31  fmt: 2009.8.28  int: english  mes: english
+
+language        : language en is active
+<protectionstate 0>
+system          : cont-new loaded
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/base/cont-new.tex
+systems         : beware: some patches loaded from cont-new.tex!
+color           : palette rollover is available
+system (E-TEX) : [line 878] 
+system (E-TEX) : [line 933] 
+)
+system          : cont-old loaded
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/base/cont-old.tex
+loading         : Context Old Macros
+)
+system          : cont-fil loaded
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/base/cont-fil.tex
+loading         : Context File Synonyms
+)
+system          : cont-sys.rme loaded
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/user/cont-sys.rme
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/base/type-syn.tex)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/base/type-enc.tex)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/base/type-dis.tex)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/base/type-siz.tex)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/base/type-map.tex)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/base/type-spe.tex)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/base/type-exa.tex)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/context/base/type-akb.tex))
+bodyfont        : 12pt rm is loaded
+language        : patterns en->default:default->1->2:2 de->texnansi:texnansi->3
+->2:2 de->ec:ec->4->2:2 fr->texnansi:texnansi->5->2:2 fr->ec:ec->6->2:2 es->def
+ault:default->7->2:2 it->texnansi:texnansi->8->2:2 it->ec:ec->9->2:2 nl->texnan
+si:texnansi->10->2:2 nl->ec:ec->11->2:2 loaded
+specials        : tex,postscript,rokicki loaded
+\openout2 = `chapter6.tui'.
+
+system          : chapter6.top loaded
+(./chapter6.top)
+\openout0 = `chapter6-mpgraph.mp'.
+
+\openout0 = `mpgraph.mp'.
+
+
+! Extra }, or forgotten $.
+<argument> ...trut \begstrut 結論\endstrut }
+                                                  \xdef \localheaddepth {\th...
+
+\@@ko::normal ...angafter 1 \noindent \unhbox 0 #2
+                                                  }\else \vbox {\localheadse...
+
+\doplaceheadnumbertext ...utes \dostopattributes }
+                                                  }\fi \endheadplacement {#1...
+
+\dodododosomekop ...mber ]{\finalsectionnumber }}}
+                                                  \writesection {#1}{#3}{#4}...
+l.2 \chapter{結論}
+                        
 ? 
 ! Emergency stop.
-l.10 \subsection
-                {.gossip protocolを別の切り口から評価する}
+<argument> ...trut \begstrut 結論\endstrut }
+                                                  \xdef \localheaddepth {\th...
+
+\@@ko::normal ...angafter 1 \noindent \unhbox 0 #2
+                                                  }\else \vbox {\localheadse...
+
+\doplaceheadnumbertext ...utes \dostopattributes }
+                                                  }\fi \endheadplacement {#1...
+
+\dodododosomekop ...mber ]{\finalsectionnumber }}}
+                                                  \writesection {#1}{#3}{#4}...
+l.2 \chapter{結論}
+                        
 End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
- 8 strings out of 94681
- 90 string characters out of 1174652
- 50353 words of memory out of 1500000
- 3393 multiletter control sequences out of 10000+50000
- 7511 words of font info for 31 fonts, out of 1200000 for 2000
- 566 hyphenation exceptions out of 8191
- 18i,1n,12p,102b,135s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 535 strings out of 62966
+ 9479 string characters out of 653817
+ 4463809 words of memory out of 5505821
+ 35306 multiletter control sequences out of 10000+50000
+ 20561 words of font info for 68 fonts, out of 1200000 for 2000
+ 94 hyphenation exceptions out of 8191
+ 28i,5n,28p,177b,516s stack positions out of 5000i,500n,6000p,200000b,5000s
 No pages of output.

@@ -1,0 +1,6 @@
+% chapter6.top
+\unprotect
+\setupsystem[\c!directory={/Users/shohei/}]
+\setupsystem[\c!n=1]
+\setupsystem[inputfile=chapter6.tex]
+\protect

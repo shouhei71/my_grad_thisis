@@ -1,24 +1,109 @@
 %%%%
-\chapter{関連研究}
-分散システムのメンバーシップ管理について通信量の観点から調べたという論文をサーチし載せる
-\subsection{論文A}
+\chapter{測定手法}
+\section{実験シナリオ}
+実験では、マスターとなるマシンを１台とワーカーとなるマシンを１０台を用意した。ワーカーマシンをlime11,lime12,...lime20と名付ける。マスターの役割は、通信量計測の開始・終了,Cassandraの起動,計測した記録の解析をワーカーに指示すること、最終的な通信量の推定を行うである。一方、ワーカーの役割は、通信量の計測、Cassandra ノー ドを起動すること、通信量の解析である。また、	1台あたり複数のCassandraノードを立ち上げる必要がある。Cassandraノードの立ち上げ方は、30 秒ごとに、1台あたり 10 ノードの Cassandra を一度に起 動し、これを目指す台数に達成するまで続ける。最初の Cassandra ノードを起動した瞬間から各マシンで10 分間の通信量を計測した。\\計測後に各マシンで通信量を解析し、マスターとなるマシンに解析結果を送信する。マスターは、送られて通信量から合計値を出し、Cassandraで発生する通信量の推定を行う。\\
+マスター、ワーカーで実行するプログラムは、シェルスクリプトでプログラムを書き、各ワーカーへの指示は、GXPを利用して制御した。また、パケット情報の解析には、java,R,シェルスクリプトを使った。\\
+\subsection{実験環境}
+以下に実験環境を示す。
+\begin{itemize}
+\item Cassandra 0.6.6	
+\item OS Linux	 2.6.35.10 74.fc14.x86\_64
+\item CPU: 2.40 GHz Xeon E5620 × 2
+\item Java 仮想マシン: Java SE 6 Update 21
+\item メモリー: 32GB RAM
+\item ネットワーク: 1000BASE-T
+\end{itemize}
+\subsection{計測方法について}
+計測にわたって、いくつか工夫した点を紹介する。\\
+\begin{itemize}
+\item ユーザーのリソース制約を外す\\
+(これをもっと具体的に掘り起こしていこうか)\\
+(通常のlinuxでは、一人のユーザーがリソース資源を専用しないために、OSが制限を加えている。)
+そのため、まるまるできなかった。デフォの設定が〇〇で何台までしか起動できなかった。と。
+特に、Cassanddradはメモリー使用量域、使用するスレッド数が多いため、ユーザーに与えられてユーザーリソース制約にぶち当たることがある。\\
+具体的にいくつか？ulimitでそれを外した。エラーがなくなった。
+今回プロセス数、メモリー数の制約を外した。
 
-% 表の例
-\begin{table}[tb]
+
+\item IPエイリアシングを利用し、プライベートネットワークを構築した\\
+Cassandraのメンバー管理では、IPアドレスでメンバーを認識する。つまり、今回の実験ように、１マシンあたり複数ノードのCassandraを立ち上げようとすると、不都合が生じる。\\
+そこで、IPエイリアシングを使用して仮想アドレスを作成し、Cassandraノードごとに割り振ることにした。その結果、同じマシン上に立ち上がったCassandraマシン同士の見分けがつき、不整合が起きなくなった。\\
+さらに、通信量の測定の際には、ノイズを防がないといけない。ここでノイズとは、Cassandraノード以外から要求されるリクエストのことである。具体的には、ARPとか、PINGなどのリクエストである。これらが誤って計測結果に加わることを避けるために、IPエイリアスリングを行うと同時に、
+プライベートネットワークを構築した。このネットワークに参加しているのは、Cassandraノードだけである。この作業で、プライベートネットワーク内で飛び交うパケットのみを取得すればよく、ノイズが減らすことができる。\\具体的には、10.20.0.0/16のネットワークを用いた。さらにCassandraノードがどのマシン上で起動しているかを判別しているために、クラスタ番号をnとして、
+10.20.n.0/24なるサブネットを仮想的に設けた。n=19のとき、10.20.19.1 〜10.20.19.254までの仮想アドレスを作成した。以下がifconfigコマンドを実行したときの実行結果と、プライベートアドレスでCassandraクラスタを構成したときの様子である。\\
+% 図の例
+\begin{figure}[tb]
  \begin{center}
-  \caption{Addistant 2の実行時間(秒)}
-  \label{tab:time}
-  \begin{tabular}{lr}
-   \hline
-                   & 時間 \\
-   \hline
-   X Window System & 15.0 \\
-   Addistant 1     &  3.0 \\
-   Addistant 2     &  2.0 \\
-   \hline
-  \end{tabular}
+  \includegraphics[width=15cm]{img/ipaliasing.eps}
+  \caption{ifconfigの実行結果}
+  \label{fig:javassist}
  \end{center}
-\end{table}
+\end{figure}
+\begin{figure}[tb]
+ \begin{center}
+  \includegraphics[width=15cm]{img/ring.eps}
+  \caption{Cassandraクラスタを構成したときの様子}
+  \label{fig:javassist}
+ \end{center}
+\end{figure}
 
-表~\ref{tab:time}は...
+\item tcpdumpの使用\\
+通信量の測定は、tcpdumpを使用した。上述したように、Cassandra Node同士のやりとりは、プライベートネットワーク上で行われるため、このネットワークをまたぐすべてのTCPパケットのサイズを記録した。具体的には、tcpdumpを以下のオプションをつけて実行した。取得するパケットは以下の二つの条件でフィルターをかけたものである。
+\begin{itemize}
+\item src net 10.20.0.0/16\\
+このフィルターにより、指定したデバイスを経由したパケットのうち、送信元が10.20.0.0/16のネットワークであるパケットのみが取得する。つまり、これで、このネットワーク以外のパケットを取得しないことになる。この条件で、余計なARPクエリなどを弾ける。
+\item  dst net 10.20.(マシン番号).0/24\\
+このフィルターにより、指定したデバイスを経由したパケットのうち、受信元が10.20.(マシン番号).0/16のネットワークであるパケットのみが取得できる。つまり、tcpdumpを実行するマシンで実行するCassandraノード宛のパケットを取得することになるのである。
+\end{itemize}
+この二つの条件により、他のマシンで起動しているCassandraノードからこのマシンで起動しているCassandraに送られてくるパケットだけを取得できるのである。以下、tcpdumpを実行したときの実行結果の例である。\\
+
+% 図の例
+\begin{figure}[tb]
+ \begin{center}
+  \includegraphics[width=15cm]{img/tcpdump.eps}
+  \caption{tcpdumpの実行結果}
+  \label{fig:javassist}
+ \end{center}
+\end{figure}
+
+
+
+\item 同じマシン上で動作しているCassandraノード同士の通信は取得できない。\\
+一方、tcpdumpで測定する方法では同じマシン上で動作しているCassandraノード同士の通信は取得できないことに留意したい。
+
+
+
+\end{itemize}
+
+\section{通信量の測定について}
+しかしながら、この計測方法では同じマシン上でのCassandraNode同士の通信を計測することはできない。そこで、我々は仮説をもとに、計測した総通信量からCassandra Nodeで発生する総通信量を推測することにした。我々がたてた仮定である。\\
+・任意のCassandra Node同士の通信量は平均すると同じである。\\
+この仮説をもとにすると、n台の各マシンでm台のcassandra nodeを起動したとする。
+(つまり、合計 n × m台のCassandraノードを立ち上げたとする)さらに、上のように、各マシンでtcpdumpを使用して計測した得られたトラフィックの合計をTとおき、Cassandra nodeで発生するそう通信量TTとく。(n-1) * m台のcassandra nodeで発生している通信量が Tであるので、仮説を使うと、n * m台の場合は、\\
+\begin{equation}
+TT = T * (n * m ) / ((n-1) * m ) = T * n / (n-1)
+\end{equation}
+となる。
+具体的に、n = 10台の時について、図を使いながら解説する。
+(グラフ)
+
+\section{自動で測定をして、解析まで行うプログラムの作成}
+実際にソースコードを載せていろいろ言いましょう。
+
+measureラ変のソースを載せてしまおうか。
+//少しコメント書く！
+% 図の例
+\begin{figure}[tb]
+ \begin{center}
+  \includegraphics[width=15cm]{img/measureScript.eps}
+  \caption{実行スクリプト}
+  \label{fig:javassist}
+ \end{center}
+\end{figure}
+
+
+
+
+
+
 
