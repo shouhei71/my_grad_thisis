@@ -200,4 +200,175 @@ Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
  []
 
 
-Overfull \h
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 は
+ []
+
+
+Overfull \hbox (26.04408pt too wide) in paragraph at lines 6--7
+\OT1/cmr/m/n/10 O($\OML/cmm/m/it/10 n[]$\OT1/cmr/m/n/10 )
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 で
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 ス
+ []
+
+
+Overfull \hbox (18.74432pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 ケ ー
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 ル
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 す
+ []
+
+
+Overfull \hbox (14.1623pt too wide) in paragraph at lines 6--7
+\JY1/mc/m/n/10 る 。 
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 ク
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 ラ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 ス
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 タ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 設
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 計
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 時
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 通
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 信
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 量
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 を
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 見
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 積
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 も
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 る
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 こ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 と
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 が
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 で
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 き
+ []
+
+
+Overfull \hbox (14.1623pt too wide) in paragraph at lines 7--8
+\JY1/mc/m/n/10 る 。 
+ []
+
+! Undefined control sequence.
+l.9 \section
+            {今後の課題}
+? 
+! Undefined control sequence.
+l.10 \subsection
+                {.gossip protocolを別の切り口から評価する}
+? 
+! Emergency stop.
+l.10 \subsection
+                {.gossip protocolを別の切り口から評価する}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 8 strings out of 94681
+ 90 string characters out of 1174652
+ 50353 words of memory out of 1500000
+ 3393 multiletter control sequences out of 10000+50000
+ 7511 words of font info for 31 fonts, out of 1200000 for 2000
+ 566 hyphenation exceptions out of 8191
+ 18i,1n,12p,102b,135s stack positions out of 5000i,500n,6000p,200000b,5000s
+No pages of output.
