@@ -4,42 +4,44 @@
 \contentsline {section}{\numberline {1.3}本研究の成果}{8}
 \contentsline {section}{\numberline {1.4}本研究の構成}{8}
 \contentsline {chapter}{\numberline {第2章}研究背景}{10}
-\contentsline {section}{\numberline {2.1}dependableシステムを実現するには？}{10}
-\contentsline {section}{\numberline {2.2}dependableシステムを実現するには故障検知が欠かせない}{10}
-\contentsline {section}{\numberline {2.3}Javassist}{10}
-\contentsline {section}{\numberline {2.4}Addistant}{10}
+\contentsline {section}{\numberline {2.1}大規模環境でdependableシステムを構築するのは難しい}{10}
+\contentsline {section}{\numberline {2.2}大規模環境でdependableシステムを構築するには、故障検知が欠かせない}{10}
 \contentsline {chapter}{\numberline {第3章}関連研究}{11}
-\contentsline {section}{\numberline {3.1}関連研究１}{11}
-\contentsline {section}{\numberline {3.2}関連研究２}{11}
-\contentsline {chapter}{\numberline {第4章}Cassandraについて}{12}
-\contentsline {section}{\numberline {4.1}Cassandraの概要}{12}
-\contentsline {section}{\numberline {4.2}Cassandraの軽量化}{12}
-\contentsline {subsection}{\numberline {4.2.1}プログラムの改変}{12}
-\contentsline {subsection}{\numberline {4.2.2}設定ファイルのパラメータ調整}{13}
-\contentsline {chapter}{\numberline {第5章}測定手法}{14}
-\contentsline {section}{\numberline {5.1}実験シナリオ}{14}
-\contentsline {subsection}{\numberline {5.1.1}実験環境}{14}
-\contentsline {subsection}{\numberline {5.1.2}計測方法について}{15}
-\contentsline {section}{\numberline {5.2}通信量の測定について}{16}
-\contentsline {section}{\numberline {5.3}自動で測定をして、解析まで行うプログラムの作成}{17}
-\contentsline {chapter}{\numberline {第6章}実験・評価}{22}
-\contentsline {section}{\numberline {6.1}予備実験}{22}
-\contentsline {subsection}{\numberline {6.1.1}予備実験(1) マシン数が異なる時の通信量の推定値は変わらない。}{22}
-\contentsline {subsection}{\numberline {6.1.2}予備実験(2)}{23}
-\contentsline {section}{\numberline {6.2}本実験}{23}
-\contentsline {section}{\numberline {6.3}評価}{23}
-\contentsline {subsection}{\numberline {6.3.1}総通信量の見積もり}{23}
-\contentsline {subsection}{\numberline {6.3.2}１ノードあたりの通信量}{23}
-\contentsline {subsection}{\numberline {6.3.3}システム全体の限界とは？}{24}
-\contentsline {subsubsection}{TYPEA:データセンター３つでクラスタを構成する場合}{24}
-\contentsline {subsubsection}{TYPE B:データセンター１つでクラスタを構成する場合}{24}
-\contentsline {subsubsection}{TYPE C:ネットワーク1000base-Tのような切り口}{24}
-\contentsline {subsection}{\numberline {6.3.4}通信量がO($n^2$)でスケールしていく理由}{24}
-\contentsline {subsection}{\numberline {6.3.5}Cassandraのメンバーシップ管理の実装}{24}
-\contentsline {subsection}{\numberline {6.3.6}数式から説明}{24}
-\contentsline {chapter}{\numberline {第7章}結論}{29}
-\contentsline {section}{\numberline {7.1}まとめ}{29}
-\contentsline {section}{\numberline {7.2}今後の課題}{29}
-\contentsline {subsection}{\numberline {7.2.1}.gossip protocolを別の切り口から評価する}{29}
-\contentsline {subsection}{\numberline {7.2.2}Gossip Protocol以外のメンバーシップ管理の評価}{29}
-\contentsline {chapter}{\numberline {付 録A }プログラム例}{31}
+\contentsline {section}{\numberline {3.1}大規模環境における故障検知についてのサーベイ}{11}
+\contentsline {section}{\numberline {3.2}関連研究２:Efficient Reconciliation and Flow Control for Anti-Entropy Protocols}{18}
+\contentsline {chapter}{\numberline {第4章}Cassandraについて}{19}
+\contentsline {section}{\numberline {4.1}Cassandraの概要}{19}
+\contentsline {subsection}{\numberline {4.1.1}Cassandraのメンバーシップ管理について}{19}
+\contentsline {subsection}{\numberline {4.1.2}Cassandraの故障検知について}{19}
+\contentsline {subsection}{\numberline {4.1.3}Cassandraのデータ保存部分}{20}
+\contentsline {subsection}{\numberline {4.1.4}Cassandraノードの判別}{20}
+\contentsline {section}{\numberline {4.2}Cassandraの軽量化}{20}
+\contentsline {subsection}{\numberline {4.2.1}プログラムの改変}{20}
+\contentsline {subsection}{\numberline {4.2.2}設定ファイルのパラメータ調整}{20}
+\contentsline {chapter}{\numberline {第5章}測定手法}{22}
+\contentsline {section}{\numberline {5.1}実験シナリオ}{22}
+\contentsline {subsection}{\numberline {5.1.1}実験環境}{22}
+\contentsline {subsection}{\numberline {5.1.2}計測方法について}{23}
+\contentsline {section}{\numberline {5.2}通信量の測定について}{26}
+\contentsline {section}{\numberline {5.3}自動で通信量の測定を行い、その後解析を行うプログラムを作成した}{27}
+\contentsline {chapter}{\numberline {第6章}実験・評価}{31}
+\contentsline {section}{\numberline {6.1}予備実験}{31}
+\contentsline {subsection}{\numberline {6.1.1}予備実験(1) マシン数が異なる時の通信量の推定値は変わらない。}{31}
+\contentsline {subsection}{\numberline {6.1.2}予備実験(2)}{32}
+\contentsline {section}{\numberline {6.2}本実験}{32}
+\contentsline {section}{\numberline {6.3}評価}{32}
+\contentsline {subsection}{\numberline {6.3.1}総通信量の見積もり}{32}
+\contentsline {subsection}{\numberline {6.3.2}１ノードあたりの通信量}{32}
+\contentsline {subsection}{\numberline {6.3.3}システム全体の限界とは？}{33}
+\contentsline {subsubsection}{TYPEA:データセンター３つでクラスタを構成する場合}{33}
+\contentsline {subsubsection}{TYPE B:データセンター１つでクラスタを構成する場合}{33}
+\contentsline {subsubsection}{TYPE C:ネットワーク1000base-Tのような切り口}{33}
+\contentsline {subsection}{\numberline {6.3.4}通信量がO($n^2$)でスケールしていく理由}{33}
+\contentsline {subsection}{\numberline {6.3.5}Cassandraのメンバーシップ管理の実装}{33}
+\contentsline {subsection}{\numberline {6.3.6}数式から説明}{33}
+\contentsline {chapter}{\numberline {第7章}結論}{38}
+\contentsline {section}{\numberline {7.1}まとめ}{38}
+\contentsline {section}{\numberline {7.2}今後の課題}{38}
+\contentsline {subsection}{\numberline {7.2.1}.gossip protocolを別の切り口から評価する}{38}
+\contentsline {subsection}{\numberline {7.2.2}Gossip Protocol以外のメンバーシップ管理の評価}{38}
+\contentsline {chapter}{\numberline {付 録A }プログラム例}{40}

@@ -1,14 +1,14 @@
-This is pTeX, Version 3.141592-p3.1.10 (jis.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  17 JAN 2011 14:58
+This is pTeX, Version 3.141592-p3.1.10 (jis.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  21 JAN 2011 11:50
 **chapter3.tex
 (./chapter3.tex
 pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
 ! Undefined control sequence.
 l.2 \chapter
-            {測定手法}
+            {関連研究}
 ? 
 ! Emergency stop.
 l.2 \chapter
-            {測定手法}
+            {関連研究}
 End of file on the terminal!
 
  
