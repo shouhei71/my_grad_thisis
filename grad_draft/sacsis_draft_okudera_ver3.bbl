@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{TC}
+´Ý»³ÉÔÆóÉ×,¼óÆ£°ì¹¬:¥¯¥é¥¦¥É¤Îµ»½Ñ, Vol.~pp.6--13, ASCII.
+
+\bibitem{CLON}
+Miguel Matos,Ant¡ï'onio Sousa and Jose Pereira and Rui Oliveira and Eric Deliot and Paul Murray:CLON: Overlay Networks and Gossip Protocols for Cloud Environments,{\em NOMS Workshops '08 \/} (2008).
+
+\bibitem{Cassandra}
+Avinash Lakchman and Prashant Malik:Cassandra -A Decentralized Structured Storage System, {\em LADIS '09 \/} (2009).
+
+\bibitem{Survey}
+Marcia Pasin and St'phane Fontaine and Sara Bouchenak:Failure Detection in Large Scale Systems: a Survey,{\em NOMS Workshops '08 \/}(2008).
+
+\bibitem{EfficientReconciliationan}
+Robbert van Renesse and Dan Dumitriu and Valient Gough and Chris Thomas and Amazon.com Seattle:Efficient Reconciliation and Flow Control for Anti-Entropy,{\em LADIS '08 \/} (2008).
+
+\bibitem{CassandraWiki} http://wiki.apache.org/cassandra/FrontPage:
+  Cassandra Wiki.
+
+\bibitem{YCSB}
+Brian F. Cooper,Adam Silberstein,Erwin Tam,Raghu Ramakrishnan and Russell Sears:Benchmarking Cloud Serving Systems with YCSB,{\em SoCC '10 \/} (2010).
+
+\bibitem{GXP}
+´ØÃ«³Ù»Ë,ÅÄ±º·ò¼¡Ï¯: An Extention to Grid-Shell GXP for Persisting Computation,{\em ¾ðÊó½èÍý³Ø²ñÏÀÊ¸»ï \/} (2000)
+
+
+\bibitem{Dynamo}
+Giuseppe de C, iaLA, Deniz Hastoruna, Madan Jampani, Gunavardhan Kakulapati, Avinash Lakchman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall and Werner Vogels:Dynamo:Amazon'sHighly Available Key-value Store,{\em SOSP '07 \/} (2007).
+
+\bibitem{CREW}
+Mayur Deshpande, Bo Xing, Iosif Lazardis, Bijit Hore, Nalini Venkatasubramanian and Sharad Mehrotra:CREW: A Gossip-based Flash-Dissemination System,{\em
+ICDCA '06 \/} (2006).
+
+\bibitem{JetStream}
+Jay A. Patel, Indranil Gupta and Noshir Contractor:JetStream: probabilistic contour extraction with particles {\em Computer Vision, 2001. ICCV '01 \/}(2001).
+
+
+
+\end{thebibliography}

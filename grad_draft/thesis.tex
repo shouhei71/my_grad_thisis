@@ -11,6 +11,7 @@
 \usepackage{csg-thesis}
 \usepackage{graphicx,url}
 \usepackage{wrapfig}
+\setcounter{secnumdepth}{3}
 
 
 \begin{document}
@@ -37,13 +38,13 @@
 % 所属(学部と大学院で変更)
 \department{東京工業大学 理学部 情報科学科}
 %\department{%
-%東京工業大学大学院 情報理工学研究科\\
+%東京工業大学大学院 情報理工学研究科\\
 %数理・計算科学専攻}
 
-% 学籍番号
+% 学籍番号
 \stnumber{07-0615-4}
 
-% 指導教員(教官ではなくなった...)
+% 指導教員()
 \supervisor{首藤 一幸 准教授}
 
 \maketitle
@@ -56,9 +57,7 @@
 \end{abstract}
 
 % 謝辞
-\begin{acknowledgments}
-\input{ack.tex}
-\end{acknowledgments}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -72,7 +71,7 @@
 %\pagenumbering{roman}  %% ページ番号をローマ数字にする
 
 \listoffigures         %% 図目次(図がない場合は不要)
-\listoftables          %% 表目次(表がない場合は不要)
+%\listoftables          %% お表目次(表がない場合は不要)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -88,6 +87,7 @@
 \input{chapter5.tex}
 \input{chapter6.tex}
 \input{chapter7.tex}
+\input{chapter8.tex}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -99,13 +99,19 @@
 %  (3)さらに platex にかける
 %  (4)もう何回か platex にかける
 %
+\begin{acknowledgments}
+\input{ack.tex}
+\end{acknowledgments}
+
 \bibliographystyle{csg-thesis}
 \bibliography{thesis}  %% thesis.bib というファイルを用意
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % 付録が必要ならつける
-\appendix
-\input{appendix.tex}
+%\appendix
+%\input{appendix.tex}
+
+
 
 \end{document}

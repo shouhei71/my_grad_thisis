@@ -1,0 +1,33 @@
+\begin{thebibliography}{10}
+
+\bibitem{CassandraWiki}
+: Cassandra Wiki.
+
+\bibitem{GXP}
+: GXP:Grid and Cluster Shell.
+
+\bibitem{YCSB}
+Benchmarking Cloud Serving Systems with YCSB (2010).
+
+\bibitem{Dynamo}
+Dynamo:Amazon'sHighly Available Key-value Store (2007).
+
+\bibitem{CREW}
+CREW: A Gossip-based Flash-Dissemination System (2006).
+
+\bibitem{Cassandra}
+Cassandra -A Decentralized Structured Storage System (2009).
+
+\bibitem{CLON}
+CLON: Overlay Networks and Gossip Protocols for Cloud Environments, (2008).
+
+\bibitem{Survey}
+Failure Detection in Large Scale Systems: a Survey (2008).
+
+\bibitem{JetStream}
+JetStream: probabilistic contour extraction with particles (2001).
+
+\bibitem{EfficientReconciliationan}
+Efficient Reconciliation and Flow Control for Anti-Entropy (2008).
+
+\end{thebibliography}

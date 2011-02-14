@@ -1,0 +1,90 @@
+
+
+◇主目的、
+gossip以外の非集中プロトコルを探す。
+◇サブ目的
+関連論部になりそうならメモっておく。
+
+◇memo
+failulre detectorでググルと、
+「故障が起きたときのシステム内での合意形成アルゴリズムとか出てくるな。」
+
+◇結論
+中村さん、gossipとは、Monitoring Patternsの切り口の一つである。
+モニターしているノードとのコミュニケーションの取り方
+よって、同レベルのワードは、
+1.全体全でコミュニケーションをとる
+2.randomでノードを選択してコミュニケーションとる
+3.近接ノードのみコミュニケーションをとる
+
+
+●全対全
+http://www.cs.cornell.edu/~asdas/research/dsn02-SWIM.pdf
+でprevioutsで紹介している。これを紹介するか！
+
+
+●近傍ベース
+
+◇関連研究
+・非集中、通信量を測ってみました。
+・(優れている点)違いをのべる。
+
+-----------------------------------------------------------------------------------------------------------------
+◇
+
+
+■■■■■ 非集中型の(分散型の)故障検知 ■■■■■
+１
+◇title
+Overlay Networks and Gossip Protocols for Cloud Environments
+◇URL
+http://cctc.uminho.pt/publications/pub-2009-112
+◇abstract
+エピデミック、ゴシップベースのマルチキャストは、信頼できるデータ伝搬において剛健でスケールするアプローチ
+であるが、その本質的な冗長性によりリンクやノードに対して高いリソース消費をもたらす結果となっている。
+グローバルでコネクトされたのデータセンター間から構成されるクラウドコンピューティングインフラで起きているような、
+コストが高く(?)、リソース制約がある環境ではこの問題はさらに強調される。
+この論文の目標はそれゆえ、制約のあるリンクにかかる負荷を減らすことで、ゴシップベースの信頼性のマルチキャストの効率性を改善することである。
+詳しくは、提案したCLONプロトコルでローカルリンクとローカリティを考慮した伝搬戦略にプリファレンスを与え、オーバレイを組み合わせた。
+大規模な拡張実験の評価では、制約されたリンクのトラヒック内で一桁異なるトラヒックの減少になった。
+同時にゴシップベースのプロトコルが魅力的にさせる弾力性を保存する。
+
+
+4 Clon protocol
+In this section, we describe our Reliable Multicast service, whose goal is to address the reliability and resilience requirements of a Cloud scenario, while coping with its aggregate(総計) bandwidth demands. Instead of starting with an hiearchical approach as the ones presented above and improving its resilience to churn and faults, we rely on the resilience of the unstructured flat approach and improve it to approximate the desirable perfomance metrics, namely with respect to the bandwidth requirements on the costlier long-distance links.(長い距離のリンクのバンド幅の必要条件にも答える。)
+
+the Peer Sampling Service and the dissem- ination process.の二つで達成したよ。
+
+First, the peer sampling service builds an overlay that mimics the structure of the underlying network but without relying on special nodes as in the approaches presented previously or in any type of global knowledge.(グローバルの情報なしに、アンダーレイのネットワークの構造を模造したオーバレイを構成する。) With this approach our protocol is able to tolerate considerable amounts of failures and be resilient to churn as the traditional flat protocols.
+ Finally, the dissemination protocol builds atop the Peer Sampling Service and is responsible for the actual exchange of messages between peers.(実際のピア同士のメッセージ交換に責任を負う。) This protocol supports different dissemination strategies,(さまざまな伝搬ストラテジーをサポート) that could be used to achieve different latency versus bandwidth trade-offs without endangering correctness. Additionaly, the dissemination also takes into account locality further reducing the load imposed on the costlier links.(コストの高いリンクにかかる負荷を軽減するためにローカルティを考慮して伝搬を行う。)
+
+
+本論文では、MTBFが非常に高いクラウド環境を想定して、gossip-baseの信頼性が高いマルチキャストを効率のよく
+実現するために、CLON protocolという手法を提案している。特に、データセンター間のリンクなど、集約され
+CLON protocolでは、
+
+
+◇工夫
+●ローカルリンク
+・確率的なノードの統合、いくつかのサブスクリプションリクエストの投入、平均ノードでグリーがシステムサイズを自動で調整することをかのうにする。
+
+
+●ローカリティを考慮した伝搬戦略にプリファレンス
+
+1
+
+
+
+
+２
+◇title
+On scalable and efficient distributed failure detectors
+◇URL
+http://portal.acm.org/citation.cfm?id=384010
+◇abstract
+分散されたアプリケーション、サービスにおけるプロセスグループは、信頼性のないメッセージ配達の中でも、出来る限り完全に、素早く、正確に、スケーラブルに、故障検知がプロセスの故障を検知することを任せている。今論文では、我々は、近似的なスケーラビリティを定量化し、ネットワーク負荷(サイズ制限のあるメッセージ/s)、アプリケーションに特化した必要条件の機能として、分散して、完全な故障検知の観点から見た。
+
+
+
+
+

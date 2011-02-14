@@ -1,0 +1,221 @@
+This is pTeX, Version 3.141592-p3.1.10 (euc.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  28 JAN 2011 15:12
+**sacsis_draft_okudera_ver1.tex
+(./sacsis_draft_okudera_ver1.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
+(./ipsjpapers.cls
+Document Class: ipsjpapers 2001/05/01 ver 2.08
+(./ipsjpapers.sty
+\old@latex@skip=\skip41
+\@Q=\dimen118
+\jfsize=\count81
+\jspaceskip=\dimen119
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 553.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 553.
+\@mojihaba=\dimen120
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 570.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 570.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 570.
+\@abstractbox=\box41
+\@titlewidth=\dimen121
+\@eabstractbox=\box42
+\mkt@prevdepth=\dimen122
+\mkt@titlebox=\box43
+\mkt@cnta=\count82
+\mkt@cntb=\count83
+\mkt@sname=\count84
+\mkt@gname=\count85
+\mkt@boxa=\box44
+\mkt@namewidth=\dimen123
+\c@affi@footnote=\count86
+\c@volpageoffset=\count87
+\c@volume=\count88
+\c@number=\count89
+\c@year=\count90
+\@leftcolumnfootnote=\box45
+\@rightcolumnfootnote=\box46
+\opt@baselineskip=\skip42
+\bio@picbox=\box47
+\bio@colht=\dimen124
+\bio@splitheight=\dimen125
+\bio@maxgap=\dimen126
+\bio@lastgap=\dimen127
+\bio@th=\dimen128
+\bio@lhA=\dimen129
+\bio@hA=\dimen130
+\bio@hB=\dimen131
+\bio@lh=\dimen132
+\bio@rh=\dimen133
+\bio@tempdim=\dimen134
+\bio@pbox=\insert233
+ (./ipsjcommon.sty
+\c@section=\count91
+\c@subsection=\count92
+\c@subsubsection=\count93
+\c@paragraph=\count94
+\c@subparagraph=\count95
+\bib@adjustheight=\dimen135
+\c@figure=\count96
+\c@table=\count97
+\cap@linewidth=\dimen136
+\cap@hsize=\dimen137
+\cap@prevgraf=\count98
+\cap@box=\box48
+\PF@fnotectr=\count99
+\PF@page=\count100
+\adj@boxa=\box49
+\adj@boxb=\box50
+\adj@height=\dimen138
+\adj@deadcycle=\count101
+)))
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/Applications/pTeX.app/teTeX/share/texmf/tex/latex/graphics/dvipdfmx-contrib-l
+atex/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 81.
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(./sacsis_draft_okudera_ver1.aux
+
+LaTeX Warning: Label `fig:javassist' multiply defined.
+
+
+LaTeX Warning: Label `fig:javassist' multiply defined.
+
+)
+\openout1 = `sacsis_draft_okudera_ver1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 38.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 47.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 47.
+
+
+LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 47.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 47.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 47.
+[1
+
+
+]
+File: img/gossip_gray.eps Graphic file (type eps)
+ <img/gossip_gray.eps>
+Overfull \hbox (24.19382pt too wide) in paragraph at lines 117--118
+[][] 
+ []
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 118.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 118.
+[2]
+Overfull \hbox (0.18018pt too wide) in alignment at lines 160--163
+[][][] [] 
+ []
+
+[3]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 177.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 177.
+ [4] [5]
+Overfull \hbox (2.74443pt too wide) detected at line 271
+ $\OML/cmm/m/it/9 T \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Tt \OMS/cmsy/m/n/9 ^^C \OT
+1/cmr/m/n/9 (\OML/cmm/m/it/9 n \OMS/cmsy/m/n/9 ^^C \OML/cmm/m/it/9 m\OT1/cmr/m/
+n/9 )\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 ((\OML/cmm/m/it/9 n \OMS/cmsy/m/n/9 ^^@ \O
+T1/cmr/m/n/9 1) \OMS/cmsy/m/n/9 ^^C \OML/cmm/m/it/9 m\OT1/cmr/m/n/9 ) = \OML/cm
+m/m/it/9 Tt \OMS/cmsy/m/n/9 ^^C \OML/cmm/m/it/9 n=\OT1/cmr/m/n/9 (\OML/cmm/m/it
+/9 n \OMS/cmsy/m/n/9 ^^@ \OT1/cmr/m/n/9 1) []$
+ []
+
+File: img/time-node-black.png Graphic file (type eps)
+<img/time-node-black.png>
+Overfull \hbox (22.76657pt too wide) in paragraph at lines 304--305
+ [] 
+ []
+
+File: img/node-traffic.png Graphic file (type eps)
+<img/node-traffic.png>
+Overfull \hbox (22.76657pt too wide) in paragraph at lines 313--314
+ [] 
+ []
+
+File: img/ycsb-node-traffic.png Graphic file (type eps)
+<img/ycsb-node-traffic.png>
+Overfull \hbox (22.76657pt too wide) in paragraph at lines 323--324
+ [] 
+ []
+
+[6] (./sacsis_draft_okudera_ver1.bbl
+Missing character: There is no ^^93 in font cmr9!
+ [7]) [8
+
+] (./sacsis_draft_okudera_ver1.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1077 strings out of 94681
+ 13226 string characters out of 1174652
+ 70305 words of memory out of 1500000
+ 4395 multiletter control sequences out of 10000+50000
+ 17604 words of font info for 68 fonts, out of 1200000 for 2000
+ 566 hyphenation exceptions out of 8191
+ 30i,12n,24p,707b,492s stack positions out of 5000i,500n,6000p,200000b,5000s
+
+Output written on sacsis_draft_okudera_ver1.dvi (8 pages, 60504 bytes).

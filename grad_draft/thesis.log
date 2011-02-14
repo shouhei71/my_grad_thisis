@@ -1,4 +1,4 @@
-This is pTeX, Version 3.141592-p3.1.10 (jis.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  21 JAN 2011 21:33
+This is pTeX, Version 3.141592-p3.1.10 (jis.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  7 FEB 2011 12:19
 **thesis.tex
 (./thesis.tex
 pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
@@ -68,83 +68,61 @@ Package: wrapfig 2003/01/31  v 3.6
 )
 (./thesis.aux
 
-LaTeX Warning: Label `fig:javassist' multiply defined.
-
-
-LaTeX Warning: Label `fig:javassist' multiply defined.
-
-
-LaTeX Warning: Label `fig:javassist' multiply defined.
-
-
-LaTeX Warning: Label `fig:javassist' multiply defined.
-
-
-LaTeX Warning: Label `fig:javassist' multiply defined.
-
-
-LaTeX Warning: Label `fig:javassist' multiply defined.
+LaTeX Warning: Label `fig:infer-gossip-traffic' multiply defined.
 
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  [1
 
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 55.
  (./abstract.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 15.
+(Font)              <10.95> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 13.
 ) [1
-
-] (./ack.tex) [2
 
 ] (./thesis.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
- [3
+ [2
 
 ])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [4] (./thesis.lof)
+ [3] (./thesis.lof)
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [5
 
-] (./thesis.lot)
-\tf@lot=\write5
-\openout5 = `thesis.lot'.
-
- (./chapter1.tex [6
+(./chapter1.tex [4
 
 ]
 第 1 章
@@ -152,180 +130,185 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
-[7
+[5
 
-]) (./chapter2.tex [8] [9]
+]) (./chapter2.tex [6] [7]
 第 2 章
-) (./chapter3.tex [10
+[8
+
+]) (./chapter3.tex [9]
+第 3 章
+[10
 
 ]
-第 3 章
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 9.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 9.
+Overfull \hbox (8.96294pt too wide) in paragraph at lines 20--20
+[]\OT1/cmr/bx/n/14.4 CREW: A Gossip-based Flash-Dissemination
+ []
 
-LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 9.
-
-[11
-
-] [12] [13] [14] [15] [16] [17]) (./chapter4.tex [18]
+) (./chapter4.tex [11]
 第 4 章
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 10.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 10.
-[19
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
 
-] [20]) (./chapter5.tex [21]
+[12
+
+] [13] [14] [15] [16] [17]
+File: img/gossip_gray.png Graphic file (type eps)
+ <img/gossip_gray.png>
+Overfull \hbox (56.31427pt too wide) in paragraph at lines 217--218
+ [] 
+ []
+
+[18] [19]) (./chapter5.tex [20]
 第 5 章
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 7.
+) (./chapter6.tex [21
+
+]
+第 6 章
 [22
 
-]
+] [23]
+File: img/ulimit-before.png Graphic file (type eps)
+ <img/ulimit-before.png>
 
-Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
-put line 37.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: img/ipaliasing.eps Graphic file (type eps)
-<img/ipaliasing.eps>
-Overfull \hbox (16.97774pt too wide) in paragraph at lines 31--41
-[]\JY1/mc/m/n/10.95 そこで 、 \OT1/cmtt/m/n/10.95 IP \JY1/mc/m/n/10.95 エイリア
-シングを使用して仮想アドレスを作成し 、 \OT1/cmtt/m/n/10.95 Cassandra
+File: img/ulimit-after.png Graphic file (type eps)
+<img/ulimit-after.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: img/ipaliasing.png Graphic file (type eps)
+<img/ipaliasing.png>
+Overfull \hbox (84.79134pt too wide) in paragraph at lines 97--98
+ [] 
+ []
+
+[24]
+File: img/ring.png Graphic file (type eps)
+ <img/ring.png>
+Overfull \hbox (84.79134pt too wide) in paragraph at lines 105--106
+ [] 
  []
 
 
-Overfull \hbox (24.837pt too wide) in paragraph at lines 31--41
-[]\JY1/mc/m/n/10.95 具体的には 、 \OT1/cmtt/m/n/10.95 10.20.0.0/16 \JY1/mc/m/n/
-10.95 のネ ッ トワ ークを構築した 。 さらに \OT1/cmtt/m/n/10.95 Cassandra
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--41
-[]
- []
-
-[23]
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 41
-.
-
-
-Package wrapfig Warning: Collision between wrapping environments on input line 
-43.
-
-
-Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
-put line 43.
-
-File: img/ring.eps Graphic file (type eps)
-<img/ring.eps> [24]
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 49
-.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [25]
+File: img/tcpdump.png Graphic file (type eps)
+ <img/tcpdump.png>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 52
-.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[26] [27] [28] [29]
+File: img/infer-gossip-traffic.png Graphic file (type eps)
+ <img/infer-gossip-traffic.png>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 54
-.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[30] [31]
+File: img/infer-data-traffic1.png Graphic file (type eps)
+ <img/infer-data-traffic1.png>
+File: img/infer-data-traffic2.png Graphic file (type eps)
+ <img/infer-data-traffic2.png>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 57
-.
-
-File: img/tcpdump.eps Graphic file (type eps)
-<img/tcpdump.eps>
-Overfull \hbox (84.79134pt too wide) in paragraph at lines 62--63
- [] 
- []
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 70
-.
-
-
-Overfull \hbox (35.7188pt too wide) in paragraph at lines 78--79
-[]\OT1/cmtt/m/n/10.95 tcpdump \JY1/mc/m/n/10.95 を使用した上のような計測方法で
-は 、 同じマシン上での \OT1/cmtt/m/n/10.95 CassandraNode
- []
-
-[26]
-File: img/measureScript.eps Graphic file (type eps)
- <img/measureScript.eps>
-Overfull \hbox (84.79134pt too wide) in paragraph at lines 101--102
- [] 
- []
-
-) (./chapter6.tex [27] [28] [29] [30]
-第 6 章
-File: img/infer-traffic.eps Graphic file (type eps)
-<img/infer-traffic.eps>
-Overfull \hbox (84.79134pt too wide) in paragraph at lines 25--26
- [] 
- []
-
-
-Overfull \hbox (25.4528pt too wide) in paragraph at lines 37--41
-\JY1/mc/m/n/10.95 うに変わるのかも調べた 。 実験では 、 以下のように 、 \OT1/cm
-tt/m/n/10.95 seed \JY1/mc/m/n/10.95 数を \OT1/cmtt/m/n/10.95 1,2,4,10,60,120
- []
-
-[31
-
-]
-Overfull \hbox (17.00616pt too wide) detected at line 57
-\OT1/cmr/m/n/10.95 [\JY1/mc/m/n/10.95 １ノードあたりの通信量\OT1/cmr/m/n/10.95 
-] = (224\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6 \JY1/mc/m/n/10.95 × \OML/cmm
-/m/it/10.95 n[] \OT1/cmr/m/n/10.95 + 4314\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.9
-5 8 \JY1/mc/m/n/10.95 × \OML/cmm/m/it/10.95 n\OT1/cmr/m/n/10.95 )\OML/cmm/m/it
-/10.95 =n \OT1/cmr/m/n/10.95 = 224\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6 \JY
-1/mc/m/n/10.95 × \OML/cmm/m/it/10.95 n \OT1/cmr/m/n/10.95 + 4314\OML/cmm/m/it/
-10.95 :\OT1/cmr/m/n/10.95 8[] []
- []
-
-File: img/time-traffic.eps Graphic file (type eps)
-<img/time-traffic.eps>
-Overfull \hbox (84.79134pt too wide) in paragraph at lines 62--63
- [] 
- []
-
-File: img/node-traffic.eps Graphic file (type eps)
-<img/node-traffic.eps>
-Overfull \hbox (84.79134pt too wide) in paragraph at lines 69--70
- [] 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [32]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 82.
+File: img/infer-data-traffic3.png Graphic file (type eps)
+ <img/infer-data-traffic3.png>
+File: img/infer-data-traffic4.png Graphic file (type eps)
+ <img/infer-data-traffic4.png>
 
-Overfull \hbox (133.9935pt too wide) detected at line 101
-\OT1/cmr/m/n/10.95 (\JY1/mc/m/n/10.95 １台あたりの通信量\OT1/cmr/m/n/10.95 ) = 
-(\JY1/mc/m/n/10.95 １秒あたりの \OML/cmm/m/it/10.95 gossip \JY1/mc/m/n/10.95 通
-信する回数\OT1/cmr/m/n/10.95 ) \OMS/cmtt/m/n/10.95 ^^C \OT1/cmr/m/n/10.95 (\JY1
-/mc/m/n/10.95 一回あたりの \OML/cmm/m/it/10.95 gossip \JY1/mc/m/n/10.95 通信に
-かかる通信量\OT1/cmr/m/n/10.95 )
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33]) (./chapter7.tex [34] [35] [36] [37]
+[33]
+File: img/mearsureScript.png Graphic file (type eps)
+ <img/mearsureScript.png> [34]) (./chapter7.tex [35] [36] [37]
 第 7 章
-) (./thesis.bbl [38
+File: img/infer-traffic.png Graphic file (type eps)
+<img/infer-traffic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[38
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[]\OT1/cmtt/m/n/10.95 : Load-time Structural Reflection in Java, pp.
+File: img/ycsb-machine-traffic.png Graphic file (type eps)
+ <img/ycsb-machine-traffic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[39]
+File: img/ycsb-query-traffic.png Graphic file (type eps)
+ <img/ycsb-query-traffic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (8.38606pt too wide) in paragraph at lines 80--84
+\JY1/mc/m/n/10.95 予想される 。 ノ ード台数は \OT1/cmr/m/n/10.95 120 \JY1/mc/m/
+n/10.95 台と固定し 、 $\OML/cmm/m/it/10.95 qps \OT1/cmr/m/n/10.95 = 500\OML/cmm
+/m/it/10.95 ; \OT1/cmr/m/n/10.95 1000\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 2
+000\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 3000\OML/cmm/m/it/10.95 ; \OT1/cmr/
+m/n/10.95 4000$
  []
 
-) (./appendix.tex [39
+[40] [41]
+File: img/time-traffic.png Graphic file (type eps)
+ <img/time-traffic.png>
+File: img/node-traffic.png Graphic file (type eps)
+ <img/node-traffic.png>
+File: img/ycsb-node-traffic.png Graphic file (type eps)
+
+<img/ycsb-node-traffic.png> [42] [43] [44] [45]
+File: img/link_b_dc.png Graphic file (type eps)
+ <img/link_b_dc.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[46] [47]) (./chapter8.tex [48]
+第 8 章
+[49
+
+]) [50] (./ack.tex) (./thesis.bbl [51
 
 ]
-付 録 A  
-) [40
 
-] (./thesis.aux)
+LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
+(Font)              using `JT1/gt/m/n' instead on input line 7.
+
+
+LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
+(Font)              using `JY1/gt/m/n' instead on input line 7.
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 29--30
+[]\OT1/cmr/m/n/10.95 Giuseppe de C, iaLA, Deniz Has-toruna, Madan Jam-pani,
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 29--30
+\OT1/cmr/m/n/10.95 Gu-navard-han Kaku-la-p-ati, Avinash Lakch-man, Alex Pilchin
+,
+ []
+
+[52
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]\OT1/cmr/m/n/10.95 http://www.microsoft.com/windowsazure/:Windows
+ []
+
+) [53] (./thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -334,12 +317,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 872 strings out of 94681
- 10726 string characters out of 1174652
+ 940 strings out of 94681
+ 12061 string characters out of 1174652
  62484 words of memory out of 1500000
- 4148 multiletter control sequences out of 10000+50000
- 18007 words of font info for 70 fonts, out of 1200000 for 2000
+ 4205 multiletter control sequences out of 10000+50000
+ 17738 words of font info for 69 fonts, out of 1200000 for 2000
  566 hyphenation exceptions out of 8191
- 25i,5n,19p,778b,482s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 25i,6n,19p,634b,432s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on thesis.dvi (41 pages, 86316 bytes).
+Output written on thesis.dvi (54 pages, 137644 bytes).

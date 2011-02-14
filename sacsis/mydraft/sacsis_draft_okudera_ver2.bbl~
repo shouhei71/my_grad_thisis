@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{TC}
+¥›ª≥…‘∆Û…◊,ºÛ∆£∞Ïπ¨:•Ø•È•¶•…§ŒµªΩ—, Vol.~pp.6--13, ASCII.
+
+\bibitem{CLON}
+Miguel Matos,Ant°Ô'onio Sousa and Jose Pereira and Rui Oliveira and Eric Deliot and Paul Murray:CLON: Overlay Networks and Gossip Protocols for Cloud Environments,{\em NOMS Workshops '08 \/} (2008).
+
+\bibitem{Cassandra}
+Avinash Lakchman and Prashant Malik:Cassandra -A Decentralized Structured Storage System, {\em LADIS '09 \/} (2009).
+
+\bibitem{Survey}
+Marcia Pasin and St'phane Fontaine and Sara Bouchenak:Failure Detection in Large Scale Systems: a Survey,{\em NOMS Workshops '08 \/}(2008).
+
+\bibitem{EfficientReconciliationan}
+Robbert van Renesse and Dan Dumitriu and Valient Gough and Chris Thomas and Amazon.com Seattle:Efficient Reconciliation and Flow Control for Anti-Entropy,{\em LADIS '08 \/} (2008).
+
+\bibitem{CassandraWiki}
+http://wiki.apache.org/cassandra/FrontPage: Cassandra Wiki.
+
+\end{thebibliography}

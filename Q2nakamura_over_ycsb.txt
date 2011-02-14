@@ -1,0 +1,118 @@
+中村さん、質問させてください。
+
+◇YCSBのレコードの追加がうまくいきません。
+./doLoad.sh a large.load
+を実行しています。
+
+1.目的のオペレーション数が実行されていないこと。
+2.実行時にエラーが吐き出されること
+
+1.目的のオペレーション数が実行されていないこと
+
+large.loadの内容は以下です。
+[okudera@lime15 ycsb-0.1.2]$ cat large.load 
+db=com.yahoo.ycsb.db.CassandraClient6
+hosts=lime16,lime17,lime18,lime19,lime20
+recordcount=10000000
+threadcount=800
+
+
+目的数に到達する前に、レコードの挿入が終わっています。
+どこか設定ファイルを間違っているということなのでしょうか？
+
+2.実行時にエラーが吐き出されること
+
+
+レコードの追加が止まったあとに、
+Unable to connect to lime04 after 300 tries
+や、
+Unable to connect to lime02 after 300 tries
+と出力されます。lime02,lime04と出るということは、
+設定ファイルが上書き出来ていないということなのでしょうか？
+
+よろしくお願いします。
+
+----------------------------------------------------
+◇出力結果
+
+
+
+./doEx.sh
+YCSB Client 0.1
+Command line: -load -P workloads/workloada -P large.load -s
+Loading workload...
+Starting test.
+ 0 sec: 0 operations;
+ 10 sec: 176107 operations; 17556.28 current ops/sec; [INSERT AverageLatency(ms)=6.29]
+ 20 sec: 255522 operations; 7938.32 current ops/sec; [INSERT AverageLatency(ms)=16.08]
+ 30 sec: 397245 operations; 14170.88 current ops/sec; [INSERT AverageLatency(ms)=8.2]
+ 40 sec: 550612 operations; 15335.17 current ops/sec; [INSERT AverageLatency(ms)=8.62]
+ 50 sec: 711847 operations; 16120.28 current ops/sec; [INSERT AverageLatency(ms)=7.39]
+ 60 sec: 822613 operations; 11075.49 current ops/sec; [INSERT AverageLatency(ms)=11.51]
+ 70 sec: 980084 operations; 15745.53 current ops/sec; [INSERT AverageLatency(ms)=8.03]
+ 80 sec: 1127777 operations; 14766.35 current ops/sec; [INSERT AverageLatency(ms)=8.37]
+ 90 sec: 1278132 operations; 15034 current ops/sec; [INSERT AverageLatency(ms)=7.82]
+ 100 sec: 1417941 operations; 13978.1 current ops/sec; [INSERT AverageLatency(ms)=9.29]
+ 110 sec: 1570394 operations; 15243.78 current ops/sec; [INSERT AverageLatency(ms)=7.97]
+ 120 sec: 1650000 operations; 7959.8 current ops/sec; [INSERT AverageLatency(ms)=5.84]
+ 130 sec: 1650000 operations; 0 current ops/sec;
+ 140 sec: 1650000 operations; 0 current ops/sec;
+ 150 sec: 1650000 operations; 0 current ops/sec;
+ 160 sec: 1650000 operations; 0 current ops/sec;
+ 170 sec: 1650000 operations; 0 current ops/sec;
+ 180 sec: 1650000 operations; 0 current ops/sec;
+ 190 sec: 1650000 operations; 0 current ops/sec;
+ 200 sec: 1650000 operations; 0 current ops/sec;
+ 210 sec: 1650000 operations; 0 current ops/sec;
+ 220 sec: 1650000 operations; 0 current ops/sec;
+ 230 sec: 1650000 operations; 0 current ops/sec;  
+ 240 sec: 1650000 operations; 0 current ops/sec;  
+ 250 sec: 1650000 operations; 0 current ops/sec;  
+ 260 sec: 1650000 operations; 0 current ops/sec;  
+ 270 sec: 1650000 operations; 0 current ops/sec;  
+ 280 sec: 1650000 operations; 0 current ops/sec;  
+ 290 sec: 1650000 operations; 0 current ops/sec;  
+ 300 sec: 1650000 operations; 0 current ops/sec;  
+Unable to connect to lime04 after 300 tries
+Unable to connect to lime04 after 300 tries
+com.yahoo.ycsb.DBException: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+        at com.yahoo.ycsb.db.CassandraClient6.init(CassandraClient6.java:112)
+        at com.yahoo.ycsb.DBWrapper.init(DBWrapper.java:63)
+        at com.yahoo.ycsb.ClientThread.run(Client.java:189)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+        at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+        at com.yahoo.ycsb.db.CassandraClient6.init(CassandraClient6.java:93)
+        ... 2 more
+Caused by: java.net.ConnectException: Connection refused
+        at java.net.PlainSocketImpl.socketConnect(Native Method)
+        at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+        at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+        at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+        at java.net.Socket.connect(Socket.java:529)
+        at java.net.Socket.connect(Socket.java:478)
+        at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+        ... 3 more
+com.yahoo.ycsb.DBException: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+        at com.yahoo.ycsb.db.CassandraClient6.init(CassandraClient6.java:112)
+        at com.yahoo.ycsb.DBWrapper.init(DBWrapper.java:63)
+        at com.yahoo.ycsb.ClientThread.run(Client.java:189)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+        at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+        at com.yahoo.ycsb.db.CassandraClient6.init(CassandraClient6.java:93)
+        ... 2 more
+Caused by: java.net.ConnectException: Connection refused
+        at java.net.PlainSocketImpl.socketConnect(Native Method)
+        at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+        at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+        at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+        at java.net.Socket.connect(Socket.java:529)
+        at java.net.Socket.connect(Socket.java:478)
+        at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+        ... 3 more
+Unable to connect to lime02 after 300 tries
+…….
+以下続く、
+----------------------------------------------------
+

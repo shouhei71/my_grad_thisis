@@ -2,14 +2,26 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces gossipプロトコル}}{18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces ifconfigの実行結果}}{25}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Cassandraクラスタを構成したときの様子}}{28}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces tcpdumpの実行結果}}{29}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 実行スクリプト}}{30}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces infer-trafficの実行結果}}{35}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces infer-trafficの実行結果}}{36}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces infer-trafficの実行結果}}{37}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces リソース制限変更前}}{25}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces リソース制限変更後}}{26}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces {\tt ifconfig}の実行結果}}{27}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Cassandraクラスタを構成したときの様子}}{28}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces {\tt tcpdump}の実行結果}}{29}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces gossip通信量の推定}}{31}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces データ通信量の推定 $ \sim $gossipの通信を含む$ \sim $}}{32}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces データ通信量の推定 $ \sim $gossipの通信を含まず$ \sim $}}{33}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces データ通信量の推定 $ \sim $gossipの通信を含む$ \sim $}}{36}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces データ通信量の推定 $ \sim $gossipの通信を含まず$ \sim $}}{36}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces 実行スクリプト}}{37}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces マシン台数に応じたgossipの通信量の時間変化}}{39}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces マシン台数別のデータ読み書きの通信量推定値}}{40}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces リクエスト量に応じたデータ読み書き通信量の増加}}{41}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces ノード数別のgossip通信量の時間変化}}{43}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces ノード数に応じたgossip通信量の増加}}{44}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces qps一定時のノード数に応じたデータ読み書き通信量の変化}}{45}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces 二つのデータセンターをまたぐクラスタの構成}}{47}
 \addvspace {10\p@ }

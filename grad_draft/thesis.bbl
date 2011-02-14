@@ -1,12 +1,47 @@
 \begin{thebibliography}{1}
 
-\bibitem{Chiba2001a}
-: .
+\bibitem{TC}
+ŠÛR•s“ñ•v,ñ“¡ˆêK:ƒNƒ‰ƒEƒh‚Ì‹Zp, Vol.~pp.6--13, ASCII.
 
-\bibitem{Javassist}
-: .
+\bibitem{CLON}
+Miguel Matos,Ant'onio Sousa and Jose Pereira and Rui Oliveira and Eric Deliot and Paul Murray:CLON: Overlay Networks and Gossip Protocols for Cloud Environments,{\em NOMS Workshops '08 \/} (2008).
 
-\bibitem{Chiba2000}
-: Load-time Structural Reflection in Java, pp.\ 313--336 (2000).
+\bibitem{Cassandra}
+Avinash Lakchman and Prashant Malik:Cassandra -A Decentralized Structured Storage System, {\em LADIS '09 \/} (2009).
+
+\bibitem{Survey}
+Marcia Pasin and St'phane Fontaine and Sara Bouchenak:Failure Detection in Large Scale Systems: a Survey,{\em NOMS Workshops '08 \/}(2008).
+
+\bibitem{EfficientReconciliationan}
+Robbert van Renesse and Dan Dumitriu and Valient Gough and Chris Thomas and Amazon.com Seattle:Efficient Reconciliation and Flow Control for Anti-Entropy,{\em LADIS '08 \/} (2008).
+
+\bibitem{CassandraWiki} http://wiki.apache.org/cassandra/FrontPage:
+  Cassandra Wiki.
+
+\bibitem{YCSB}
+Brian F. Cooper,Adam Silberstein,Erwin Tam,Raghu Ramakrishnan and Russell Sears:Benchmarking Cloud Serving Systems with YCSB,{\em SoCC '10 \/} (2010).
+
+\bibitem{GXP}
+ŠÖ’JŠxj,“c‰YŒ’Ÿ˜N: An Extention to Grid-Shell GXP for Persisting Computation,{\em î•ñˆ—Šw‰ï˜_•¶ \/} (2000).
+
+
+\bibitem{Dynamo}
+Giuseppe de C, iaLA, Deniz Hastoruna, Madan Jampani, Gunavardhan Kakulapati, Avinash Lakchman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall and Werner Vogels:Dynamo:Amazon'sHighly Available Key-value Store,{\em SOSP '07 \/} (2007).
+
+\bibitem{CREW}
+Mayur Deshpande, Bo Xing, Iosif Lazardis, Bijit Hore, Nalini Venkatasubramanian and Sharad Mehrotra:CREW: A Gossip-based Flash-Dissemination System,{\em
+ICDCA '06 \/} (2006).
+
+\bibitem{JetStream}
+Jay A. Patel, Indranil Gupta and Noshir Contractor:JetStream: probabilistic contour extraction with particles, {\em Computer Vision, 2001. ICCV '01 \/}(2001).
+
+\bibitem{google_storage} 
+Google:Google Storage for Developers,{\em Google I/O '10 \/} (2010).
+
+\bibitem{S3}
+http://aws.amazon.com/jp/s3/:Amazon S3.
+
+\bibitem{azure}
+http://www.microsoft.com/windowsazure/:Windows Azure:Microsoft's Cloud Services Platform.
 
 \end{thebibliography}

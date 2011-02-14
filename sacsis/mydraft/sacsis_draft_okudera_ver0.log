@@ -1,0 +1,895 @@
+This is pTeX, Version 3.141592-p3.1.10 (euc.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  26 JAN 2011 14:07
+**sacsis_draft_okudera_ver0.tex
+(./sacsis_draft_okudera_ver0.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
+(./ipsjpapers.cls
+Document Class: ipsjpapers 2001/05/01 ver 2.08
+(./ipsjpapers.sty
+\old@latex@skip=\skip41
+\@Q=\dimen118
+\jfsize=\count81
+\jspaceskip=\dimen119
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 553.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 553.
+\@mojihaba=\dimen120
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 570.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 570.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 570.
+\@abstractbox=\box41
+\@titlewidth=\dimen121
+\@eabstractbox=\box42
+\mkt@prevdepth=\dimen122
+\mkt@titlebox=\box43
+\mkt@cnta=\count82
+\mkt@cntb=\count83
+\mkt@sname=\count84
+\mkt@gname=\count85
+\mkt@boxa=\box44
+\mkt@namewidth=\dimen123
+\c@affi@footnote=\count86
+\c@volpageoffset=\count87
+\c@volume=\count88
+\c@number=\count89
+\c@year=\count90
+\@leftcolumnfootnote=\box45
+\@rightcolumnfootnote=\box46
+\opt@baselineskip=\skip42
+\bio@picbox=\box47
+\bio@colht=\dimen124
+\bio@splitheight=\dimen125
+\bio@maxgap=\dimen126
+\bio@lastgap=\dimen127
+\bio@th=\dimen128
+\bio@lhA=\dimen129
+\bio@hA=\dimen130
+\bio@hB=\dimen131
+\bio@lh=\dimen132
+\bio@rh=\dimen133
+\bio@tempdim=\dimen134
+\bio@pbox=\insert233
+ (./ipsjcommon.sty
+\c@section=\count91
+\c@subsection=\count92
+\c@subsubsection=\count93
+\c@paragraph=\count94
+\c@subparagraph=\count95
+\bib@adjustheight=\dimen135
+\c@figure=\count96
+\c@table=\count97
+\cap@linewidth=\dimen136
+\cap@hsize=\dimen137
+\cap@prevgraf=\count98
+\cap@box=\box48
+\PF@fnotectr=\count99
+\PF@page=\count100
+\adj@boxa=\box49
+\adj@boxb=\box50
+\adj@height=\dimen138
+\adj@deadcycle=\count101
+)))
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/Applications/pTeX.app/teTeX/share/texmf/tex/latex/graphics/dvipdfmx-contrib-l
+atex/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 81.
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(/Applications/pTeX.app/teTeX/share/texmf/tex/latex/graphics/dvipdfmx-contrib-l
+atex/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/color.cfg
+File: color.cfg 2005/02/03 v1.3 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 126.
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)) (./sacsis_draft_okudera_ver0.aux)
+\openout1 = `sacsis_draft_okudera_ver0.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.65 ...る通信量は、ノード 台数をnとしたとき、O(n^
+                                                  2) でスケールすることを確...
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 65.
+! Not two-byte family.
+l.65 ...量は、ノード 台数をnとしたとき、O(n^2) で
+                                                 スケールすることを確認した。定
+
+? 
+! Not two-byte family.
+l.65 ...は、ノード 台数をnとしたとき、O(n^2) でス
+                                                 ケールすることを確認した。定量
+
+? 
+! Not two-byte family.
+l.65 ...、ノード 台数をnとしたとき、O(n^2) でスケ
+                                                 ールすることを確認した。定量的
+
+? 
+! Not two-byte family.
+l.65 ...ノード 台数をnとしたとき、O(n^2) でスケー
+                                                 ルすることを確認した。定量的に
+
+? 
+! Not two-byte family.
+l.65 ...ード 台数をnとしたとき、O(n^2) でスケール
+                                                 することを確認した。定量的にク
+
+? 
+! Not two-byte family.
+l.65 ...ド 台数をnとしたとき、O(n^2) でスケールす
+                                                 ることを確認した。定量的にクラ
+
+? 
+! Not two-byte family.
+l.65 ... 台数をnとしたとき、O(n^2) でスケールする
+                                                 ことを確認した。定量的にクラウ
+
+? 
+! Not two-byte family.
+l.65 ...台数をnとしたとき、O(n^2) でスケールするこ
+                                                  とを確認した。定量的にクラ...
+
+? 
+! Not two-byte family.
+l.65 ...数をnとしたとき、O(n^2) でスケールすること
+                                                  を確認した。定量的にクラウ...
+
+? 
+! Not two-byte family.
+l.65 ...をnとしたとき、O(n^2) でスケールすることを
+                                                  確認した。定量的にクラウド...
+
+? 
+! Not two-byte family.
+l.65 ...nとしたとき、O(n^2) でスケールすることを確
+                                                  認した。定量的にクラウドス...
+
+? 
+! Not two-byte family.
+l.65 ...したとき、O(n^2) でスケールすることを確認
+                                                 した。定量的にクラウドストレー
+
+? 
+! Not two-byte family.
+l.65 ...たとき、O(n^2) でスケールすることを確認し
+                                                 た。定量的にクラウドストレージ
+
+? 
+! Not two-byte family.
+l.65 ...とき、O(n^2) でスケールすることを確認した
+                                                 。定量的にクラウドストレージの
+
+? 
+! Not two-byte family.
+l.65 ...き、O(n^2) でスケールすることを確認した。
+                                                 定量的にクラウドストレージのgo
+
+? 
+! Not two-byte family.
+l.65 ...、O(n^2) でスケールすることを確認した。定
+                                                 量的にクラウドストレージのgoss
+
+? 
+! Not two-byte family.
+l.65 ...O(n^2) でスケールすることを確認した。定量
+                                                 的にクラウドストレージのgossip
+
+? 
+! Not two-byte family.
+l.65 ...(n^2) でスケールすることを確認した。定量的
+                                                  にクラウドストレージのgoss...
+
+? 
+! Not two-byte family.
+l.65 ...^2) でスケールすることを確認した。定量的に
+                                                  クラウドストレージのgossip...
+
+? 
+! Not two-byte family.
+l.65 ...) でスケールすることを確認した。定量的にク
+                                                  ラウドストレージのgossip通...
+
+? 
+! Not two-byte family.
+l.65 ...でスケールすることを確認した。定量的にクラ
+                                                  ウドストレージのgossip通信...
+
+? 
+! Not two-byte family.
+l.65 ...スケールすることを確認した。定量的にクラウ
+                                                  ドストレージのgossip通信量...
+
+? 
+! Not two-byte family.
+l.65 ...ケールすることを確認した。定量的にクラウド
+                                                  ストレージのgossip通信量を...
+
+? 
+! Not two-byte family.
+l.65 ...ールすることを確認した。定量的にクラウドス
+                                                  トレージのgossip通信量を計...
+
+? 
+! Not two-byte family.
+l.65 ...ルすることを確認した。定量的にクラウドスト
+                                                  レージのgossip通信量を計測...
+
+? 
+! Not two-byte family.
+l.65 ...することを確認した。定量的にクラウドストレ
+                                                  ージのgossip通信量を計測で...
+
+? 
+! Not two-byte family.
+l.65 ...ることを確認した。定量的にクラウドストレー
+                                                  ジのgossip通信量を計測でき...
+
+? 
+! Not two-byte family.
+l.65 ...ことを確認した。定量的にクラウドストレージ
+                                                  のgossip通信量を計測できた。
+? 
+! Not two-byte family.
+l.65 ...とを確認した。定量的にクラウドストレージの
+                                                  gossip通信量を計測できた。
+? 
+! Not two-byte family.
+l.65 ...した。定量的にクラウドストレージのgossip通
+                                                  信量を計測できた。
+? 
+! Not two-byte family.
+l.65 ...た。定量的にクラウドストレージのgossip通信
+                                                  量を計測できた。
+? 
+! Not two-byte family.
+l.65 ...。定量的にクラウドストレージのgossip通信量
+                                                  を計測できた。
+? 
+! Not two-byte family.
+l.65 ...定量的にクラウドストレージのgossip通信量を
+                                                  計測できた。
+? 
+! Not two-byte family.
+l.65 ...量的にクラウドストレージのgossip通信量を計
+                                                  測できた。
+? 
+! Not two-byte family.
+l.65 ...的にクラウドストレージのgossip通信量を計測
+                                                  できた。
+? 
+! Not two-byte family.
+l.65 ...にクラウドストレージのgossip通信量を計測で
+                                                  きた。
+? 
+! Not two-byte family.
+l.65 ...クラウドストレージのgossip通信量を計測でき
+                                                  た。
+? 
+! Not two-byte family.
+l.65 ...ラウドストレージのgossip通信量を計測できた
+                                                  。
+? 
+! Not two-byte family.
+l.65 ...ウドストレージのgossip通信量を計測できた。
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66 \end{abstract}
+                   
+? 
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 74.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 74.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 74.
+
+LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 74.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 74.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 74.
+[1234
+
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 100.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 100.
+ [1235] [1236] [1237]
+! Not two-byte family.
+l.235 T = ((n-1) * m台
+                      のcassandraノードの通信量)
+? 
+! Not two-byte family.
+l.235 T = ((n-1) * m台の
+                        cassandraノードの通信量)
+? 
+! Not two-byte family.
+l.235 T = ((n-1) * m台のcassandraノ
+                                   ードの通信量)
+? 
+! Not two-byte family.
+l.235 T = ((n-1) * m台のcassandraノー
+                                     ドの通信量)
+? 
+! Not two-byte family.
+l.235 T = ((n-1) * m台のcassandraノード
+                                       の通信量)
+? 
+! Not two-byte family.
+l.235 T = ((n-1) * m台のcassandraノードの
+                                         通信量)
+? 
+! Not two-byte family.
+l.235 T = ((n-1) * m台のcassandraノードの通
+                                           信量)
+? 
+! Not two-byte family.
+l.235 T = ((n-1) * m台のcassandraノードの通信
+                                             量)
+? 
+! Not two-byte family.
+l.235 T = ((n-1) * m台のcassandraノードの通信量
+                                               )
+? 
+
+Overfull \hbox (2.74478pt too wide) detected at line 241
+ $\OML/cmm/m/it/9 TT \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 T \OMS/cmsy/m/n/9 ^^C \OT
+1/cmr/m/n/9 (\OML/cmm/m/it/9 n \OMS/cmsy/m/n/9 ^^C \OML/cmm/m/it/9 m\OT1/cmr/m/
+n/9 )\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 ((\OML/cmm/m/it/9 n \OMS/cmsy/m/n/9 ^^@ \O
+T1/cmr/m/n/9 1) \OMS/cmsy/m/n/9 ^^C \OML/cmm/m/it/9 m\OT1/cmr/m/n/9 ) = \OML/cm
+m/m/it/9 T \OMS/cmsy/m/n/9 ^^C \OML/cmm/m/it/9 n=\OT1/cmr/m/n/9 (\OML/cmm/m/it/
+9 n \OMS/cmsy/m/n/9 ^^@ \OT1/cmr/m/n/9 1) []$
+ []
+
+! Not two-byte family.
+l.301  [通
+          信量(bit)] = 224.6×n^2 + 4314.8×n
+? 
+! Not two-byte family.
+l.301  [通信
+            量(bit)] = 224.6×n^2 + 4314.8×n
+? 
+! Not two-byte family.
+l.301  [通信量
+              (bit)] = 224.6×n^2 + 4314.8×n
+? 
+! Not two-byte family.
+l.301  [通信量(bit)] = 224.6×
+                              n^2 + 4314.8×n
+? 
+! Not two-byte family.
+l.301  [通信量(bit)] = 224.6×n^2 + 4314.8×
+                                            n
+? 
+! Not two-byte family.
+l.308 ^^It' &=&[１
+                  ノードあたりの通信量(bit/s)] \nonumber\\
+? 
+! Not two-byte family.
+l.308 ^^It' &=&[１ノ
+                    ードあたりの通信量(bit/s)] \nonumber\\
+? 
+! Not two-byte family.
+l.308 ^^It' &=&[１ノー
+                      ドあたりの通信量(bit/s)] \nonumber\\
+? 
+! Not two-byte family.
+l.308 ^^It' &=&[１ノード
+                        あたりの通信量(bit/s)] \nonumber\\
+? 
+! Not two-byte family.
+l.308 ^^It' &=&[１ノードあ
+                          たりの通信量(bit/s)] \nonumber\\
+? 
+! Not two-byte family.
+l.308 ^^It' &=&[１ノードあた
+                            りの通信量(bit/s)] \nonumber\\
+? 
+! Not two-byte family.
+l.308 ^^It' &=&[１ノードあたり
+                              の通信量(bit/s)] \nonumber\\
+? 
+! Not two-byte family.
+l.308 ^^It' &=&[１ノードあたりの
+                                通信量(bit/s)] \nonumber\\
+? 
+! Not two-byte family.
+l.308 ^^It' &=&[１ノードあたりの通
+                                  信量(bit/s)] \nonumber\\
+? 
+! Not two-byte family.
+l.308 ^^It' &=&[１ノードあたりの通信
+                                    量(bit/s)] \nonumber\\
+? 
+! Not two-byte family.
+l.308 ^^It' &=&[１ノードあたりの通信量
+                                      (bit/s)] \nonumber\\
+? 
+! Not two-byte family.
+l.309 ^^I&= & (224.6×
+                      n^2+ 4314.8×n) / n\nonumber\\
+? 
+! Not two-byte family.
+l.309 ^^I&= & (224.6×n^2+ 4314.8×
+                                   n) / n\nonumber\\
+? 
+! Not two-byte family.
+l.310 ^^I&=& 224.6×
+                    n+ 4314.8\nonumber\\
+? 
+File: img/time-traffic.eps Graphic file (type eps)
+<img/time-traffic.eps>
+Overfull \hbox (221.93587pt too wide) in paragraph at lines 316--317
+ [] 
+ []
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 317.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 317.
+File: img/node-traffic.eps Graphic file (type eps)
+<img/node-traffic.eps>
+Overfull \hbox (221.93587pt too wide) in paragraph at lines 324--325
+ [] 
+ []
+
+! Not two-byte family.
+l.340  (ノ
+          ード台数) = n
+? 
+! Not two-byte family.
+l.340  (ノー
+            ド台数) = n
+? 
+! Not two-byte family.
+l.340  (ノード
+              台数) = n
+? 
+! Not two-byte family.
+l.340  (ノード台
+                数) = n
+? 
+! Not two-byte family.
+l.340  (ノード台数
+                  ) = n
+? 
+! Not two-byte family.
+l.343   (総
+           通信量(bit/s)) = (１ノードあたりの通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通
+             信量(bit/s)) = (１ノードあたりの通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信
+               量(bit/s)) = (１ノードあたりの通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信量
+                 (bit/s)) = (１ノードあたりの通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信量(bit/s)) = (１
+                               ノードあたりの通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信量(bit/s)) = (１ノ
+                                 ードあたりの通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信量(bit/s)) = (１ノー
+                                   ドあたりの通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信量(bit/s)) = (１ノード
+                                     あたりの通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信量(bit/s)) = (１ノードあ
+                                       たりの通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信量(bit/s)) = (１ノードあた
+                                         りの通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信量(bit/s)) = (１ノードあたり
+                                           の通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信量(bit/s)) = (１ノードあたりの
+                                             通信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信量(bit/s)) = (１ノードあたりの通
+                                               信量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343   (総通信量(bit/s)) = (１ノードあたりの通信
+                                                 量(bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343 ...通信量(bit/s)) = (１ノードあたりの通信量
+                                                 (bit/s)) * (ノード台数)
+? 
+! Not two-byte family.
+l.343 ...) = (１ノードあたりの通信量(bit/s)) * (ノ
+                                                  ード台数)
+? 
+! Not two-byte family.
+l.343 ...= (１ノードあたりの通信量(bit/s)) * (ノー
+                                                  ド台数)
+? 
+! Not two-byte family.
+l.343 ...(１ノードあたりの通信量(bit/s)) * (ノード
+                                                  台数)
+? 
+! Not two-byte family.
+l.343 ...ノードあたりの通信量(bit/s)) * (ノード台
+                                                 数)
+? 
+! Not two-byte family.
+l.343 ...ードあたりの通信量(bit/s)) * (ノード台数
+                                                 )
+? 
+
+Overfull \hbox (39.91766pt too wide) detected at line 344
+ $\OT1/cmr/m/n/9 (^^@^^@^^@^^@(\OML/cmm/m/it/9 bit=s\OT1/cmr/m/n/9 )) = (^^@^^@
+^^@^^@^^@^^@^^@^^@^^@^^@^^@(\OML/cmm/m/it/9 bit=s\OT1/cmr/m/n/9 )) \OMS/cmsy/m/
+n/9 ^^C \OT1/cmr/m/n/9 (^^@^^@^^@^^@^^@) []$
+ []
+
+! Not two-byte family.
+l.348   t' &=& (１
+                  ノードあたりの通信量/s)\\
+? 
+! Not two-byte family.
+l.348   t' &=& (１ノ
+                    ードあたりの通信量/s)\\
+? 
+! Not two-byte family.
+l.348   t' &=& (１ノー
+                      ドあたりの通信量/s)\\
+? 
+! Not two-byte family.
+l.348   t' &=& (１ノード
+                        あたりの通信量/s)\\
+? 
+! Not two-byte family.
+l.348   t' &=& (１ノードあ
+                          たりの通信量/s)\\
+? 
+! Not two-byte family.
+l.348   t' &=& (１ノードあた
+                            りの通信量/s)\\
+? 
+! Not two-byte family.
+l.348   t' &=& (１ノードあたり
+                              の通信量/s)\\
+? 
+! Not two-byte family.
+l.348   t' &=& (１ノードあたりの
+                                通信量/s)\\
+? 
+! Not two-byte family.
+l.348   t' &=& (１ノードあたりの通
+                                  信量/s)\\
+? 
+! Not two-byte family.
+l.348   t' &=& (１ノードあたりの通信
+                                    量/s)\\
+? 
+! Not two-byte family.
+l.348   t' &=& (１ノードあたりの通信量
+                                      /s)\\
+? 
+! Not two-byte family.
+l.349  &=& (１
+              秒毎のgossip通信する回数)  * (一回のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒
+                毎のgossip通信する回数)  * (一回のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒毎
+                  のgossip通信する回数)  * (一回のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒毎の
+                    gossip通信する回数)  * (一回のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒毎のgossip通
+                            信する回数)  * (一回のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒毎のgossip通信
+                              する回数)  * (一回のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒毎のgossip通信す
+                                る回数)  * (一回のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒毎のgossip通信する
+                                  回数)  * (一回のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒毎のgossip通信する回
+                                    数)  * (一回のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒毎のgossip通信する回数
+                                      )  * (一回のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒毎のgossip通信する回数)  * (一
+                                              回のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒毎のgossip通信する回数)  * (一回
+                                                のgossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349  &=& (１秒毎のgossip通信する回数)  * (一回の
+                                                  gossip通信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349 ...のgossip通信する回数)  * (一回のgossip通
+                                                 信の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349 ...gossip通信する回数)  * (一回のgossip通信
+                                                 の通信量)\nonumber
+? 
+! Not two-byte family.
+l.349 ...ossip通信する回数)  * (一回のgossip通信の
+                                                  通信量)\nonumber
+? 
+! Not two-byte family.
+l.349 ...sip通信する回数)  * (一回のgossip通信の通
+                                                  信量)\nonumber
+? 
+! Not two-byte family.
+l.349 ...p通信する回数)  * (一回のgossip通信の通信
+                                                  量)\nonumber
+? 
+! Not two-byte family.
+l.349 ...信する回数)  * (一回のgossip通信の通信量
+                                                 )\nonumber
+? 
+
+Overfull \hbox (14.81407pt too wide) in alignment at lines 347--350
+[][][] [] 
+ []
+
+! Not two-byte family.
+l.354  (１
+          秒毎のgossip通信する回数) < 2 = Order(Const) \nonumber\\
+? 
+! Not two-byte family.
+l.354  (１秒
+            毎のgossip通信する回数) < 2 = Order(Const) \nonumber\\
+? 
+! Not two-byte family.
+l.354  (１秒毎
+              のgossip通信する回数) < 2 = Order(Const) \nonumber\\
+? 
+! Not two-byte family.
+l.354  (１秒毎の
+                gossip通信する回数) < 2 = Order(Const) \nonumber\\
+? 
+! Not two-byte family.
+l.354  (１秒毎のgossip通
+                        信する回数) < 2 = Order(Const) \nonumber\\
+? 
+! Not two-byte family.
+l.354  (１秒毎のgossip通信
+                          する回数) < 2 = Order(Const) \nonumber\\
+? 
+! Not two-byte family.
+l.354  (１秒毎のgossip通信す
+                            る回数) < 2 = Order(Const) \nonumber\\
+? 
+! Not two-byte family.
+l.354  (１秒毎のgossip通信する
+                              回数) < 2 = Order(Const) \nonumber\\
+? 
+! Not two-byte family.
+l.354  (１秒毎のgossip通信する回
+                                数) < 2 = Order(Const) \nonumber\\
+? 
+! Not two-byte family.
+l.354  (１秒毎のgossip通信する回数
+                                  ) < 2 = Order(Const) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一
+            回あたりのgossip通信の通信量) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一回
+              あたりのgossip通信の通信量) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一回あ
+                たりのgossip通信の通信量) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一回あた
+                  りのgossip通信の通信量) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一回あたり
+                    のgossip通信の通信量) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一回あたりの
+                      gossip通信の通信量) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一回あたりのgossip通
+                              信の通信量) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一回あたりのgossip通信
+                                の通信量) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一回あたりのgossip通信の
+                                  通信量) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一回あたりのgossip通信の通
+                                    信量) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一回あたりのgossip通信の通信
+                                      量) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.358    (一回あたりのgossip通信の通信量
+                                        ) = Order(n) \nonumber\\
+? 
+! Not two-byte family.
+l.363 (１
+         台あたりの通信量) = O(n)
+? 
+! Not two-byte family.
+l.363 (１台
+           あたりの通信量) = O(n)
+? 
+! Not two-byte family.
+l.363 (１台あ
+             たりの通信量) = O(n)
+? 
+! Not two-byte family.
+l.363 (１台あた
+               りの通信量) = O(n)
+? 
+! Not two-byte family.
+l.363 (１台あたり
+                 の通信量) = O(n)
+? 
+! Not two-byte family.
+l.363 (１台あたりの
+                   通信量) = O(n)
+? 
+! Not two-byte family.
+l.363 (１台あたりの通
+                     信量) = O(n)
+? 
+! Not two-byte family.
+l.363 (１台あたりの通信
+                       量) = O(n)
+? 
+! Not two-byte family.
+l.363 (１台あたりの通信量
+                         ) = O(n)
+? 
+! Not two-byte family.
+l.366  (総
+          通信量) = Order(n^2)
+? 
+! Not two-byte family.
+l.366  (総通
+            信量) = Order(n^2)
+? 
+! Not two-byte family.
+l.366  (総通信
+              量) = Order(n^2)
+? 
+! Not two-byte family.
+l.366  (総通信量
+                ) = Order(n^2)
+? 
+[1238]
+Overfull \hbox (14.55794pt too wide) in paragraph at lines 391--392
+[]\OT1/cmr/m/n/9 Marcia Pasin,St?phane Fontaine,Sara Bouchenak:
+ []
+
+
+Overfull \hbox (24.10655pt too wide) in paragraph at lines 398--399
+[]\OT1/cmr/m/n/9 Cassandra Wiki, http://wiki.apache.org/cassandra/ 
+ []
+
+[1239] [1240
+
+] (./sacsis_draft_okudera_ver0.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1259 strings out of 94681
+ 16210 string characters out of 1174652
+ 73705 words of memory out of 1500000
+ 4575 multiletter control sequences out of 10000+50000
+ 17604 words of font info for 68 fonts, out of 1200000 for 2000
+ 566 hyphenation exceptions out of 8191
+ 30i,13n,22p,1236b,440s stack positions out of 5000i,500n,6000p,200000b,5000s
+
+Output written on sacsis_draft_okudera_ver0.dvi (7 pages, 49500 bytes).

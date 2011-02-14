@@ -3,101 +3,330 @@ The top-level auxiliary file: thesis.aux
 The style file: csg-thesis.bst
 is.kanji.str$ is an unknown function---line 244 of file csg-thesis.bst
 Database file #1: thesis.bib
-"" immediately follows an entry type---line 1 of file thesis.bib
- : % $B9q:]2q5D$d8&5f2q$NO@J8
- :                            (B
-I'm skipping whatever remains of this entry
-"" immediately follows an entry type---line 12 of file thesis.bib
- : % $BO@J8;o
- :            (B
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 14 of file thesis.bib
- :   author =  "$B@iMU(B $B<"
- :                              (B and $BN)KY(B $BF;><(B",
-I'm skipping whatever remains of this entry
-"" immediately follows an entry type---line 16 of file thesis.bib
- :   journal =  "$B>pJs=hM}3X2q(B $BO@J8;o
- :                                           (B",
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 26 of file thesis.bib
- :   author =  "$B@iMU(B $B<"
- :                              (B",
-I'm skipping whatever remains of this entry
-"" immediately follows an entry type---line 33 of file thesis.bib
- : % URL(\url$B$r;H$($P<+F0E*$K@^$j>v$^$l$k
- :                                          (B)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 35 of file thesis.bib
- :   author = "$B@iMU(B $B<"
- :                             (B",
-I'm skipping whatever remains of this entry
-Warning--Missing required argument title in Chiba2001a
-Warning--Missing required argument journal in Chiba2001a
-Warning--Missing required argument year in Chiba2001a
-Warning--there's no number and/or volumeChiba2001a
-Warning--Missing required argument pages in Chiba2001a
-"$B<" is a string literal, not an integer, for entry Chiba2001a
+Warning--entry type for "GXP" isn't style-file defined
+--line 36 of file thesis.bib
+Warning--entry type for "CassandraWiki" isn't style-file defined
+--line 43 of file thesis.bib
+Warning--I didn't find a database entry for "TC"
+Warning--to sort, need author or key in CassandraWiki
+Warning--to sort, need author or key in GXP
+Warning--Missing required argument author in CassandraWiki
+Warning--Missing required argument author in GXP
+"Cooper" is a string literal, not an integer, for entry YCSB
 while executing---line 1331 of file csg-thesis.bst
-You can't pop an empty literal stack for entry Chiba2001a
+You can't pop an empty literal stack for entry YCSB
 while executing---line 1331 of file csg-thesis.bst
-1 is an integer literal, not a string, for entry Chiba2001a
+1 is an integer literal, not a string, for entry YCSB
 while executing---line 1331 of file csg-thesis.bst
-Warning--Missing required argument title in Javassist
-"$B<" is a string literal, not an integer, for entry Javassist
+"Silberstein" is a string literal, not an integer, for entry YCSB
 while executing---line 1331 of file csg-thesis.bst
-You can't pop an empty literal stack for entry Javassist
+2 is an integer literal, not a string, for entry YCSB
 while executing---line 1331 of file csg-thesis.bst
-1 is an integer literal, not a string, for entry Javassist
+You can't pop an empty literal stack for entry YCSB
 while executing---line 1331 of file csg-thesis.bst
-"Chiba" is a string literal, not an integer, for entry Chiba2000
+"Tam" is a string literal, not an integer, for entry YCSB
 while executing---line 1331 of file csg-thesis.bst
-You can't pop an empty literal stack for entry Chiba2000
+3 is an integer literal, not a string, for entry YCSB
 while executing---line 1331 of file csg-thesis.bst
-1 is an integer literal, not a string, for entry Chiba2000
+You can't pop an empty literal stack for entry YCSB
 while executing---line 1331 of file csg-thesis.bst
-"Proceedings of the European Conference on Object-Oriented Programming" is a string literal, not an integer, for entry Chiba2000
+"Ramakrishnan" is a string literal, not an integer, for entry YCSB
 while executing---line 1331 of file csg-thesis.bst
-You can't pop an empty literal stack for entry Chiba2000
+4 is an integer literal, not a string, for entry YCSB
 while executing---line 1331 of file csg-thesis.bst
-You've used 3 entries,
+You can't pop an empty literal stack for entry YCSB
+while executing---line 1331 of file csg-thesis.bst
+"Sear" is a string literal, not an integer, for entry YCSB
+while executing---line 1331 of file csg-thesis.bst
+5 is an integer literal, not a string, for entry YCSB
+while executing---line 1331 of file csg-thesis.bst
+"Brian F. Cooper and Adam Silberstein and Erwin Tam and Raghu Ramakrishnan and Russell Sear" is a string literal, not an integer, for entry YCSB
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry YCSB
+while executing---line 1331 of file csg-thesis.bst
+"SoCC '10" is a string literal, not an integer, for entry YCSB
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry YCSB
+while executing---line 1331 of file csg-thesis.bst
+"CandiaLA" is a string literal, not an integer, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+1 is an integer literal, not a string, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+"Hastoruna" is a string literal, not an integer, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+2 is an integer literal, not a string, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+"Jampani" is a string literal, not an integer, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+3 is an integer literal, not a string, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+"Kakulapati" is a string literal, not an integer, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+4 is an integer literal, not a string, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+"Lakchman" is a string literal, not an integer, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+5 is an integer literal, not a string, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+"Pilchin" is a string literal, not an integer, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+6 is an integer literal, not a string, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+"Sivasubramanian" is a string literal, not an integer, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+7 is an integer literal, not a string, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+"Vosshall" is a string literal, not an integer, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+8 is an integer literal, not a string, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+"Vogels" is a string literal, not an integer, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+9 is an integer literal, not a string, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+"Giuseppe de CandiaLA and Deniz Hastoruna and Madan Jampani and Gunavardhan Kakulapati and Avinash Lakchman and Alex Pilchin and Swaminathan Sivasubramanian and Peter Vosshall and Werner Vogels" is a string literal, not an integer, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+"SOSP '07" is a string literal, not an integer, for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Dynamo
+while executing---line 1331 of file csg-thesis.bst
+"Deshpande" is a string literal, not an integer, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+1 is an integer literal, not a string, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+"Xing" is a string literal, not an integer, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+2 is an integer literal, not a string, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+"Lazardis" is a string literal, not an integer, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+3 is an integer literal, not a string, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+"Hore" is a string literal, not an integer, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+4 is an integer literal, not a string, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+"Venkatasubramanian" is a string literal, not an integer, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+5 is an integer literal, not a string, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+"Mehrotra" is a string literal, not an integer, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+6 is an integer literal, not a string, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+"Deshpande, M. and Bo Xing and Lazardis, I. and Hore, B. and Venkatasubramanian, N. and Mehrotra, S." is a string literal, not an integer, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+"ICDCA 2006" is a string literal, not an integer, for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CREW
+while executing---line 1331 of file csg-thesis.bst
+"Lakchman" is a string literal, not an integer, for entry Cassandra
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Cassandra
+while executing---line 1331 of file csg-thesis.bst
+1 is an integer literal, not a string, for entry Cassandra
+while executing---line 1331 of file csg-thesis.bst
+"Malik" is a string literal, not an integer, for entry Cassandra
+while executing---line 1331 of file csg-thesis.bst
+2 is an integer literal, not a string, for entry Cassandra
+while executing---line 1331 of file csg-thesis.bst
+"Avinash Lakchman and Prashant Malik" is a string literal, not an integer, for entry Cassandra
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Cassandra
+while executing---line 1331 of file csg-thesis.bst
+"LADIS '09" is a string literal, not an integer, for entry Cassandra
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Cassandra
+while executing---line 1331 of file csg-thesis.bst
+"Miguel~Matos" is a string literal, not an integer, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+1 is an integer literal, not a string, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+"Pereira" is a string literal, not an integer, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+2 is an integer literal, not a string, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+"Oliveira" is a string literal, not an integer, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+3 is an integer literal, not a string, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+"Deliot" is a string literal, not an integer, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+4 is an integer literal, not a string, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+"Murray" is a string literal, not an integer, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+5 is an integer literal, not a string, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+"Miguel Matos,Ant¥'onio Sousa and Jose Pereira and Rui Oliveira and Eric Deliot and Paul Murray" is a string literal, not an integer, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+"NOMS Workshops '08" is a string literal, not an integer, for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry CLON
+while executing---line 1331 of file csg-thesis.bst
+"Pasin" is a string literal, not an integer, for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+1 is an integer literal, not a string, for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+"Fontaine" is a string literal, not an integer, for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+2 is an integer literal, not a string, for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+"Bouchenak" is a string literal, not an integer, for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+3 is an integer literal, not a string, for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+"Marcia Pasin and St'phane Fontaine and Sara Bouchenak" is a string literal, not an integer, for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+"NOMS Workshops '08" is a string literal, not an integer, for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry Survey
+while executing---line 1331 of file csg-thesis.bst
+"Perez" is a string literal, not an integer, for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+1 is an integer literal, not a string, for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+"Blake" is a string literal, not an integer, for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+2 is an integer literal, not a string, for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+"Gangnet" is a string literal, not an integer, for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+3 is an integer literal, not a string, for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+"Perez, P. and Blake, A. and Gangnet, M. and" is a string literal, not an integer, for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+"Computer Vision, 2001. ICCV 2001" is a string literal, not an integer, for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry JetStream
+while executing---line 1331 of file csg-thesis.bst
+"Renesse" is a string literal, not an integer, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+1 is an integer literal, not a string, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+"Dumitriu" is a string literal, not an integer, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+2 is an integer literal, not a string, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+"Gough" is a string literal, not an integer, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+3 is an integer literal, not a string, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+"Thomas" is a string literal, not an integer, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+4 is an integer literal, not a string, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+"Seattle" is a string literal, not an integer, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+5 is an integer literal, not a string, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+"Robbert van Renesse and Dan Dumitriu and Valient Gough and Chris Thomas and Amazon.com Seattle" is a string literal, not an integer, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+"LADIS '08" is a string literal, not an integer, for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+You can't pop an empty literal stack for entry EfficientReconciliationan
+while executing---line 1331 of file csg-thesis.bst
+You've used 10 entries,
             2480 wiz_defined-function locations,
-            576 strings with 4686 characters,
-and the built_in function-call counts, 805 in all, are:
-= -- 62
-> -- 21
-< -- 1
-+ -- 9
-- -- 6
-* -- 54
-:= -- 125
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 9
+            616 strings with 5930 characters,
+and the built_in function-call counts, 3075 in all, are:
+= -- 234
+> -- 208
+< -- 0
++ -- 86
+- -- 76
+* -- 204
+:= -- 514
+add.period$ -- 10
+call.type$ -- 10
+change.case$ -- 58
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 33
-empty$ -- 84
-format.name$ -- 9
-if$ -- 172
+cite$ -- 14
+duplicate$ -- 92
+empty$ -- 257
+format.name$ -- 114
+if$ -- 671
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 2
-newline$ -- 12
-num.names$ -- 6
-pop$ -- 22
+int.to.str$ -- 10
+missing$ -- 8
+newline$ -- 33
+num.names$ -- 16
+pop$ -- 90
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 58
 quote$ -- 0
-skip$ -- 44
+skip$ -- 121
 stack$ -- 0
-substring$ -- 47
-swap$ -- 9
-text.length$ -- 1
+substring$ -- 50
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
-warning$ -- 6
-while$ -- 9
-width$ -- 4
-write$ -- 18
-(There were 19 error messages)
+type$ -- 40
+warning$ -- 4
+while$ -- 16
+width$ -- 12
+write$ -- 68
+(There were 139 error messages)

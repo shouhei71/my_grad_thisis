@@ -1,14 +1,14 @@
-This is pTeX, Version 3.141592-p3.1.10 (jis.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  17 JAN 2011 13:03
+This is pTeX, Version 3.141592-p3.1.10 (jis.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  1 FEB 2011 15:27
 **chapter4.tex
 (./chapter4.tex
 pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
 ! Undefined control sequence.
 l.2 \chapter
-            {実験・評価}
+            {Gossip protocol}
 ? 
 ! Emergency stop.
 l.2 \chapter
-            {実験・評価}
+            {Gossip protocol}
 End of file on the terminal!
 
  
@@ -19,5 +19,5 @@ Here is how much of TeX's memory you used:
  3389 multiletter control sequences out of 10000+50000
  7511 words of font info for 31 fonts, out of 1200000 for 2000
  566 hyphenation exceptions out of 8191
- 4i,0n,1p,35b,7s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 4i,0n,1p,40b,7s stack positions out of 5000i,500n,6000p,200000b,5000s
 No pages of output.

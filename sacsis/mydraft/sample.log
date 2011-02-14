@@ -1,0 +1,320 @@
+This is pTeX, Version 3.141592-p3.1.10 (euc.sjis) (Web2C 7.5.4) (format=platex 2009.8.28)  26 JAN 2011 12:34
+**sample.tex
+(./sample.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
+(/Applications/pTeX.app/teTeX/share/texmf/ptex/platex/base/pl209.def
+Entering pLaTeX 2.09 compatibility mode.
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/base/latex209.def
+File: latex209.def 1998/05/13 v0.52 Standard LaTeX file
+
+
+          Entering LaTeX 2.09 COMPATIBILITY MODE
+ *************************************************************
+    !!WARNING!!    !!WARNING!!    !!WARNING!!    !!WARNING!!   
+ 
+ This mode attempts to provide an emulation of the LaTeX 2.09
+ author environment so that OLD documents can be successfully
+ processed. It should NOT be used for NEW documents!
+ 
+ New documents should use Standard LaTeX conventions and start
+ with the \documentclass command.
+ 
+ Compatibility mode is UNLIKELY TO WORK with LaTeX 2.09 style
+ files that change any internal macros, especially not with
+ those that change the FONT SELECTION or OUTPUT ROUTINES.
+ 
+ Therefore such style files MUST BE UPDATED to use
+          Current Standard LaTeX: LaTeX2e.
+ If you suspect that you may be using such a style file, which
+ is probably very, very old by now, then you should attempt to
+ get it updated by sending a copy of this error message to the
+ author of that file.
+ *************************************************************
+
+\footheight=\dimen118
+\@maxsep=\dimen119
+\@dblmaxsep=\dimen120
+\@cla=\count81
+\@clb=\count82
+\mscount=\count83
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/base/tracefnt.sty
+Package: tracefnt 1997/05/29 v3.0j Standard LaTeX package (font tracing)
+\tracingfonts=\count84
+LaTeX Info: Redefining \selectfont on input line 101.
+)
+\symbold=\mathgroup4
+\symsans=\mathgroup5
+\symtypewriter=\mathgroup6
+\symitalic=\mathgroup7
+\symsmallcaps=\mathgroup8
+\symslanted=\mathgroup9
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 293.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 294.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 295.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 301.
+LaTeX Info: Redefining \em on input line 311.
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 375.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 377.
+LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 379.
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/base/latex209.cfg
+File: latex209.cfg 2001/06/05 v1.0 teTeX customized LaTeX 2.09 compatibility mo
+de setup
+)
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/tools/rawfonts.sty
+Package: rawfonts 1994/05/08 Low-level LaTeX 2.09 font compatibility
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/tools/somedefs.sty
+Package: somedefs 1994/06/01 v0.03 Toolkit for optional definitions
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 44.
+
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)))
+(/Applications/pTeX.app/teTeX/share/texmf/ptex/platex/base/ptrace.sty
+LaTeX Info: Redefining \selectfont on input line 40.
+\adjust@box=\box41
+\adjust@dimen=\dimen121
+)
+\symmincho=\mathgroup11
+\symgothic=\mathgroup12
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 59.
+LaTeX Info: Redefining \bf on input line 73.
+LaTeX Info: Redefining \rm on input line 80.
+LaTeX Info: Redefining \sf on input line 81.
+LaTeX Info: Redefining \sl on input line 82.
+LaTeX Info: Redefining \sc on input line 83.
+LaTeX Info: Redefining \it on input line 84.
+LaTeX Info: Redefining \tt on input line 85.
+LaTeX Info: Redefining \em on input line 86.
+)
+(./ipsjpapers.cls
+Document Class: ipsjpapers 2001/05/01 ver 2.08
+(./ipsjpapers.sty
+\@Q=\dimen122
+\jfsize=\count85
+\jspaceskip=\dimen123
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 553.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 553.
+\@mojihaba=\dimen124
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 570.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 570.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 570.
+\@abstractbox=\box42
+\@titlewidth=\dimen125
+\@eabstractbox=\box43
+\mkt@prevdepth=\dimen126
+\mkt@titlebox=\box44
+\mkt@cnta=\count86
+\mkt@cntb=\count87
+\mkt@sname=\count88
+\mkt@gname=\count89
+\mkt@boxa=\box45
+\mkt@namewidth=\dimen127
+\c@affi@footnote=\count90
+\c@volpageoffset=\count91
+\c@volume=\count92
+\c@number=\count93
+\c@year=\count94
+\@leftcolumnfootnote=\box46
+\@rightcolumnfootnote=\box47
+\opt@baselineskip=\skip41
+\bio@picbox=\box48
+\bio@colht=\dimen128
+\bio@splitheight=\dimen129
+\bio@maxgap=\dimen130
+\bio@lastgap=\dimen131
+\bio@th=\dimen132
+\bio@lhA=\dimen133
+\bio@hA=\dimen134
+\bio@hB=\dimen135
+\bio@lh=\dimen136
+\bio@rh=\dimen137
+\bio@tempdim=\dimen138
+\bio@pbox=\insert233
+ (./ipsjcommon.sty
+\c@section=\count95
+\c@subsection=\count96
+\c@subsubsection=\count97
+\c@paragraph=\count98
+\c@subparagraph=\count99
+\bib@adjustheight=\dimen139
+\c@figure=\count100
+\c@table=\count101
+\cap@linewidth=\dimen140
+\cap@hsize=\dimen141
+\cap@prevgraf=\count102
+\cap@box=\box49
+\PF@fnotectr=\count103
+\PF@page=\count104
+\adj@boxa=\box50
+\adj@boxb=\box51
+\adj@height=\dimen142
+\adj@deadcycle=\count105
+)))
+(/Applications/pTeX.app/teTeX/share/texmf-dist/tex/generic/epsf/epsf.tex
+This is `epsf.tex' v2.7k <10 July 1997>
+\epsffilein=\read1
+\epsfframemargin=\dimen143
+\epsfframethickness=\dimen144
+\epsfrsize=\dimen145
+\epsftmp=\dimen146
+\epsftsize=\dimen147
+\epsfxsize=\dimen148
+\epsfysize=\dimen149
+\pspoints=\dimen150
+\epsfnoopenhelp=\toks15
+) (./sample.aux
+
+LaTeX Warning: Label `fig:javassist' multiply defined.
+
+)
+\openout1 = `sample.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.65 ...る通信量は、ノード 台数をnとしたとき、O(n^
+                                                  2) でスケールすることを確...
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 65.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66 \end{abstract}
+                   
+? 
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 74.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 74.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 74.
+LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 74.
+LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 74.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 74.
+[1234
+
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 100.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 100.
+ [1235] [1236] [1237]
+Overfull \hbox (16.92973pt too wide) detected at line 236
+ $\OML/cmm/m/it/9 T \OT1/cmr/m/n/9 = ((\OML/cmm/m/it/9 n \OMS/cmsy/m/n/9 ^^@ \O
+T1/cmr/m/n/9 1) \OMS/cmsy/m/n/9 ^^C \OML/cmm/m/it/9 m \JY1/mc/m/n/9 台の \OML/c
+mm/m/it/9 cassandra \JY1/mc/m/n/9 ノードの通信量\OT1/cmr/m/n/9 ) []$
+ []
+
+
+Overfull \hbox (2.74478pt too wide) detected at line 241
+ $\OML/cmm/m/it/9 TT \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 T \OMS/cmsy/m/n/9 ^^C \OT
+1/cmr/m/n/9 (\OML/cmm/m/it/9 n \OMS/cmsy/m/n/9 ^^C \OML/cmm/m/it/9 m\OT1/cmr/m/
+n/9 )\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 ((\OML/cmm/m/it/9 n \OMS/cmsy/m/n/9 ^^@ \O
+T1/cmr/m/n/9 1) \OMS/cmsy/m/n/9 ^^C \OML/cmm/m/it/9 m\OT1/cmr/m/n/9 ) = \OML/cm
+m/m/it/9 T \OMS/cmsy/m/n/9 ^^C \OML/cmm/m/it/9 n=\OT1/cmr/m/n/9 (\OML/cmm/m/it/
+9 n \OMS/cmsy/m/n/9 ^^@ \OT1/cmr/m/n/9 1) []$
+ []
+
+! Undefined control sequence.
+l.316   \epsfile
+                {img/time-traffic.eps}
+? 
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 317.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 317.
+[1238]
+! Undefined control sequence.
+l.325   \includegraphics
+                        [width=15cm]{img/node-traffic.eps}
+? 
+
+Overfull \hbox (91.81754pt too wide) detected at line 345
+ $\OT1/cmr/m/n/9 (\JY1/mc/m/n/9 総通信量 \OT1/cmr/m/n/9 (\OML/cmm/m/it/9 bit=s\
+OT1/cmr/m/n/9 )) = (\JY1/mc/m/n/9 １ノードあたりの通信量 \OT1/cmr/m/n/9 (\OML/c
+mm/m/it/9 bit=s\OT1/cmr/m/n/9 )) \OMS/cmsy/m/n/9 ^^C \OT1/cmr/m/n/9 (\JY1/mc/m/
+n/9 ノード台数\OT1/cmr/m/n/9 ) []$
+ []
+
+
+Overfull \hbox (79.14557pt too wide) in alignment at lines 348--351
+[][][] [] 
+ []
+
+
+Overfull \hbox (28.28268pt too wide) in alignment at lines 354--356
+[][][] [] 
+ []
+
+
+Overfull \hbox (17.49063pt too wide) detected at line 360
+ $\OT1/cmr/m/n/9 (\JY1/mc/m/n/9 一回あたりの \OML/cmm/m/it/9 gossip \JY1/mc/m/n
+/9 通信の通信量\OT1/cmr/m/n/9 ) = \OML/cmm/m/it/9 Order\OT1/cmr/m/n/9 (\OML/cmm
+/m/it/9 n\OT1/cmr/m/n/9 )[] [] []$
+ []
+
+LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
+(Font)              using `JT1/gt/m/n' instead on input line 384.
+LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
+(Font)              using `JY1/gt/m/n' instead on input line 384.
+[1239] [1240
+
+] (./sample.aux)
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1152 strings out of 94681
+ 13994 string characters out of 1174652
+ 68625 words of memory out of 1500000
+ 4438 multiletter control sequences out of 10000+50000
+ 34814 words of font info for 133 fonts, out of 1200000 for 2000
+ 566 hyphenation exceptions out of 8191
+ 30i,10n,22p,1217b,441s stack positions out of 5000i,500n,6000p,200000b,5000s
+
+Output written on sample.dvi (7 pages, 49660 bytes).

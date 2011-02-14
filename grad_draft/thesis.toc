@@ -1,47 +1,66 @@
-\contentsline {chapter}{\numberline {第1章}序論}{7}
-\contentsline {section}{\numberline {1.1}本研究の背景}{7}
-\contentsline {section}{\numberline {1.2}本研究の目的}{8}
-\contentsline {section}{\numberline {1.3}本研究の成果}{8}
-\contentsline {section}{\numberline {1.4}本研究の構成}{8}
-\contentsline {chapter}{\numberline {第2章}研究背景}{10}
-\contentsline {section}{\numberline {2.1}大規模環境でdependableシステムを構築するのは難しい}{10}
-\contentsline {section}{\numberline {2.2}大規模環境でdependableシステムを構築するには、故障検知が欠かせない}{10}
-\contentsline {chapter}{\numberline {第3章}関連研究}{11}
-\contentsline {section}{\numberline {3.1}大規模環境における故障検知についてのサーベイ}{11}
-\contentsline {section}{\numberline {3.2}関連研究２:Efficient Reconciliation and Flow Control for Anti-Entropy Protocols}{18}
-\contentsline {chapter}{\numberline {第4章}Cassandraについて}{19}
-\contentsline {section}{\numberline {4.1}Cassandraの概要}{19}
-\contentsline {subsection}{\numberline {4.1.1}Cassandraのメンバーシップ管理について}{19}
-\contentsline {subsection}{\numberline {4.1.2}Cassandraの故障検知について}{19}
-\contentsline {subsection}{\numberline {4.1.3}Cassandraのデータ保存部分}{20}
-\contentsline {subsection}{\numberline {4.1.4}Cassandraノードの判別}{20}
-\contentsline {section}{\numberline {4.2}Cassandraの軽量化}{20}
-\contentsline {subsection}{\numberline {4.2.1}プログラムの改変}{20}
-\contentsline {subsection}{\numberline {4.2.2}設定ファイルのパラメータ調整}{20}
-\contentsline {chapter}{\numberline {第5章}測定手法}{22}
-\contentsline {section}{\numberline {5.1}実験シナリオ}{22}
-\contentsline {subsection}{\numberline {5.1.1}実験環境}{22}
-\contentsline {subsection}{\numberline {5.1.2}計測方法について}{23}
-\contentsline {section}{\numberline {5.2}通信量の測定について}{26}
-\contentsline {section}{\numberline {5.3}自動で通信量の測定を行い、その後解析を行うプログラムを作成した}{27}
-\contentsline {chapter}{\numberline {第6章}実験・評価}{31}
-\contentsline {section}{\numberline {6.1}予備実験}{31}
-\contentsline {subsection}{\numberline {6.1.1}予備実験(1) マシン数が異なる時の通信量の推定値は変わらない。}{31}
-\contentsline {subsection}{\numberline {6.1.2}予備実験(2)}{32}
-\contentsline {section}{\numberline {6.2}本実験}{32}
-\contentsline {section}{\numberline {6.3}評価}{32}
-\contentsline {subsection}{\numberline {6.3.1}総通信量の見積もり}{32}
-\contentsline {subsection}{\numberline {6.3.2}１ノードあたりの通信量}{32}
-\contentsline {subsection}{\numberline {6.3.3}システム全体の限界とは？}{33}
-\contentsline {subsubsection}{TYPEA:データセンター３つでクラスタを構成する場合}{33}
-\contentsline {subsubsection}{TYPE B:データセンター１つでクラスタを構成する場合}{33}
-\contentsline {subsubsection}{TYPE C:ネットワーク1000base-Tのような切り口}{33}
-\contentsline {subsection}{\numberline {6.3.4}通信量がO($n^2$)でスケールしていく理由}{33}
-\contentsline {subsection}{\numberline {6.3.5}Cassandraのメンバーシップ管理の実装}{33}
-\contentsline {subsection}{\numberline {6.3.6}数式から説明}{33}
-\contentsline {chapter}{\numberline {第7章}結論}{38}
-\contentsline {section}{\numberline {7.1}まとめ}{38}
-\contentsline {section}{\numberline {7.2}今後の課題}{38}
-\contentsline {subsection}{\numberline {7.2.1}.gossip protocolを別の切り口から評価する}{38}
-\contentsline {subsection}{\numberline {7.2.2}Gossip Protocol以外のメンバーシップ管理の評価}{38}
-\contentsline {chapter}{\numberline {付 録A }プログラム例}{40}
+\contentsline {chapter}{\numberline {第1章}序論}{5}
+\contentsline {section}{\numberline {1.1}本研究の背景}{5}
+\contentsline {section}{\numberline {1.2}本研究の目的}{6}
+\contentsline {section}{\numberline {1.3}本研究の成果}{6}
+\contentsline {section}{\numberline {1.4}本論文の構成}{7}
+\contentsline {chapter}{\numberline {第2章}研究背景}{8}
+\contentsline {section}{\numberline {2.1}分散システムにおけるスケーラビリティの確保とスケールアウト}{8}
+\contentsline {section}{\numberline {2.2}故障検知の代表的プロトコルgossipプロトコルとその問題点}{9}
+\contentsline {chapter}{\numberline {第3章}関連研究}{10}
+\contentsline {section}{\numberline {3.1}CLON}{10}
+\contentsline {section}{\numberline {3.2}JetStream}{10}
+\contentsline {section}{\numberline {3.3}CREW: A Gossip-based Flash-Dissemination System}{11}
+\contentsline {chapter}{\numberline {第4章}gossipプロトコル}{12}
+\contentsline {section}{\numberline {4.1}故障検知とは}{12}
+\contentsline {paragraph}{A.集中型 vs. 分散型}{13}
+\contentsline {paragraph}{Pull型 vs. Push型}{13}
+\contentsline {paragraph}{C.アクティブ vs. パッシブ}{14}
+\contentsline {paragraph}{D.ベースライン vs. シェアリング}{14}
+\contentsline {paragraph}{E.適応可能な値 vs. 固定の値}{14}
+\contentsline {paragraph}{F.グローバル時刻 vs. ローカル時刻}{14}
+\contentsline {paragraph}{G.モニターパターン}{15}
+\contentsline {paragraph}{H.故障の伝搬}{16}
+\contentsline {section}{\numberline {4.2}大規模分散環境におけるgossip プロトコル}{17}
+\contentsline {section}{\numberline {4.3}Scuttlebutt}{18}
+\contentsline {chapter}{\numberline {第5章}Cassandraについて}{21}
+\contentsline {section}{\numberline {5.1}Cassandraの概要}{21}
+\contentsline {subsection}{\numberline {5.1.1}メンバーシップ管理}{21}
+\contentsline {chapter}{\numberline {第6章}Cassandraの軽量化と測定手法}{22}
+\contentsline {section}{\numberline {6.1}Cassandraの軽量化}{22}
+\contentsline {subsection}{\numberline {6.1.1}プログラムの改変}{22}
+\contentsline {subsection}{\numberline {6.1.2}設定ファイルのパラメータ調整}{23}
+\contentsline {paragraph}{JVM最大ヒープサイズの制限を変更}{23}
+\contentsline {paragraph}{設定ファイルのパラメータ調整}{23}
+\contentsline {section}{\numberline {6.2}測定手法}{23}
+\contentsline {subsection}{\numberline {6.2.1}実験1:gossipの通信量の測定}{23}
+\contentsline {subsection}{\numberline {6.2.2}実験2:データ読み書きの通信量の測定}{24}
+\contentsline {subsection}{\numberline {6.2.3}計測方法について}{24}
+\contentsline {paragraph}{ユーザー、プロセスのシステムリソース制約を外す}{24}
+\contentsline {paragraph}{NFSを利用した書き込みをできるだけ控える}{24}
+\contentsline {paragraph}{IPエイリアシングを利用し、プライベートネットワークを構築}{25}
+\contentsline {paragraph}{{\tt tcpdump}の使用}{26}
+\contentsline {paragraph}{同じマシン上で動作しているCassandraノード同士の通信は取得できない}{28}
+\contentsline {subsection}{\numberline {6.2.4}通信量の推定}{29}
+\contentsline {subsubsection}{\numberline {6.2.4.1}実験1:gossipの通信量の推定}{29}
+\contentsline {subsubsection}{\numberline {6.2.4.2}実験2:データ読み書きの通信量の推定}{31}
+\contentsline {paragraph}{書き込み時}{32}
+\contentsline {paragraph}{読み込み時}{34}
+\contentsline {section}{\numberline {6.3}通信量測定のためのプログラムの作成}{34}
+\contentsline {subsection}{\numberline {6.3.1}実験環境}{34}
+\contentsline {chapter}{\numberline {第7章}実験・評価}{38}
+\contentsline {section}{\numberline {7.1}予備実験}{38}
+\contentsline {subsection}{\numberline {7.1.1}予備実験 (1) gossipの通信量推定の妥当性}{38}
+\contentsline {subsection}{\numberline {7.1.2}予備実験 (2) :データ読み書き通信量推定の妥当性}{39}
+\contentsline {subsection}{\numberline {7.1.3}予備実験 (3) :リクエスト量に応じたデータ読み書き通信量の増加}{40}
+\contentsline {section}{\numberline {7.2}本実験}{41}
+\contentsline {subsection}{\numberline {7.2.1}実験1:gossipの通信量}{41}
+\contentsline {subsection}{\numberline {7.2.2}実験2:データ読み書き通信量の測定}{42}
+\contentsline {section}{\numberline {7.3}評価}{46}
+\contentsline {subsection}{\numberline {7.3.1}gossipの通信量の見積もり}{46}
+\contentsline {subsection}{\numberline {7.3.2}1ノードあたりの通信量}{46}
+\contentsline {subsection}{\numberline {7.3.3}複数のデータセンターをまたぐクラスタにおけるgossipプロトコルの問題点}{46}
+\contentsline {subsubsection}{\numberline {7.3.3.1}gossipの通信量がO($n^2$)で増加していく理由}{47}
+\contentsline {subsubsection}{\numberline {7.3.3.2}qps一定時にデータ読み書きの通信量は一定}{48}
+\contentsline {chapter}{\numberline {第8章}結論}{49}
+\contentsline {section}{\numberline {8.1}まとめ}{49}
+\contentsline {section}{\numberline {8.2}今後の課題}{49}
